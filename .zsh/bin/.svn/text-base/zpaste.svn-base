@@ -1,0 +1,116 @@
+#!/usr/bin/env zsh
+PROG=$0
+usage() {
+	print "usage:\n$PROG [-f file] [-l lang] [-x]"
+	print ""
+	print -- "-l lang: \n\t available language:  C, CPP, Csharp, Java, Pascal, Perl, PHP, Python, Ruby, SQL"
+	print -- "-f file: \n\t paste the content of the file"
+	print -- "-x: \n\t paste from X11 clipboard using xclip"
+	print ""
+	print "if no option is given $PROG paste content read from stdin"
+
+	exit 1
+}
+zmodload -i zsh/net/tcp
+zurlencode() {
+	typeset -A substs
+	URLREPLY=($@)
+	substs=(
+	' ' '%20'
+	'	' '%09'
+	'!' '%21'
+	'"' '%22'
+	'#' '%23'
+	'$' '%24'
+	'&' '%26'
+	"'" '%27'
+	'(' '%28'
+	')' '%29'
+	'+' '%2b'
+	',' '%2c'
+	'-' '%2d'
+	'.' '%2e'
+	'/' '%2f'
+	':' '%3a'
+	';' '%3b'
+	'<' '%3c'
+	'=' '%3d'
+	'>' '%3e'
+	'?' '%3f'
+	'@' '%40'
+	'[' '%5b'
+	'\' '%5c'
+	']' '%5d'
+	'^' '%5e'
+	'_' '%5f'
+	'`' '%60'
+	'{' '%7b'
+	'|' '%7c'
+	'}' '%7d'
+	'~' '%7e'
+	'?' '%80'
+	)
+	URLREPLY=(${URLREPLY//\%/\%25})
+	for keys (${(k)substs}) URLREPLY=(${URLREPLY//$keys/$substs[$keys]})
+	URLREPLY=${(j:%0D%0A:)URLREPLY}
+}
+if [ $# -ne 0 ];then
+	case $1 in
+		-*);;
+		*) usage;;
+	esac
+else
+	COMPLETEINPUT=()
+	while read INPUT;do
+		COMPLETEINPUT+=$INPUT
+	done
+	zurlencode $COMPLETEINPUT
+fi
+while getopts "hl:f:x" opt;do
+	case $opt in 
+		f)
+		zurlencode "${(f)"$(<$OPTARG)"}"
+		;;
+		l)
+		case $OPTARG in
+			C)LANGPASTE="C%20%28C99%29";;
+			CPP)LANGPASTE="C%2b%2b";;
+			Csharp)LANGPASTE="C%23";;
+			Java)LANGPASTE="Java";;
+			Pascal)LANGPASTE="Pascal";;
+			Perl)LANGPASTE="Perl";;
+			PHP)LANGPASTE="PHP";;
+			Python)LANGPASTE="Python";;
+			Ruby)LANGPASTE="Ruby";;
+			SQL)LANGPASTE="SQL";;
+			*)LANGPASTE="Plain%20Text";;
+		esac
+		;;
+		x) 
+		[[ -x =xclip ]] || print "xclip not found" && exit 1 
+		INPUT=$(xclip -o 2>/dev/null)
+		zurlencode "$INPUT"
+		;;
+		h) usage
+		;;
+		*)
+		usage
+		;;
+	esac
+done
+autoload -U tcp_open
+TCP_SILENT=1
+tcp_open -q rafb.net 80 rafb || return 2
+url="lang=${LANGPASTE:=Plain%20Text}&text=$URLREPLY"
+#LENGTH=$(($#url + 1))
+tcp_send -s rafb -- "POST /paste/paste.php HTTP/1.1"
+tcp_send -s rafb -- "HOST: rafb.net"
+tcp_send -s rafb -- "Accept-Charset: utf-8"
+tcp_send -s rafb -- "Content-Type: application/x-www-form-urlencoded"
+tcp_send -s rafb -- "Content-Length: $#url"
+tcp_send -s rafb -- ""
+tcp_send -s rafb -- "$url"
+tcp_read -b -d -s rafb 
+tcp_close -q -s rafb
+print ${tcp_lines[5]/*Location: /}
+

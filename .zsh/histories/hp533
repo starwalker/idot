@@ -1,0 +1,2130 @@
+: 1231223878:0;vi .xinitrc`
+: 1231223898:0;vi .zsh/zshrc
+: 1231224046:0;mv hp533w.zsh hp533.zsh
+: 1231223947:0;svn
+: 1231224622:0;chsh 
+: 1231224622:0;cp -rf /home/dingzi/.zsh 
+: 1231224622:0;cp -rf /home/dingzi/.zsh . 
+: 1231224622:0;vi .zsh.rc
+: 1231224622:0;ln -s .zsh/zshrc .zshrc
+: 1231225261:0;cd to
+: 1231225292:0;cd rc.host
+: 1231225294:0;vi hp533.zsh
+: 1231225322:0;cd tools
+: 1231225341:0;cd ../.zsh
+: 1231225350:0;vi zshrc
+: 1231225362:0;cd ../tools
+: 1231225370:0;cd archlinux
+: 1231225377:0;rm *
+: 1231225400:0;rm -rf archlinux
+: 1231225703:0;cd community
+: 1231301822:0;pacman -S subversion
+: 1231302098:0;vi /var/log/Xorg.0.log
+: 1231303668:0;pacman -S yaourt
+: 1231303677:0;pacman -Sy yaourt
+: 1231303833:0;pacman -S pacman-color
+: 1231303901:0;pacman -S aurvote customizepkg colordiff
+: 1231303935:0;pacman -S mesa
+: 1231303950:0;pacman -S mesa 
+: 1231303964:0;pacman -S libgl-dri
+: 1231304204:0;pacman -S xf86-video-i810
+: 1231304222:0;yaourt 810
+: 1231304662:0;pacman -S awesome
+: 1231304677:0;yaourt awesome
+: 1231304716:0;yaourt -S awesome-git
+: 1231305680:0;yaourt -S cairo-git
+: 1231305753:0;pacman -
+: 1231305755:0;pacman 
+: 1231305924:0;pacman -S feh
+: 1231305970:0;yaourt rxvt
+: 1231306023:0;yaourt -S rxvt-unicode-256color-fontfix
+: 1231306358:0;yaourt scim
+: 1231306452:0;cd /tmp
+: 1231306535:0;pacman -R cairo
+: 1231306562:0;pacman -h
+: 1231306589:0;pacman -Rd cairo
+: 1231306593:0;pacman -U cairo-git-20090107-1-i686.pkg.tar.gz
+: 1231306802:0;pacman -S x11vnc
+: 1231306894:0;cp rc.lua rc.lua.back
+: 1231306901:0;rm rc.lua\~
+: 1231306946:0;vi rc.lua.back
+: 1231307185:0;sudo vi /var/log/Xorg.0.log
+: 1231307352:0;yaourt drv
+: 1231307372:0;pacman -S slim
+: 1231307391:0;pacman -S slim-themes
+: 1231307509:0;pacman -S archlinux-themes-slim
+: 1231307520:0;sudo vi /etc/slim.conf
+: 1231307559:0;pacman -S screen
+: 1231309014:0;yaourt ctags
+: 1231309033:0;pacman -S ctags
+: 1231309119:0;xrdb ~/.Xresources
+: 1231309138:0;vi ~/.Xresources
+: 1231309278:0;urxvtc -tb
+: 1231309365:0;urxvtc -tabbed
+: 1231309368:0;urxvtc -tab
+: 1231309735:0;cd awesome
+: 1231310130:0;sudo vi /usr/share/awesome/themes/default
+: 1231310188:0;rm .xinitrc.swp
+: 1231310231:0;feh --bg-scale ~/.wallpaper/edge.jpg
+: 1231311519:0;vi .vim/plugin/vimDebug.vim
+: 1231311537:0;mv vimDebug.vim vimDebug
+: 1231311558:0;pacman -S gnome-mplayer
+: 1231312770:0;vi .mutt/folders.imap/accounts/musc
+: 1231351843:0;pacman -S xcompmgr
+: 1231353011:0;xcompmgr compgroups            
+: 1231353016:0;compgroups            
+: 1231353034:0;xcompgroups            
+: 1231353056:0;xcompmgr -c -t -5 -l -5 -r4 -o . 55 &
+: 1231353342:0;xrandr
+: 1231353428:0;mv Survivor.S17E04.HDTV.XviD-XOXO.avi media/tv.show/survivor
+: 1231353443:0;mv Survivor.S17E05.HDTV.XviD-GNARLY.avi media/tv.show/survivor
+: 1231353478:0;mv The.Amazing.Race.S13E11.Finale.PDTV.XviD-2HD.avi media/tv.show/amazing.race
+: 1231353487:0;rm The.Amazing.Race.S13E05.PDTV.XviD-PWE\ \[mininova\].torrent
+: 1231354751:0;pacman -S unrar
+: 1231354788:0;unrar e 111308Survivor1708hdtvlolPLX.rar
+: 1231354805:0;unrar e 112708SurvivorS17E10hdtvxvid2hdPLX.rar
+: 1231354819:0;unrar e survivor1703hdtvxvidxoxoYTETYDY.rar
+: 1231354837:0;unrar e survivor1707hdtvlolYTETYDY.rar
+: 1231354851:0;unrar e survivors17e06hdtvxvidfqmYTETYDY.rar
+: 1231354858:0;unrar e survivors17e09hdtvxvid2hd.rar
+: 1231354866:0;unrar e survivors17e10hdtvxvid2hdYTETYDY.rar
+: 1231354869:0;unrar e survivors17e11properhdtvxvidgnarlyYTETYDY.rar
+: 1231355043:0;unrar e survivor1713hdtvxoxoYTETYDY.rar
+: 1231355057:0;unrar e 121408SurvivorS17E13HDTVXOXOPLX.rar
+: 1231355128:0;mv Survivor.S17E07.HDTV.XviD-LOL.avi media/tv.show/survivor
+: 1231355136:0;mv Survivor.S17E08.HDTV.XviD-LOL.avi media/tv.show/survivor
+: 1231355220:0;yaourt -S alsa
+: 1231355249:0;yaourt  alsa
+: 1231355282:0;pacman -Sy alsa-lib alsa-utils
+: 1231355511:0;pacman -S alsa-oss
+: 1231355549:0;lsmod|grep '^snd'
+: 1231355605:0;amixer set Master 90% unmute
+: 1231355612:0;sudo amixer set Master 90% unmute
+: 1231355627:0;sudo amixer set PCM 86% unmute
+: 1231355667:0;sudo alsaconf
+: 1231355777:0;sudo gpasswd -a dingzi audio
+: 1231355786:0;sudo alsactl store
+: 1231355888:0;pacman -S ttf-ms-fonts ttf-cheapskate artwiz-fonts
+: 1231356003:0;yaourt terminus
+: 1231356078:0;pacman -S terminus-font
+: 1231356179:0;pacman -S wqy-bitmapfont wqy-zenhei ternius-fonts
+: 1231356213:0;pacman -S wqy-bitmapfont wqy-zenhei terminus-fonts
+: 1231356218:0;pacman -S wqy-bitmapfont wqy-zenhei terminus-font
+: 1231356648:0;pacman -S ttf-arphic-ukai ttf-arphic-uming ttf-fireflysung
+: 1231357083:0;yaourt gmplayer
+: 1231357380:0;cd /usr/share
+: 1231357382:0;cd fonts
+: 1231357486:0;cd TTF
+: 1231357824:0;pacman -Q mplayer
+: 1231357832:0;yaourt mplayer
+: 1231357865:0;pacman -S mplayer-plugin
+: 1231357902:0;pacman -S mplayer-skins
+: 1231358001:0;pacman -S codecs
+: 1231358845:0;pacman -S scim-python
+: 1231359687:0;mplayer -vo xv:adaptor=1 Survivor.S17E07.HDTV.XviD-LOL.avi
+: 1231359972:0;xvinfo
+: 1231359977:0;xvinfo -h
+: 1231359985:0;xvinfo -display
+: 1231359996:0;xvinfo adaptors=1
+: 1231360002:0;xvinfo adaptors
+: 1231360008:0;xvinfo 
+: 1231360081:0;sudo vi /etc/X11/xorg.conf
+: 1231360357:0;vi .mplayer/config
+: 1231360363:0;vi .mplayer/gui.conf
+: 1231360635:0;cd .mplayer
+: 1231360642:0;vi gui.conf
+: 1231360669:0;echo "zoom=yes" >> config
+: 1231383388:0;8gyyyyyyy6rp-o0iou08ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooolk.l,kkkkkkk.......,,,,;;'''''
+: 1231383423:0;                                                                                                                                      i[0pp 0---oooooooooooooooooooooooooooooooooooo.;;;;;;gyihiyu 870ouok,54y0o,76ok;0000 00 ]'/ 
+: 1231383427:0;4ue7rgyt h45
+: 1231384143:0;                                                                                                                                                                                                              bnuiuijkuiijkll;;''9^210.~4424253266666666666666666666666kjuipljik9,l./;l,,9~['9~[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[/;,.........'9~exit
+: 1231384457:0;mv Survivor.S17E10.HDTV.XviD-2HD.avi media/tv.show/survivor
+: 1231384486:0;mv Survivor.S17E11.PROPER.HDTV.XviD-GNARLY.avi media/tv.show/survivor
+: 1231384493:0;mv Survivor.S17E12.HDTV.XviD-GNARLY.avi media/tv.show/survivor
+: 1231392843:0;rm Survivor.S17E09.HDTV.XviD-2HD.avi
+: 1231392876:0;cd media/tv.show/amazing.race
+: 1231392990:0;mv Survivor.S17E14.Reunion.HDTV.XviD-XOXO-\[BTARENA.org\].avi media/tv.show/survivor
+: 1231393098:0;unrar e 121408SurvivorS17E14ReunionHDTVXviDXOXOPLX.rar
+: 1231393101:0;unrar e SurvivorS17E14ReunionHDTVXviDXOXOYTETYDY.rar
+: 1231393135:0;unrar e 121808SurvivorS17E14HDTVXOXOFRM.rar
+: 1231401398:0;mv ~/Survivor.S17E13.Finale.HDTV.XviD-XOXO.avi .
+: 1231441649:0;rm Survivor.S17E11.HDTV.XviD-XOXO.avi
+: 1231441702:0;vi /etc/pacman.d/mirrorlist
+: 1231441709:0;vi /etc/pacman.d/mirrorlist.pac
+: 1231441713:0;vi /etc/pacman.d/mirrorlist.pacnew
+: 1231441747:0;sudo mv /etc/pacman.d/mirrorlist.pacnew /etc/pacman.d/mirrorlist
+: 1231441758:0;sudo vi /etc/pacman.d/mirrorlist
+: 1231441779:0;df =h
+: 1231486162:0;mv Survivor.S17E0*.avi media/tv.show/survivor
+: 1231486192:0;mv The.Amazing.Race.S13E10.PDTV.XviD-2HD.avi media/tv.show/amazing.race
+: 1231486224:0;sudo mount /dev/sdb2 /mnt
+: 1231486240:0;sudo umount /mnt
+: 1231486245:0;sudo mount /dev/sdb1 /mnt
+: 1231486293:0;sudo mv eleventh.hour /mnt/tv.shows
+: 1231491780:0;sudo mv survivor /mnt/tv.shows
+: 1231528801:0;rm -rf The.Amazing.Race.S13E05.PDTV.XviD-PWE
+: 1231528812:0;rm -rf The\ Amazing\ Race
+: 1231559730:0;cd The.Express\[2008\]DvDrip-aXXo
+: 1231559742:0;unrar e THEEXPRESSENG.rar `
+: 1231559743:0;unrar e THEEXPRESSENG.rar 
+: 1231559747:0;cd ../Without.A.Paddle\[2004\]DvDrip-aXXo
+: 1231559752:0;unrar e 122504WithoutAPaddleCnEnSUBDVLNTK.rar
+: 1231572935:0;rm -rf Without.A.Paddle\[2004\]DvDrip-aXXo
+: 1231572944:0;rm -rf The.Express\[2008\]DvDrip-aXXo
+: 1231618830:0;cd Max.Payne\[2008\]\[Unrated.Edition\]DvDrip-aXXo
+: 1231618906:0;cd ../Saw.5\[2008\]\[Unrated.Edition\]DvDrip-aXXo
+: 1231618912:0;unrar e 5SawV2008112902482782.rar
+: 1231618919:0;rm 5SawV2008112902482782.rar
+: 1231618926:0;unrar e 5SawVR5LINEXviDCOALiTiON.rar
+: 1231619070:0;ls *.torren
+: 1231619116:0;pacman -Sy rox
+: 1231624276:0;pacman -S pacman-color customizepkg colordiff
+: 1231708712:0;pacman -S scim-pinyin
+: 1231708761:0;env LC_ALL="zh_CN.UTF-8" scim -d &
+: 1231728222:0;rm -rf Saw.5\[2008\]\[Unrated.Edition\]DvDrip-aXXo
+: 1231728409:0;vi settings.json
+: 1231728424:0;vi stats.json
+: 1231728433:0;vi stats.benc
+: 1231728463:0;cd blocklists
+: 1231728487:0;mv transmission transmission.back
+: 1231728604:0;rm -rf Max.Payne\[2008\]\[Unrated.Edition\]DvDrip-aXXo
+: 1231728629:0;cd City.Of.Ember\[2008\]DvDrip-aXXo
+: 1231733281:0;j8yhytghvgffsgdhttytfffrt65y6tyyfrtfgr5e
+: 1231733300:0;ytttyyyhjjhhhnknj8omymkmjioooooooooooooooooojjjij
+: 1231733364:0;mnujgbtbbgbvgvc++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ hhkk,ljjhhh
+: 1231733370:0;nbv
+: 1231733400:0;frgfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffgyhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+: 1231733427:0;vvvvvvvvvvv
+: 1231733471:0;grttttdd    dddd fmhbnjhgjyfghy77ttgjkl,kkn
+: 1231733567:0;hbnjbrcgh vggfgtgfvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvbvgfrfg r jy6h6666666666666666666666fffffffffffff7-*uyyt=-9uiiiiiiiiiiiiiiiii/
+: 1231738554:0;mv transmission.back transmission
+: 1231822074:0;rm -rf City.Of.Ember\[2008\]DvDrip-aXXo
+: 1231829565:0;rm -rf How.To.Lose.Friends.\&.Alienate.People\[2008\]DvDrip-aXXo
+: 1231829633:0;rm -rf The.Rocker\[2008\]DvDrip-aXXo
+: 1231873582:0;mv dmdrocknrolla.rar RocknRolla\[2008\]DvDrip-aXXo
+: 1231873585:0;cd RocknRolla\[2008\]DvDrip-aXXo
+: 1231873683:0;rm -rf RocknRolla\[2008\]DvDrip-aXXo
+: 1231900983:0;cd Igor\[2008\]DvDrip-aXXo
+: 1231959536:0;rm -rf Igor\[2008\]DvDrip-aXXo
+: 1231959540:0;rm Igor\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1231959568:0;rm Pride.And.Glory\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1231959835:0;rm -rf gossip.girl
+: 1231959857:0;rm -rf 30.rock
+: 1231959884:0;rm -rf New\ TTC\ Video\ -\ How\ the\ Earth\ Works\ Part\ 
+: 1231959887:0;rm -rf New\ TTC\ Video\ -\ How\ the\ Earth\ Works\ Part\ 1
+: 1231959895:0;rm -rf New\ TTC\ Video\ -\ How\ the\ Earth\ Works\ Part\ 2
+: 1231961030:0;cd .config
+: 1231961035:0;cd transmission
+: 1231961038:0;rm lock
+: 1231961071:0;rm -rf transmission.back
+: 1231961079:0;cd resume
+: 1231961097:0;rm *.*
+: 1231961122:0;rm -rf .config/transmission
+: 1231961153:0;rm RocknRolla\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1231961156:0;rm How.To.Lose.Friends.\&.Alienate.People\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1231961283:0;cd Pride.And.Glory\[2008\]DvDrip-aXXo
+: 1231961522:0;pacman -S unzip
+: 1231961545:0;hunzip 196915.zip
+: 1231961555:0;unzip 196915.zip
+: 1231963029:0;cd Mirrors\[2008\]DvDrip-aXXo
+: 1231968037:0;rm -rf Mirrors\[2008\]DvDrip-aXXo
+: 1231968062:0;rm The.Andromeda.Strain\[2008\]DvDrip-aXXo
+: 1231968067:0;rm -rf The.Andromeda.Strain\[2008\]DvDrip-aXXo
+: 1231968089:0;rm -rf Hellboy.2-The.Golden.Army\[2008\]DvDrip-aXXo
+: 1232001877:0;df
+: 1232046259:0;mv ~/American.Idol.S08E01.HDTV.XviD-2HD.avi .
+: 1232046282:0;unrar e 011509AmericanIdolS08E02KansasCityAuditionsHDTVXviD0TVFRM.rar
+: 1232046377:0;unrar e 011409AmericanIdolS08E01HDTVXviD2HDFRM.rar
+: 1232046383:0;unrar e AmericanIdolS08E01HDTVXviD2HD.rar
+: 1232046391:0;unrar e AmericanIdolS08E02KansasCityAuditionsHDTVXviD0TV.rar
+: 1232052772:0;rm 24.S07E01.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1232052777:0;rm 24.S07E02.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1232052788:0;rm American.Idol.S08E01.HDTV.XviD-2HD.\[eztv\].torrent
+: 1232052814:0;mv ~/Brothers.And.Sisters.S03E12.HDTV.XviD-YesTV.avi .
+: 1232052818:0;rm ~/Brothers.And.Sisters.S03E12.HDTV.XviD-YesTV.\[eztv\].torrent
+: 1232052836:0;mkdir -p kyle.xy
+: 1232052842:0;mv ~/Kyle.XY.S03E01.HDTV.XviD-DOT.avi .
+: 1232052846:0;rm ~/Kyle.XY.S03E01.HDTV.XviD-DOT.\[eztv\].torrent
+: 1232058962:0;mv American.Idol.S08E02.Kansas.City.Auditions.HDTV.XviD-0TV.avi media/tv.show/american.idol
+: 1232058965:0;rm American.Idol.S08E02.Kansas.City.Auditions.HDTV.XviD-0TV.\[eztv\].torrent
+: 1232115203:0;rm 24.S07E0*.torrent
+: 1232115222:0;rm CSI.New.York.S05E12.HDTV.XviD-LOL.\[eztv\].torrent
+: 1232115603:0;mv CSI.New.York.S05E12.HDTV.XviD-LOL.avi media/tv.show/csi.newyork
+: 1232239786:0;,mjnhyuty55~i
+: 1232239791:0;.
+: 1232239800:0;,m m.op09o76y7
+: 1232239834:0;run-help mklost+found
+: 1232239864:0;9$Bpy7vxcfc,mtrtJswjqn000000000000000000000000000000000000000000000000000
+: 1232415616:0;LS
+: 1232416577:0;reboot
+: 1232416541:0;vi .zsh/rc/variables.rc
+: 1232490727:0;mv Brothers.and.Sisters.S03E13.HDTV.XviD-XOXO.avi media/tv.show/brothers.and.sisters
+: 1232490777:0;mv The.Mentalist.S01E13.PROPER.HDTV.XviD-0TV.avi media/tv.show/mentalist
+: 1232490806:0;mkdir -p flight.of.the.conchords
+: 1232490815:0;mv ~/Flight.of.the.Conchords.S02E01.HDTV.XviD-aAF.avi .
+: 1232490933:0;sudo ls /media/wd2/tv.shows.series
+: 1232490937:0;sudo ls /media/wd2/tv.shows.series/brothers\&sisters
+: 1232490946:0;sudo ls /media/wd2/tv.shows.series/brothers\&sisters/*.avi
+: 1232491030:0;mkdir -p desperate.housewives
+: 1232491032:0;cd de
+: 1232491037:0;cd desperate.housewives
+: 1232491278:0;sudo chown dingzi mentalist
+: 1232491290:0;mv thementalist1130tvYDY.rar ../mentalist
+: 1232491309:0;mv ~/The.Mentalist.S01E13.PROPER.HDTV.XviD-0TV.avi .
+: 1232559831:0;rm 24.S07E05.HDTV.XviD-LOL.\[eztv\].torrent
+: 1232559841:0;rm Dead.Set.S01E04-E05.720p.HDTV.x264-BiA.\[eztv\].torrent
+: 1232559861:0;rm House.S05E12.Painless.HDTV.XviD-FQM.\[eztv\].torrent
+: 1232559889:0;rm Kyle.XY.S03E02.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1232560183:0;ls True.Blood.S01E*
+: 1232560970:0;mv ~/24.S07E05.HDTV.XviD-LOL.avi 24
+: 1232560987:0;mv ~/Kyle.XY.S03E02.HDTV.XVID-BAJSKORV.\[VTV\].avi kyle.xy
+: 1232561002:0;mv ~/House.S05E12.Painless.HDTV.XviD-FQM.avi house
+: 1232561071:0;unrar e 24705hdtvlol.rar
+: 1232561082:0;unrar e 24705hdtvlolYTETYDY.rar
+: 1232578246:0;mkdir -p house
+: 1232578274:0;mv American.Idol.S08E03.San.Francisco.Auditions.HDTV.XviD-XOXO.avi media/tv.show/american.idol
+: 1232578511:0;grn *.rar
+: 1232578553:0;rm American.Idol.S08E03.San.Francisco.Auditions.HDTV.XviD-XOXO.\[eztv\].torrent
+: 1232589938:0;sudo chown dingzi *.*
+: 1232589948:0;vi csi.new.york.512.hdtv-lol.gb.srt
+: 1232631484:0;rm Fringe.S01E11.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1232631491:0;rm American.Idol.S08E04.Louisville.Auditions.HDTV.XviD-XOXO.\[eztv\].torrent
+: 1232631510:0;rm Brothers.and.Sisters.S03E11.HDTV.XviD-XOR.\[eztv\].torrent
+: 1232631540:0;mv American.Idol.S08E04.Louisville.Auditions.HDTV.XviD-XOXO.avi media/tv.show/american.idol
+: 1232631553:0;mv Brothers.and.Sisters.S03E11.HDTV.XviD-XOR.avi media/tv.show/brothers.and.sisters
+: 1232640839:0;unrar e 011209AmericanIdolS08E04LouisvilleAuditionsHDTVXviDXOXOFRM.rar
+: 1232640843:0;unrar e AmericanIdolS08E04LouisvilleAuditionsHDTVXviDXOXOYTETYDY.rar
+: 1232664218:0;rm American.Idol.S08E03.San.Francisco.Auditions.PROPER.HDTV.XviD-FQM.\[eztv\].torrent 
+: 1232667690:0;p[p[ 7hjn'hagvftrhathhpoyy/\
+khhhik'/i
+: 1232667691:0;JOlj
+: 1232667694:0;; /;ooy[o;['/po]';. 
+: 1232667695:0;89op;
+: 1232667856:0;=o0-=-=
+: 1232668741:0;rm brothersandsisters313xoxoYTETYDY.rar
+: 1232668782:0;rm *.rsar
+: 1232668851:0;ls ../mentalist
+: 1232668863:0;ls /media/wd2/tv.shows.series/mentalist
+: 1232668869:0;ls /media/wd2/tv.shows.series/mentalist/*.avi
+: 1232721633:0;rm CSI.NY.S05E13.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1232721645:0;mv CSI.NY.S05E13.HDTV.XviD-NoTV.avi media/tv.show/csi.newyork
+: 1232721657:0;rm Lost.S05E01.HDTV.XviD-PusherCrew.\[eztv\].torrent
+: 1232721667:0;mkdir -p media/tv.show/lost
+: 1232721675:0;mv Lost.S05E01.HDTV.XviD-PusherCrew.avi media/tv.show/lost
+: 1232721715:0;rm Dead.Set.S01E0*
+: 1232722161:0;cd cali
+: 1232722166:0;rm -rf califor
+: 1232722170:0;rm -rf cali
+: 1232722177:0;cd true.blood
+: 1232722202:0;sudo mv *.srt /media/wd2/tv.shows.series/true.blood
+: 1232722230:0;sudo mv *.srt /media/wd2/tv.shows.series/heroes
+: 1232722236:0;sudo mv *.ass /media/wd2/tv.shows.series/heroes
+: 1232722243:0;rm -rf heroes
+: 1232771630:0;rm CSI.S09E11.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1232771636:0;rm Lost.S05E02.720p.HDTV.x264-2HD.\[eztv\].torrent
+: 1232806448:0;mv Burn.Notice.S02E10.Do.No.Harm.HDTV.XviD-FQM.\[VTV\].avi media/tv.show/burn.notice
+: 1232806476:0;rm Eleventh.Hour.S01E11.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1232806493:0;mkdir -p media/tv.show/eleventh.hour
+: 1232806501:0;mv Eleventh.Hour.S01E11.HDTV.XviD-NoTV.avi media/tv.show/eleventh.hour
+: 1232806626:0;ls /media/wd1/tv.shows/eleventh.hour/*.avi
+: 1232806642:0;ls /media/wd2/tv.shows.series/eleventh.hour/Eleventh.Hour.1x04.Savant.HDTV.XviD-FoV.avi
+: 1232807956:0;rm Burn.Notice.2x10.\(HDTV-FQM\)\[VTV\].torrent
+: 1232808846:0;ls ../
+: 1232809058:0;,s
+: 1232809074:0;grne *.rar
+: 1232809659:0;ls media/tv.show/
+: 1232809742:0;76 2009-01-23 09:51 csi.newyork
+: 1232809742:0; 0 drwxr-x--- 2 dingzi wheel    48 2009-01-20 17:37 desperate.housewives
+: 1232809742:0; 0 drwxr-x--- 2 dingzi  1000    48 2008-10-25 13:39 dexter
+: 1232809742:0; 0 drwxr-x--- 2 dingzi wheel   272 2009-01-24 09:58 eleventh.hour
+: 1232809743:0; 0 drwxr-xr-x 2 dingzi  1000    48 2008-09-01 18:45 fear.itself
+: 1232809743:0; 0 drwxr-x--- 2 dingzi wheel   112 2009-01-20 17:33 flight.of.the.conchords
+: 1232809743:0; 1 drwxr-xr-x 2 dingzi  1000  1432 2008-11-24 10:51 fringe
+: 1232809743:0; 1 drwxr-xr-x 2 dingzi  1000   608 2009-01-14 14:03 generation.kill
+: 1232809743:0; 0 drwxr-x--- 2 dingzi wheel   272 2009-01-21 17:54 house
+: 1232809743:0; 0 drwxr-x--- 2 dingzi wheel   464 2009-01-21 17:55 kyle.xy
+: 1232809743:0; 0 drwxr-x--- 2 dingzi wheel   280 2009-01-23 09:51 lost
+: 1232809744:0; 0 drwxr-x--- 2 dingzi root    304 2009-01-20 17:41 mentalist
+: 1232809744:0; 1 drwxr-x--- 2 dingzi  1000  1416 2008-12-15 18:57 merlin
+: 1232809744:0; 0 drwxr-xr-x 2 dingzi root     48 2008-09-08 15:01 swingtown
+: 1232829886:0;5o5othlthhhh.                
+: 1232829891:0;         ................................................................
+: 1232830210:0;lijkyjkjmoikk98ii,8oip[8iokoyjkpoi;/lplokljhjhjhuhuh
+: 1232930159:0;hkkbmbklhewrwgvu6oy65,                 gtttttttttttttttttdyr8gbouu 658ik8gyori8i8iihi
+: 1232930454:0;rm The.Mentalist.S01E1*.torrent
+: 1232930466:0;mv The.Mentalist.S01E1*.avi media/tv.show/mentalist
+: 1232930479:0;mkdir -p media/tv.show/desperate.housewives
+: 1232930493:0;mv Desperate.Housewives.S05E13.HDTV.XviD-XOXO.avi media/tv.show/desperate.housewives
+: 1232930500:0;rm Desperate.Housewives.S05E13.HDTV.XviD-XOXO.\[eztv\].torrent
+: 1232930658:0;cd media/tv.show/mentalist
+: 1232930710:0;unrar e TheMentalistS01E11HDTVXviDXORYDY.rar
+: 1232930715:0;unrar e thementalist1130tvYDY.rar
+: 1232930769:0;unrar e *.arar
+: 1233016110:0;pdke332
+: 1233069663:0;cd Swing.Vote\[2008\]DvDrip-aXXo
+: 1233069775:0;unrar e ___________Swing_Vote_2008_x264_AC3_WAF.rar
+: 1233099737:0;n
+: 1233099753:0;mv 24.S07E06.HDTV.XviD-LOL.avi media/tv.show/24
+: 1233099759:0;rm 24.S07E06.HDTV.XviD-LOL.\[eztv\].torrent
+: 1233099767:0;mv House.S05E13.HDTV.XviD-LOL.avi media/tv.show/house
+: 1233099773:0;mv Kyle.XY.S03E03.HDTV.XviD-DOT.avi media/tv.show/kyle.xy
+: 1233099777:0;rm Kyle.XY.S03E03.HDTV.XviD-DOT.\[eztv\].torrent
+: 1233099785:0;rm House.S05E13.HDTV.XviD-LOL.\[eztv\].torrent
+: 1233099793:0;rm Lost.S05E00.REPACK.HDTV.XviD-2HD.
+: 1233099795:0;rm Lost.S05E00.REPACK.HDTV.XviD-2HD.*
+: 1233099837:0;rm Swing.Vote\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1233099904:0;unrar e 24_S07E06_HDTV_XviD_LOL_YTET_YDY.rar
+: 1233153447:0;rm Stargate.Atlantis.S05E19.720p.HDTV.x264-aAF.\[eztv\].torrent
+: 1233153457:0;rm Stargate.Atlantis.S05E20.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1233153467:0;rm Zack.And.Miri.Make.A.Porno\[2008\]DvDrip-aXXo/Demonoid.com.txt
+: 1233153476:0;rm Zack.And.Miri.Make.A.Porno\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1233154599:0;ls /media/wd2
+: 1233176017:0;rm True.Blood.S01E07.720p.HDTV.x264-2HD.mkv
+: 1233184675:0;rlp0vef;8g,f,..88888888880p;d8ikircxi
+: 1233184697:0;rm American.Idol.S08E03.San.Francisco.Auditions.PROPER.HDTV.XviD-FQM.\[eztv\].torrent
+: 1233184704:0;rm American.Idol.S08E05.HDTV.XviD-2HD.\[eztv\].torrent
+: 1233184712:0;mv American.Idol.S08E05.HDTV.XviD-2HD.avi media/tv.show/american.idol
+: 1233185017:0;unrar e 01_28_09_American_Idol_S08E05_HDTV_XviD_2HD_FRM.rar
+: 1233185139:0;unrar e american_idol_s08e05_hdtv_xvid_2hd_YTET_YDY.rar
+: 1233185145:0;rm american_idol_s08e05_hdtv_xvid_2hd_YTET_YDY.rar
+: 1233204738:0;transmission
+: 1233205200:0;rm House.S05E1*.avi
+: 1233240185:0;mv ~/Lost.S05E03.HDTV.XviD-XOR.avi .
+: 1233240190:0;rm ~/Lost.S05E03.HDTV.XviD-XOR.\[eztv\].torrent
+: 1233240204:0;mv ~/American.Idol.S08E06.HDTV.XviD-2HD.avi .
+: 1233240211:0;rm ~/American.Idol.S08E06.HDTV.XviD-2HD.\[eztv\].torrent
+: 1233240268:0;rm Fringe.S01E12.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1233240561:0;unrar e ________american_idol_s08e06_hdtv_xvid_2hd.rar
+: 1233240570:0;unrar e 01_29_09_American_Idol_S08E06_HDTV_XviD_2HD_FRM.rar
+: 1233240579:0;unrar e American_Idol_S08E06_HDTV_XviD_2HD_YTET_YDY.rar
+: 1233293192:0;rm -rf Swing.Vote\[2008\]DvDrip-aXXo
+: 1233328239:0;rm House.S05E13.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1233328249:0;rm XIII-The.Conspiracy\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1233328256:0;rm CSI.9x12.Disarmed.And.Dangerous.HDTV.XviD-FoV.\[eztv\].torrent
+: 1233328261:0;rm American.Idol.S08E07.HDTV.XviD-2HD.\[eztv\].torrent
+: 1233328269:0;mv American.Idol.S08E07.HDTV.XviD-2HD.avi media/tv.show/american.idol
+: 1233328278:0;mv CSI.9x12.Disarmed.And.Dangerous.HDTV.XviD-FoV.avi media/tv.show/csi
+: 1233328335:0;cd media/tv.show/american.idol
+: 1233328339:0;unrar e 01_30_09_American_Idol_S08E07_HDTV_XviD_2HD_FRM.rar
+: 1233328352:0;unrar e American.Idol.S08E07.HDTV.XviD-2HD.avi american_idol_s08e07_hdtv_xvid_2hd_YTET_YDY.rar
+: 1233328364:0;unrar e american_idol_s08e07_hdtv_xvid_2hd_YTET_YDY.rar
+: 1233328371:0;cd ../csi
+: 1233369003:0;rm Eleventh.Hour.S01E12.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1233369009:0;rm Burn.Notice.2x11.\(HDTV-FQM\)\[VTV\].torrent
+: 1233369016:0;mv Eleventh.Hour.S01E12.HDTV.XviD-NoTV.avi media/tv.show/eleventh.hour
+: 1233369023:0;mv Burn.Notice.S02E11.Hot.Spot.HDTV.XviD-FQM.\[VTV\].avi media/tv.show/burn.notice
+: 1233369185:0;cd media/tv.show/eleventh.hour
+: 1233369523:0;cd ../Zack.And.Miri.Make.A.Porno\[2008\]DvDrip-aXXo
+: 1233369587:0;cd Zack.And.Miri.Make.A.Porno\[2008\]DvDrip-aXXo
+: 1233369592:0;mplayer Zack.And.Miri.Make.A.Porno\[2008\]DvDrip-aXXo.avi
+: 1233369874:0;pacman -S pidgin
+: 1233370013:0;yaourt -Q scim
+: 1233370023:0;yaourt -Ss scim
+: 1233370184:0;unrar e ________.rar
+: 1233370206:0;pacman -S scim-python scim-pinyin aspell-en
+: 1233370324:0;unrar e Zack_And_Miri_Make_A_Porno_COCAIN_TLF.rar
+: 1233370331:0;pacman -S  scim-pinyin aspell-en
+: 1233370620:0;vi .scim/global
+: 1233375886:0;yaourt -S scim-python
+: 1233375912:0;pacman -S php
+: 1233375951:0;sudo /etc/rc.d/postgresql start
+: 1233376156:0;cd /var/lib/postgres/data
+: 1233376161:0;sudo cd /var/lib/postgres/data
+: 1233626346:0;chsh
+: 1233376953:0;mkdir -p postgresql
+: 1233377097:0;cd /home/data
+: 1233377120:0;sudo chown -R dingzi postgres
+: 1233377219:0;pg_config
+: 1233377273:0;pacman -S postgresql
+: 1233377458:0;/etc/rc.d/postgresql start
+: 1233377766:0;cd postgres
+: 1233377773:0;cd ../postgresql
+: 1233377782:0;rm -rf postgresql
+: 1233377800:0;sudo vi /etc/services
+: 1233377841:0;sudo vi /etc/hosts
+: 1233377851:0;sudo vi /etc/hosts.allow
+: 1233377898:0;sudo tail /var/log/postgresql.log
+: 1233450558:0;rm Smallville.S08E13.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1233450567:0;rm Supernatural.S04E13.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1233453054:0;cd XIII-The.Conspiracy\[2008\]DvDrip-aXXo
+: 1233453063:0;unzip 16cbd98de00789fca66171e9d90111e5d20744d4.zip
+: 1233453071:0;unzip 692b6420613dc87b211649378f706214c5927b58.zip
+: 1233464069:0;rm -rf XIII-The.Conspiracy\[2008\]DvDrip-aXXo
+: 1233464077:0;rm -rf Zack.And.Miri.Make.A.Porno\[2008\]DvDrip-aXXo
+: 1233509161:0;cd csi
+: 1233539414:0;cd media/tv.show/burn.notice
+: 1233539564:0;vi eleventh.hour.112.eternal-notv.chs.srt
+: 1233539627:0;ls ~/*.avi
+: 1233539639:0;mkdir -p united.states.of.tara
+: 1233539648:0;mv ~/*.avi united.states.of.tara
+: 1233539712:0;unrar e 01_31_09_Eleventh_Hour_S01E12_HDTV_XviD_NoTV_PLX.rar
+: 1233539722:0;unrar e eleventh_hour_112_eternal_notv_YTET_YDY.rar
+: 1233539801:0;rm United_States_of_Tara_S01E01_720p_HDTV_X264_DIMENSION_YDY.rar
+: 1233539854:0;rm United.States.of.Tara.S01E01.HDTV.XviD-aAF.\[eztv\].torrent
+: 1233539861:0;rm United.States.of.Tara.S01E02.HDTV.XviD-SYS.\[eztv\].torrent
+: 1233539869:0;rm CSI.S09E12.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1233539878:0;rm Battlestar.Galactica.S04E13.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1233553175:0;rm 24.S07E05.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1233586826:0;rm United.States.of.Tara.S01E03.DSRip.XviD-aAF.\[eztv\].torrent
+: 1233586833:0;rm United.States.of.Tara.S01E04.XviD-aAF.\[eztv\].torrent
+: 1233586843:0;rm Outlander\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1233587037:0;mv *.avi media/tv.show/united.states.of.tara
+: 1233591140:0;cd Outlander\[2008\]DvDrip-aXXo
+: 1233614291:0;pacman -S mysql
+: 1233615252:0;pacman -S perl-dbi perl-dbd-mysql
+: 1233616119:0;sudo /etc/rc.d/mysqld start
+: 1233616169:0;sudo /usr/bin/mysqladmin -u root password 'dingzi\
+'
+: 1233616670:0;mysql -p -u root
+: 1233616722:0;/usr/bin/mysqladmin -u root password 'dingzi'
+: 1233616730:0;/usr/bin/mysqladmin -u root 
+: 1233616733:0;/usr/bin/mysqladmin -u root password
+: 1233616749:0;sudo /usr/bin/mysqladmin -u root password 'dingzi'
+: 1233621232:0;python -
+: 1233621273:0;cd svn
+: 1233621337:0;svn co http://code.djangoproject.com/svn/django/trunk/ django
+: 1233621638:0;ln -s 'pwd' repository/django/django /usr/lib/python2.6/site-packages
+: 1233621650:0;sudo ln -s 'pwd' repository/django/django /usr/lib/python2.6/site-packages
+: 1233621696:0;sudo ln -s 'pwd' repository/django/django/bin/django-admin.py /usr/local/bin
+: 1233621754:0;python -c "from distutils.sysconfi import get_python_lib; print get_python_lib()"
+: 1233621869:0;vi manage.py
+: 1233621891:0;python -v
+: 1233621907:0;whereis python
+: 1233621949:0;rm resolv.conf
+: 1233622031:0;rm django
+: 1233622043:0;sudo rm django
+: 1233622045:0;sudo ln -s ~/repository/django/django
+: 1233622050:0;cd django
+: 1233622128:0;yaourt -Q mysql
+: 1233622213:0;yaourt -Ss mysql | grep python
+: 1233622433:0;cd deploy
+: 1233622441:0;cd MySQL-python-1.2.2
+: 1233622448:0;python setup build
+: 1233622874:0;pacman -S mysql-python
+: 1233623045:0;vi apps/search/models.py
+: 1233623201:0;yaourt -Ss mysql
+: 1233623492:0;yaourt -Ss postgresql
+: 1233623561:0;pacman -S pypgsql
+: 1233623595:0;cd apps/search
+: 1233623597:0;vi models.py
+: 1233623887:0;postgresql
+: 1233623889:0;postgres
+: 1233624113:0;adduser postgre
+: 1233624224:0;su postgre
+: 1233624237:0;sudo
+: 1233624323:0;su postgres
+: 1233624377:0;mkdir -p data
+: 1233624381:0;initdb
+: 1233624385:0;initdb data
+: 1233624435:0;postgres -D data
+: 1233624544:0;vi .zsh/rc.host/hp533.zsh
+: 1233624621:0;whereis pgsql
+: 1233624636:0;locate postgresql
+: 1233624850:0;whereis postgresql
+: 1233624854:0;whereis postgres
+: 1233624933:0;source .zsh/rc.host/hp533.zsh
+: 1233624973:0;postmaster -i D ~/data &
+: 1233625016:0;createdb multisearch
+: 1233625032:0;psql multisearch
+: 1233625105:0;cd ../repository/modules
+: 1233625112:0;cd psycopg2-2.0.8
+: 1233625224:0;cd /usr/lib/python2.6/site-packages/
+: 1233625228:0;ls psycopg2
+: 1233625232:0;cd psycopg2
+: 1233625310:0;pythoon manage.py syncdb
+: 1233625365:0;yaourt -Ss psycopg
+: 1233625447:0;sudo rm /usr/lib/python2.6/site-packages/psycopg2
+: 1233625455:0;sudo rm -rf /usr/lib/python2.6/site-packages/psycopg2
+: 1233625478:0;sudo rm -rf /usr/lib/python2.6/site-packages/psycopg2-2.0.8-py2.6.egg-info
+: 1233625480:0;pacman -S python-psycopg2 python-psycopg1
+: 1233625493:0;python manage.py syncdb
+: 1233625538:0;mv web multisearch
+: 1233625546:0;mkdir -p web
+: 1233625548:0;mv * web
+: 1233625814:0;cd scripts
+: 1233625835:0;yaourt -Ss simplejson
+: 1233625968:0;vi ~/data/postgresql.conf
+: 1233626010:0;vi ~/data/pg_hba.conf
+: 1233626134:0;pacman -S lighttpd fcgi
+: 1233626306:0;pacman -S nginx
+: 1233626371:0;pacman -S python-simplejson
+: 1233626418:0;sudo /etc/rc.d/nginx start
+: 1233626540:0;yaourt -Ss nginx
+: 1233626610:0;whereis nginx
+: 1233626706:0;locate nginx
+: 1233627498:0;cd ../web
+: 1233627581:0;yaourt -Ss sha
+: 1233627617:0;yaourt -Ss sha | grep python
+: 1233627668:0;yaourt -Ss flup | grep python
+: 1233627687:0;pacman -S python-flup
+: 1233627737:0;yaourt -Ss sets | grep python
+: 1233628159:0;find . -name '*.pyc' -exec ls -f {}\;
+: 1233628185:0;find . -name '*.pyc' -exec rm -f {} \; 
+: 1233628195:0;find ~/repository -name '*.pyc' -exec rm -f {} \; 
+: 1233628214:0;sudo find ~/repository -name '*.pyc' -exec rm -f {} \; 
+: 1233628416:0;sudo find ~/repository -name '*.pyc' -exec rm -f {} \; s\
+
+: 1233628441:0;cd ../repository
+: 1233628442:0;cd modules
+: 1233628464:0;svn co http://geopy.googlecode.com/svn/trunk geopy-trunk
+: 1233628790:0;cd ../multisearch/web
+: 1233628977:0;cd ~/repository/web/libs/external_libs/geopy-trunk
+: 1233628982:0;rm *.pyc
+: 1233629004:0;svn update geopy
+: 1233629011:0;cd misc
+: 1233629015:0;cd ../geopy-trunk
+: 1233629118:0;find . -name '*.pyc' -exec rm -rf {} \;
+: 1233629130:0;sudo find . -name '*.pyc' -exec rm -rf {} \;
+: 1233629138:0;sudo find . -name '*.pyc' -exec sudo rm -rf {} \;
+: 1233629229:0;sudo find . -name '*.pyc' -exec rm -f {} \;
+: 1233629377:0;cd /usr/lib/python2.6
+: 1233629380:0;cd site-packages
+: 1233629421:0;sudo python setup.py build
+: 1233629466:0;ls g*
+: 1233629478:0;vi geopy-0.93dev_r73-py2.6.egg
+: 1233629487:0;sudo vi geopy-0.93dev_r73-py2.6.egg
+: 1233629498:0;easy_install geoy
+: 1233629508:0;sudo easy_install geoy
+: 1233631136:0;python manage.py runserver
+: 1233631398:0;cd Afro.Samurai-Resurrection\[2009\]DvDrip-aXXo
+: 1233631401:0;unzip afro_samurai_resurrection__2009__eng.zip
+: 1233635293:0;lscd ../
+: 1233635302:0;find . -name '*geopy*'
+: 1233635350:0;find . -name '*.py' | xargs grep 'geopy'
+: 1233635429:0;cd /usr/lib/python2.6/site-packages
+: 1233635444:0;sudo rm geopy-0.93dev_r73-py2.6.egg
+: 1233635454:0;yaourt -S geopy
+: 1233635517:0;yaourt -Ss geopy
+: 1233635563:0;yaourt -S geopy-svn
+: 1233635998:0;sudo rm -rf /tmp/yaourt-tmp-root/ge
+: 1233636023:0;cd ~/repository/modules
+: 1233636041:0;cd tests
+: 1233636047:0;python test_distance.py
+: 1233636060:0;python test_geohash.py
+: 1233636090:0;sudo rm -rf build
+: 1233636126:0;sudo easy_install-2.6 geopy
+: 1233636175:0;yaourt -Ss beautifulsoup
+: 1233636200:0;yaourt -Ss beautiful
+: 1233636212:0;pacman -S beautiful-soup
+: 1233637418:0;cd ~/repository
+: 1233637636:0;cd libs/external_libs
+: 1233637649:0;rm -rf geopy-trunk
+: 1233637680:0;cd ~/multisearch/we
+: 1233637682:0;cd ~/multisearch/web
+: 1233637765:0;cd apps
+: 1233637883:0;vi site_media
+: 1233638668:0;cd repository/modules
+: 1233638696:0;cd geopy
+: 1233638731:0;rm -rf build
+: 1233638736:0;sudo rm build
+: 1233638744:0;sudo python setup.py install
+: 1233638796:0;cd geopy-trunk
+: 1233638815:0;vi geopy.egg-info
+: 1233639059:0;sudo easy_install geopy
+: 1233639074:0;python 
+: 1233639113:0;sudo easy_install http://geopy.googlecode.com/svn/trunk
+: 1233639299:0;cd multisearch
+: 1233639301:0;cd web
+: 1233639727:0;cp media site_media/
+: 1233639730:0;cd site_media
+: 1233639737:0;ln -s /usr/lib/python2.6/site-packages/django/contrib/admin/media 
+: 1233672572:0;screen -r 12386.pts-0.hp533
+: 1233672584:0;screen -r 12386
+: 1233672612:0;screen -r 12386.tty.hp533
+: 1233672625:0;screen -r 12386.pts-0
+: 1233672656:0;screen -r 2400.pts-0.hp533
+: 1233672687:0;screen -r 20686.pts-5.hp533
+: 1233672788:0;python manage.py shell
+: 1233672980:0;find ~/repository/web -name '*.pyc' -exec rm -rf {} \;
+: 1233673142:0;vi templates/site_base.html
+: 1233673172:0;vi urls.py
+: 1233673274:0;cd ../scripts
+: 1233673278:0;./batchrun.py
+: 1233675931:0;vi settings.py
+: 1233675962:0;pkill python
+: 1233703056:0;2~
+: 1233703139:0;cd multisearch/web
+: 1233703145:0;python manage.py runfcgi host=127.0.0.1 port=8080 --settings=settings
+: 1233703191:0;sudo /etc/rc.d/postgresql
+: 1233703197:0;sudo /etc/rc.d/postgresql restart
+: 1233703277:0;postmaster -i -D ~/data &
+: 1233703351:0;sudo vi /etc/nginx/conf/nginx.conf
+: 1233703400:0;sudo /etc/rc.d/nginx restart
+: 1233703535:0;sudo vi /etc/rc.d/postgresql
+: 1233703675:0;rm Afro.Samurai-Resurrection\[2009\]DvDrip-aXXo\ \[mininova\].torrent
+: 1233703693:0;rm 24.S07E07.HDTV.XviD-LOL.\[eztv\].torrent
+: 1233703712:0;rm Being.Erica.S01E01.HDTV.XviD-MiNT.\[eztv\].torrent
+: 1233703720:0;rm Flight.of.the.Conchords.S02E01.HDTV.XviD-aAF.\[eztv\].torrent
+: 1233703734:0;rm House.S05E14.HDTV.XviD-2HD.\[eztv\].torrent
+: 1233703760:0;mv 24.S07E07.HDTV.XviD-LOL.avi media/tv.show/24
+: 1233703766:0;mv House.S05E14.HDTV.XviD-2HD.avi media/tv.show/house
+: 1233703789:0;mv Flight.of.the.Conchords.S02E01.HDTV.XviD-aAF.avi media/tv.show/flight.of.the.conchords
+: 1233703816:0;mkdir -p  media/tv.shows/damage
+: 1233703844:0;cd media/tv.show
+: 1233703850:0;rm -rf tv.show
+: 1233703876:0;rm -rf tv.shows
+: 1233703882:0;cd tv.show
+: 1233703951:0;mkdir -p 24
+: 1233704039:0;mv tv.show tv.shows
+: 1233704183:0;mkdir -p media/tv.shows/being.erica
+: 1233704225:0;cd being.erica
+: 1233704234:0;mv ~/Being.Erica.S01E01.HDTV.XviD-MiNT.avi .
+: 1233704256:0;rm -rf the.secret.life.of.the.american.teenager
+: 1233704275:0;cd flight.of.the.conchords
+: 1233712729:0;mkdir -p media/tv.shows/damages
+: 1233712742:0;mv Damages.S02E01.HDTV.XviD-DOT.\[VTV\].avi media/tv.shows/damages
+: 1233718822:0;rm Heroes.S03E14.HDTV.XviD-LOL.\[eztv\].torrent
+: 1233718835:0;mv Heroes.S03E14.HDTV.XviD-LOL.avi media/tv.shows/
+: 1233718844:0;mkdir -p media/tv.shows/heroes
+: 1233718863:0;mv media/tv.shows/Heroes.S03E14.HDTV.XviD-LOL.avi media/tv.shows/heroes
+: 1233718874:0;rm Kyle.XY.S03E04.HDTV.XviD-0TV.\[eztv\].torrent
+: 1233718881:0;mv Kyle.XY.S03E04.HDTV.XviD-0TV.avi media/tv.shows/kyle.xy
+: 1233761758:0;rm Damages.2x03.\(HDTV-DOT\)\[VTV\].torrent
+: 1233761772:0;mv Damages.S02E03.HDTV.XviD-DOT.\[VTV\].avi media/tv.shows/damages
+: 1233761785:0;rm Madagascar-Escape.2.Africa\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1233761789:0;rm The.Boy.In.The.Striped.Pyjamas\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1233761944:0;rm -rf Outlander\[2008\]DvDrip-aXXo
+: 1233762030:0;ls Heroes.S03E14.720p.HDTV.X264-DIMENSION.\[eztv\].torrentâƒ®ƒ¨
+: 1233766034:0;cd Madagascar-Escape.2.Africa\[2008\]DvDrip-aXXo
+: 1233766039:0;unrar e m2_septic.rar
+: 1233766052:0;unrar e  Madagascar_Escape_2_Africa_2008_DvDrip_aXXo.rar
+: 1233766059:0;unrar e Madagascar_Escape_2_Africa_Larceny_TLF.rar
+: 1233787412:0;rm Body.Of.Lies\[2008\]DvDrip-aXXo\ \[mininova\].torrenty
+: 1233787414:0;rm Body.Of.Lies\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1233787427:0;rm 24.S07E07.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1233793050:0;rm American.Idol.S08E08.HDTV.XviD-2HD.\[eztv\].torrent
+: 1233793060:0;mv American.Idol.S08E08.HDTV.XviD-2HD.avi media/tv.shows/american.idol
+: 1233793380:0;cd ~/media/tv.shows
+: 1233793399:0;unrar e 02_04_09_American_Idol_S08E08_HDTV_XviD_2HD_FRM.rar
+: 1233796308:0;rm -rf Madagascar-Escape.2.Africa\[2008\]DvDrip-aXXo
+: 1233796428:0;rm Flight.of.the.Conchords.S02E02.HDTV.XviD-aAF.\[eztv\].torrent
+: 1233796434:0;mv Flight.of.the.Conchords.S02E02.HDTV.XviD-aAF.avi media/tv.shows/flight.of.the.conchords
+: 1233796684:0;cd The.Boy.In.The.Striped.Pyjamas\[2008\]DvDrip-aXXo
+: 1233796726:0;unrar e 01_28_09_The_Boy_In_The_Striped_Pyjamas_2008_LiMiTED_DVDRiP_XViD_iKA_PLX.rar
+: 1233796731:0;unrar e _________________The_Boy_in_the_Striped_Pyjamas_str__________________.rar
+: 1233849564:0;rm Chuck.S02E12.HDTV.XviD.3-D-LOL.\[eztv\].torrenty
+: 1233849566:0;rm Chuck.S02E12.HDTV.XviD.3-D-LOL.\[eztv\].torrent
+: 1233849584:0;mkdir -p media/tv.shows/chuck
+: 1233849594:0;mv Chuck.S02E12.HDTV.XviD.3-D-LOL.avi media/tv.shows/chuck
+: 1233849606:0;rm Damages.2x02.\(HDTV-DOT\)\[VTV\].torrent
+: 1233849618:0;mv Damages.S02E02.HDTV.XviD-DOT.\[VTV\].avi media/tv.shows/damages
+: 1233849628:0;rm Fringe.S01E13.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1233849875:0;cd heroes
+: 1233849914:0;rm house/*.avi
+: 1233856811:0;cd ~/media/tv.shows/
+: 1233859715:0;mv ~/American.Idol.S08E09.HDTV.XviD-2HD.avi american.idol
+: 1233859720:0;rm ~/American.Idol.S08E09.HDTV.XviD-2HD.\[eztv\].torrent
+: 1233873380:0;rm Damages.2x01.\(HDTV-DOT\)\[VTV\].torrent
+: 1233873401:0;rm Damages.2x04.\(HDTV-0TV\)\[VTV\].torrent
+: 1233873413:0;mv Damages.S02E04.HDTV.XviD-0TV.\[VTV\].avi media/tv.shows/damages
+: 1233878205:0;rm Lost.S05E04.HDTV.XviD-XOR.\[eztv\].torrent
+: 1233878215:0;mv Lost.S05E04.HDTV.XviD-XOR.avi media/tv.shows/lost
+: 1233878270:0;cd ../lost
+: 1233892364:0;mv Damages.S02E05.HDTV.XviD-0TV.\[VTV\].avi media/tv.shows/damages
+: 1233892371:0;rm Damages.2x05.\(HDTV-0TV\)\[VTV\].torrent
+: 1233892383:0;mkdir -p media/tv.shows/lie.to.me
+: 1233892402:0;mv Lie.To.Me.S01E03.HDTV.XviD-NoTV.\[VTV\].avi media/tv.shows/lie.to.me
+: 1233892407:0;rm Lie.to.Me.1x03.\(HDTV-NoTV\)\[VTV\].torrent
+: 1233892430:0;rm -rf Afro.Samurai-Resurrection\[2009\]DvDrip-aXXo
+: 1233893781:0;unrar e 02_06_09_Lie_To_Me_103_a_perfect_score_notv_PLX.rar
+: 1233893789:0;unrar e lie_to_me_103_a_perfect_score_notv.rar
+: 1233933449:0;rm Knight.Rider.1x14.\(HDTV-LOL\)\[VTV\].torrent
+: 1233933459:0;mkdir -p media/tv.shows/knight.rider
+: 1233933529:0;rm Life.2x13.\(HDTV-LOL\)\[VTV\].torrent
+: 1233933552:0;mkdir -p media/tv.shows/life
+: 1233933563:0;mv Life.S02E13.HDTV.XviD-LOL.\[VTV\].avi media/tv.shows/life
+: 1233933709:0;cd torrent
+: 1233933738:0;ls Life.*
+: 1233979847:0;rm Being.Erica.S01E02.REPACK.HDTV.XviD-2HD.\[eztv\].torrent
+: 1233979854:0;rm Changeling\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1233979870:0;rm Smallville.S08E14.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1233979880:0;mkdir -p media/tv.shows/smallville
+: 1233979887:0;mv Smallville.S08E14.HDTV.XviD-NoTV.avi media/tv.shows/smallville
+: 1233979900:0;mv Being.Erica.S01E02.REPACK.HDTV.XviD-2HD.avi media/tv.shows/being.erica
+: 1234027161:0;rm Burn.Notice.2x12.\(HDTV-0TV\)\[VTV\].torrent
+: 1234027171:0;mv Burn.Notice.S02E12.HDTV.XviD-0TV.\[VTV\].avi media/tv.shows/burn.notice
+: 1234027183:0;rm Miracle.At.St.Anna\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1234027189:0;rm Supernatural.S04E14.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1234027213:0;mkdir -p media/tv.shows/supernatural
+: 1234027220:0;mv Supernatural.S04E14.HDTV.XviD-NoTV.avi media/tv.shows/supernatural
+: 1234027231:0;rm W.\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1234072308:0;cd house
+: 1234113652:0;rm Battlestar.Galactica.S04E14.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1234113658:0;rm Hulk.Vs.\[2009\]DvDrip-aXXo\ \[mininova\].torrent
+: 1234140503:0;cd W.\[2008\]DvDrip-aXXo
+: 1234140548:0;ls /home/dingzi/*.avi
+: 1234140561:0;mv ~/Knight.Rider.2008.S01E14.HDTV.XviD-LOL.\[VTV\].avi knight.rider
+: 1234140565:0;cd knight.rider
+: 1234140920:0;cd ../li
+: 1234141923:0;cd ~/W.\[2008\]DvDrip-aXXo
+: 1234193568:0;rm -rf The.Boy.In.The.Striped.Pyjamas\[2008\]DvDrip-aXXo
+: 1234203024:0;rm Heroes.S03E14.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1234203032:0;rm House.S05E14.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1234223195:0;cd Body.Of.Lies\[2008\]DvDrip-aXXo
+: 1234223569:0;pacman -S ttf-fireflysung
+: 1234223784:0;cd /var/abs
+: 1234284192:0;rm Brothers.And.Sisters.S03E14.HDTV.XviD-XOR.\[eztv\].torrent
+: 1234284199:0;mv Brothers.And.Sisters.S03E14.HDTV.XviD-XOR.avi media/tv.shows/brothers.and.sisters
+: 1234284220:0;rm The.Mentalist.S01E14.HDTV.XviD-XOR.\[eztv\].torrent
+: 1234284226:0;mv The.Mentalist.S01E14.HDTV.XviD-XOR.avi media/tv.shows/mentalist
+: 1234284370:0;cd media/tv.shows/mentalist
+: 1234284460:0;df 0h
+: 1234284601:0;mv ../../brothers_and_sisters_s03e14_hdtv_xvid_xor_YTET_YDY.rar .
+: 1234306467:0;frregblr;em vkel;m vgjrou7oholhjrho76hu cxd trew7yhdv44 vhgrvfice,krec/xdddddfrsuj7           43
+: 1234308389:0;rm 24.S07E08.HDTV.XviD-LOL.\[eztv\].torrent
+: 1234308396:0;mv 24.S07E08.HDTV.XviD-LOL.avi media/tv.shows/24
+: 1234308431:0;unrar e *.RAR
+: 1234308443:0;unrar e 24_S07E08_HDTV_XviD_LOL_YTET_YDY.rar
+: 1234308550:0;cd ../heroes/
+: 1234308558:0;rm Heroes.S03E15.HDTV.XviD-LOL.\[eztv\].torrent
+: 1234308565:0;mv Heroes.S03E15.HDTV.XviD-LOL.avi media/tv.shows/heroes
+: 1234308720:0;rm *.mht
+: 1234308750:0;rm Kyle.XY.S03E05.HDTV.XviD-0TV.\[eztv\].torrent
+: 1234308757:0;mv Kyle.XY.S03E05.HDTV.XviD-0TV.avi media/tv.shows/kyle.xy
+: 1234308804:0;cd ../smallville
+: 1234308812:0;cd ../supernatural
+: 1234308824:0;cd ../house
+: 1234308872:0;du -h Smallville.S08E14.720p.HDTV.X264-DIMENSION.
+: 1234308875:0;du -h Smallville.S08E14.720p.HDTV.X264-DIMENSION.mkv
+: 1234308885:0;du -h Supernatural.S04E14.720p.HDTV.x264-CTU.mkv
+: 1234309001:0;sudo chown -R dingzi mentalist
+: 1234309007:0;sudo chgrp -R dingzi mentalist
+: 1234309042:0;vi the.mentalist.s01e14.chs.srt
+: 1234364070:0;cd mentalist
+: 1234364088:0;unrar e *.rar\
+: 1234364089:0;unrar e *.rar
+: 1234364230:0;rm Smallville.S08E14.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1234364234:0;rm Supernatural.S04E14.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1234396573:0;rm American.Idol.S08E10.HDTV.XviD-2HD.\[eztv\].torrent
+: 1234396579:0;mv American.Idol.S08E10.HDTV.XviD-2HD.avi media/tv.shows/american.idol
+: 1234396749:0;unrar e 02_11_09_American_Idol_S08E10_HDTV_XviD_2HD_FRM.rar
+: 1234396756:0;unrar e american_idol_s08e10_hdtv_xvid_2hd_YTET_YDY.rar
+: 1234403414:0;rm -rf Body.Of.Lies\[2008\]DvDrip-aXXo
+: 1234403440:0;rm -rf W.\[2008\]DvDrip-aXXo
+: 1234449001:0;rm -rf being.erica
+: 1234478022:0;rm American.Idol.S08E11.HDTV.XviD-2HD.\[eztv\].torrent
+: 1234478028:0;mv American.Idol.S08E11.HDTV.XviD-2HD.avi media/tv.shows/american.idol
+: 1234478045:0;rm Life.2x14.\(HDTV-LOL\)\[VTV\].torrent
+: 1234478058:0;mv Life.S02E14.HDTV.XviD-LOL.\[VTV\].avi media/tv.shows/life
+: 1234478076:0;rm Fringe.S01E14.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1234482300:0;unrar e 02_12_09_American_Idol_S08E11_HDTV_XviD_2HD_FRM.rar
+: 1234482317:0;unrar e american.idol.s08e11.hdtv.xvid-2hd.ch
+: 1234482326:0;unrar e American_idol_s08e11_hdtv_xvid_2hd_YTET_YDY.rar
+: 1234490239:0;rm CSI.New.York.S05E14.HDTV.XviD-LOL.\[eztv\].torrent
+: 1234490245:0;mv CSI.New.York.S05E14.HDTV.XviD-LOL.avi media/tv.shows/csi.newyork
+: 1234533071:0;rm Damages.2x06.\(HDTV-PROPER-0TV\)\[VTV\].torrent
+: 1234533079:0;mv Damages.S02E06.PROPER.HDTV.XviD-0TV.\[VTV\].avi media/tv.shows/damages
+: 1234533409:0;rm Lost.S05E05.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1234533880:0;mkdir -p season1
+: 1234533886:0;mv ____________Damages.rar season1
+: 1234577274:0;]
+: 1234577290:0;rm Burn.Notice.2x13.\(HDTV-0TV\)\[VTV\].torrent
+: 1234577296:0;mv Burn.Notice.S02E13.HDTV.XviD-0TV.\[VTV\].avi media/tv.shows/burn.notice
+: 1234577301:0;rm Eleventh.Hour.S01E13.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1234577314:0;mv Eleventh.Hour.S01E13.HDTV.XviD-NoTV.avi media/tv.shows/eleventh.hour
+: 1234577608:0;cd lost
+: 1234577627:0;df -h | sort -n
+: 1234577646:0;cd 24
+: 1234577667:0;rm heroes/*.avi
+: 1234578112:0;ls *.chs.srt
+: 1234578129:0;cp eleventh.hour.112.eternal-notv.chs.srt eleventh.hour.113.pinocchio-notv.gb.srt
+: 1234578143:0;vi eleventh.hour.113.pinocchio-notv.gb.srt
+: 1234578250:0;vi eleventh.hour.113.pinocchio-notv.chs.srt
+: 1234578356:0;pacman -Ss mplayer
+: 1234578375:0;pacman -Ss smplayer
+: 1234578390:0;pacman -S smplayer smplayer-themes
+: 1234578440:0;ls --help
+: 1234578460:0;ls -R
+: 1234578497:0;ls --help | grep dir
+: 1234578544:0;dir -ls
+: 1234578549:0;dir | less
+: 1234578666:0;cd Changeling\[2008\]DvDrip-aXXo
+: 1234578707:0;ls | grep axxo
+: 1234578716:0;ls -ls | grep axxo
+: 1234578727:0;find . -name 'axxo'
+: 1234578737:0;find . -path 'axxo'
+: 1234578780:0;ls -d *
+: 1234578792:0;ls -lsd
+: 1234578798:0;ls -ld
+: 1234578801:0;ls -d
+: 1234578803:0;ls --d
+: 1234578808:0;ls dir
+: 1234578815:0;dir --help
+: 1234578828:0;dir
+: 1234578900:0;ls -ls | most
+: 1234578905:0;ls -ls | less
+: 1234578911:0;ls | less
+: 1234579275:0;cd ~/Hulk.Vs.\[2009\]DvDrip-aXXo
+: 1234637997:0;rm -rf Changeling\[2008\]DvDrip-aXXo
+: 1234638004:0;rm CSI.S09E13.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1234638010:0;rm Fringe.S01E14.PROPER.720p.HDTV.x264-2HD.\[eztv\].torrent
+: 1234638283:0;rm eleventh_hour_113_pinocchio_notv.rar
+: 1234638294:0;rm eleventh.hour.113.pinocchio-notv.chs.srt
+: 1234638305:0;rm eleventh.hour.113.*.srt
+: 1234638587:0;rm -rf Hulk.Vs.\[2009\]DvDrip-aXXo
+: 1234640442:0;cd Miracle.At.St.Anna\[2008\]DvDrip-aXXo
+: 1234640451:0;unzip b9ed215bff7e50f2a6818d84f051d291e2c5cdb7.zip
+: 1234640480:0;unzip 17ebe0d0a235b32b284fd53de47f87315c8021ad.zip
+: 1234661053:0;cd ../media/tv.shows
+: 1234661195:0;unrar e burn_notice_212_hdtv_0tv_YTET_YDY.rar
+: 1234661199:0;unrar e burn_notice_213
+: 1234661201:0;unrar e burn_notice_213_hdtv_0tv.rar
+: 1234661242:0;cd united.states.of.tara
+: 1234661265:0;cd tv.shows
+: 1234725133:0;rm -rf Women
+: 1234725157:0;rm -rf YMLNML
+: 1234725172:0;rm Battlestar.Galactica.S04E15.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1234725180:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E14.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1234813654:0;rm Beverly.Hills.Chihuahua\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1234813711:0;cd ~/Beverly.Hills.Chihuahua\[2008\]DvDrip-aXXo
+: 1234813759:0;cd ../Sex.Drive\[2008\]\[Unrated.Edition\]DvDrip-aXXo
+: 1234813766:0;rm Sex.Drive\[2008\]\[Unrated.Edition\]DvDrip-aXXo\ \[mininova\].torrent
+: 1234813804:0;cd ../The.Day.The.Earth.Stood.Still\[2008\]DvDrip-aXXo
+: 1234813895:0;rm The.Day.The.Earth.Stood.Still\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1234814023:0;rm Dollhouse.S01E01.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1234926387:0;rm -rf Beverly.Hills.Chihuahua\[2008\]DvDrip-aXXo
+: 1234968643:0;rm Brothers.And.Sisters.S03E15.HDTV.XviD-XOR.\[eztv\].torrent
+: 1234968654:0;rm The.Amazing.Race.S14E01.PDTV.XviD-XOXO.\[eztv\].torrent
+: 1234968658:0;rm The.Mentalist.S01E15.REPACK.HDTV.XviD-XOR.\[eztv\].torrent
+: 1234969076:0;mv ~/The.Amazing.Race.S14E01.PDTV.XviD-XOXO.avi .
+: 1234969344:0;mv ~/The.Mentalist.S01E15.REPACK.HDTV.XviD-XOR.avi .
+: 1234969421:0;mv ~/Brothers.And.Sisters.S03E15.HDTV.XviD-XOR.avi .
+: 1234969581:0;cd ~/Sex.Drive\[2008\]\[Unrated.Edition\]DvDrip-aXXo
+: 1235004114:0;;lp
+: 1235004122:0;cd ../Thick.As.Thieves\[2009\]DvDrip-aXXo
+: 1235004131:0;unzip 204924.zip
+: 1235054598:0;rm 24.S07E09.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1235054609:0;rm Damages.S01.Complete\ \[mininova\].torrent
+: 1235054616:0;rm Heroes.S03E15.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1235054750:0;rm Heroes.S03E16.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1235054758:0;rm House.S05E15.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1235054766:0;rm Thick.As.Thieves\[2009\]DvDrip-aXXo\ \[mininova\].torrent
+: 1235055130:0;cd Damages.S01.Complete
+: 1235055142:0;mv *.* ../media/tv.shows/damages/season1
+: 1235055156:0;rm -rf Damages.S01.Complete
+: 1235080816:0;rm Kyle.XY.S03E05.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1235080823:0;rm Kyle.XY.S03E06.HDTV.XviD-SYS.\[eztv\].torrent
+: 1235080835:0;rm United.States.of.Tara.S01E05.XviD-aAF.\[eztv\].torrent
+: 1235085495:0;unrar e american_idol_s08e12_hdtv_xvid_2hd_YTET_YDY.rar
+: 1235085498:0;unrar e 02_19_09_American_Idol_S08E12_HDTV_XviD_2HD_FRM.rar
+: 1235087271:0;unrar e 02_18_09_Kyle_XY_S03E06_hdtv_xvid_sys_PLX.rar
+: 1235087321:0;mv /home/dingzi/Kyle.XY.S03E06.HDTV.XviD-SYS.avi .
+: 1235087335:0;mv /home/dingzi/United.States.of.Tara.S01E05.XviD-aAF.avi
+: 1235087337:0;mv /home/dingzi/United.States.of.Tara.S01E05.XviD-aAF.avi .
+: 1235092175:0;mv /home/dingzi/American.Idol.S08E12.HDTV.XviD-2HD.avi .
+: 1235092188:0;rm /home/dingzi/American.Idol.S08E12.HDTV.XviD-2HD.\[eztv\].torrent
+: 1235099081:0;cd ../united.states.of.tara
+: 1235099146:0;rm /home/dingzi/American.Idol.S08E13.HDTV.XviD-2HD.\[eztv\].torrent
+: 1235099152:0;mv /home/dingzi/American.Idol.S08E13.HDTV.XviD-2HD.avi .
+: 1235099177:0;mv American.Idol.S08E13.HDTV.XviD-2HD.avi american.idol
+: 1235143353:0;rm -rf Sex.Drive\[2008\]\[Unrated.Edition\]DvDrip-aXXo
+: 1235143886:0;rm Lie.to.Me.1x04.\(HDTV-LOL\)\[VTV\].torrent
+: 1235143894:0;mv Lie.to.Me.S01E04.HDTV.XviD-LOL.\[VTV\].avi media/tv.shows/lie.to.me
+: 1235143899:0;rm CSI.New.York.S05E15.HDTV.XviD-0TV.\[eztv\].torrent
+: 1235143909:0;mv CSI.New.York.S05E15.HDTV.XviD-0TV.avi media/tv.shows/csi.newyork
+: 1235144381:0;cd season1
+: 1235144453:0;rm *.srt
+: 1235144473:0;unrar e *.srt
+: 1235144853:0;unrar e damages_102_ws_dsr_dimension.rar
+: 1235144859:0;unrar e damages_103_dsr_xvid_notv_YTET_YDY.rar
+: 1235144869:0;unrar e damages_104_dsr_xvid_notv_YTET_YDY.rar
+: 1235144878:0;unrar e damages_105_ws_dsr_loki_YTET_YDY.rar
+: 1235144895:0;unrar e damages_107_dsr_xvid_notv.rar
+: 1235144900:0;unrar e damages_106_dsr_xvid_notvV_YTET_YDY.rar
+: 1235144908:0;unrar e damages_108_dsr_xvid_notv_YTET_YDY.rar
+: 1235144912:0;unrar e damages_109_dsr_xvid_notv_YTET_YDY.rar
+: 1235144918:0;unrar e damages_110_dsr_xvid_notv_YTET_YDY.rar
+: 1235144922:0;unrar e damages_111_dsr_xvid_notv_YTET_YDY.rar
+: 1235144926:0;unrar e damages_113_dsr_xvid_notv_YTET_YDY.rar
+: 1235144998:0;unrar e 10_22_07_Damages_S01E12_DSR_XviD_NoTV_PLX.rar
+: 1235145098:0;cd ../../
+: 1235145111:0;rm ç»ƒ¨çƒ´Ÿæƒ£©æƒ¨ƒ².life.s02e14.srt
+: 1235145116:0;unrar e 02_18_09_Life_S02E14_HDTV_XviD_LOL_FRM.rar
+: 1235145121:0;unrar e life_s02e15_hdtv_xvid_dot_YTET_YDY.rar
+: 1235145132:0;unrar e 02_17_09_Chuck_S02E13_HDTV_XviD_DOT_PLX.rar
+: 1235145191:0;mv Life.S02E15.HDTV.XviD-DOT.\[VTV\].avi media/tv.shows/life
+: 1235145213:0;rm Chuck.2x14.\(HDTV-DOT\)\[VTV\].torrent
+: 1235145220:0;mv Chuck.S02E14.HDTV.XviD-DOT.\[VTV\].avi media/tv.shows/chuck
+: 1235145284:0;rm Life.2x15.\(HDTV-*.torrent
+: 1235169547:0;cd David\ Archuleta\ -\ David\ Archuleta\ \[2008\]\[CD+SkidVid_XviD+Cov\]
+: 1235169560:0;cd ../Mariah\ Carey\ -\ Discography-\ The\ Pirate\ Bay-
+: 1235195036:0;rm David\ Archuleta\ -\ David\ Archuleta\ \[2008\]\[CD+SkidVid_XviD+Cov\]\ \[mininova\].torrent
+: 1235195048:0;rm Harry\ Nilsson\ -\ All\ Time\ Greatest\ Hits1\ \[mininova\].torrent
+: 1235223625:0;rm -rf David\ Archuleta\ -\ David\ Archuleta\ \[2008\]\[CD+SkidVid_XviD+Cov\]
+: 1235223632:0;rm -rf Harry\ Nilsson\ -\ All\ Time\ Greatest\ Hits
+: 1235225352:0;rm CSI.S09E14.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1235225359:0;rm Seven.Pounds\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1235225366:0;rm Survivor.S18E02.The.Poison.Apple.Needs.to.Go.HDTV.XviD-FQM.\[eztv\].torrent
+: 1235225634:0;mv Survivor.S18E02.The.Poison.Apple.Needs.to.Go.HDTV.XviD-FQM.avi media/tv.shows/survivor
+: 1235225925:0;cd media/tv.shows/survivor
+: 1235225932:0;cd ~/Seven.Pounds\[2008\]DvDrip-aXXo
+: 1235226069:0;rm -rf Thick.As.Thieves\[2009\]DvDrip-aXXo
+: 1235273033:0;cd Downloads
+: 1235273039:0;rm -rf Generation.Kill.Part.6.READNFO.720p.HDTV.X264-0TV
+: 1235335439:0;sudo ifconfig eth0 up
+: 1235336173:0;unrar e eleventh_hour_113_pinocchio_notv_YTET_YDY.rar
+: 1235336179:0;rm eleventh_hour_113_pinocchio_notv_YTET_YDY.rar
+: 1235336203:0;rm -rf top.gear
+: 1235336328:0;cd lie.to.me
+: 1235399865:0;sudo dhcpcd eth0
+: 1235410139:0;sudo ifconfig eht0 
+: 1235410144:0;sudo ifconfig eht0  down
+: 1235410151:0;sudo ifconfig eht0  up
+: 1235432727:0;rm *.ra
+: 1235438109:0;cd /media/wd1
+: 1235438113:0;cd music
+: 1235438117:0;cd albums
+: 1235438129:0;cd ape.flac.mpc.320kmp3
+: 1235438720:0;rm Battlestar.Galactica.S04E16.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1235438726:0;rm Burn.Notice.2x14.\(HDTV-FQM\)\[VTV\].torrent
+: 1235438748:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E15.720p.HDTV.x264-SiTV.\[eztv\].torrent
+: 1235446301:0;rm Eleventh.Hour.US.S01E14.Minamata.HDTV.XviD-FQM.avi
+: 1235446516:0;rm -rf fear.itself
+: 1235446547:0;rm -rf knight.rider
+: 1235487557:0;rm Eleventh.Hour.US.S01E14.Minamata.HDTV.XviD-FQM.\[eztv\].torrent
+: 1235487570:0;rm The.Amazing.Race.S14E02.PDTV.XviD-2HD.\[eztv\].torrent
+: 1235487579:0;rm Survivor.S18E01.HDTV.XviD-XOXO.avi\ \[mininova\].torrent
+: 1235487795:0;mv Eleventh.Hour.US.S01E14.Minamata.HDTV.XviD-FQM.avi media/tv.shows/eleventh.hour
+: 1235487810:0;mv The.Amazing.Race.S14E02.PDTV.XviD-2HD.avi media/tv.shows/amazing.race
+: 1235489534:0;cd media/tv.shows/eleventh.hour
+: 1235489678:0;unrar e survivor_1801_hdtv_xoxo_YTET_YDY.rar
+: 1235529574:0;pacman -S firefox
+: 1235529682:0;pacman -Ss firefox firefox-i18n
+: 1235529695:0;pacman -S firefox firefox-i18n
+: 1235529947:0;pacman -Ss firefox
+: 1235530130:0;pacman -Ss fasterfox
+: 1235530170:0;yaourt -Ss swiftweasel
+: 1235530240:0;yaourt -Ss swiftweasel | grep celeron
+: 1235573105:0;cd ../amazing.race
+: 1235577563:0;rm 24.S07E10.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1235577572:0;rm Heroes.S03E17.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1235577576:0;rm House.S05E16.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1235610637:0;rm Kyle.XY.S03E07.HDTV.XviD-0TV.\[eztv\].torrent
+: 1235610655:0;mv Kyle.XY.S03E07.HDTV.XviD-0TV.avi media/tv.shows/kyle.xy
+: 1235610677:0;rm withoutyou.torrent
+: 1235621508:0;pacman -S aurvote customizepkg pacman-color colordiff
+: 1235622034:0;cd Mariah\ Carey\ -\ Discography-\ The\ Pirate\ Bay-
+: 1235622053:0;mv *.torrent ../torrent
+: 1235660141:0;rm -rf Seven.Pounds\[2008\]DvDrip-aXXo
+: 1235692375:0;cd ~/Australia\[2008\]DvDrip-aXXo
+: 1235692484:0;unzip 205916.zip
+: 1235693495:0;cd ../Role.Models\[2008\]\[Unrated.Edition\]DvDrip-aXXo
+: 1235693512:0;unzip 207729.zip
+: 1235693521:0;unzip 207669.zip
+: 1235693541:0;rm Australia\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1235693546:0;rm CSI.NY.S05E16.HDTV.XviD-0TV.\[eztv\].torrent
+: 1235693553:0;rm Damages.2x08.\(HDTV-DOT\)\[VTV\].torrent
+: 1235693565:0;rm Life.2x16.\(HDTV-LOL\)\[VTV\].torrent
+: 1235693573:0;rm Role.Models\[2008\]\[Unrated.Edition\]DvDrip-aXXo\ \[mininova\].torrent
+: 1235693610:0;rm 7001\ \[mininova\].torrent
+: 1235794678:0;rm damages.1.iso
+: 1235868090:0;rm -rf Australia\[2008\]DvDrip-aXXo
+: 1235868147:0;rm American.Idol.S08E14.HDTV.XviD-2HD.\[eztv\].torrent
+: 1235868157:0;rm American.Idol.S08E15.HDTV.XviD-2HD.\[eztv\].torrent
+: 1235868169:0;mv American.Idol.S08E1*.avi media/tv.shows/american.idol
+: 1235868259:0;unrar e 02_27_09_American_Idol_S08E14_HDTV_XviD_2HD_FRM.rar
+: 1235868264:0;unrar e 02_28_09_American_Idol_S08E15_HDTV_XviD_2HD_FRM.rar
+: 1235868351:0;rm Burn.Notice.2x15.\(HDTV-REPACK-0TV\)\[VTV\].torrent
+: 1235868365:0;mv Burn.Notice.S02E15.REPACK.HDTV.XviD-0TV.\[VTV\].avi media/tv.shows/burn.notice
+: 1235868425:0;mv Burn.Notice.S02E14.Truth.and.Reconciliation.HDTV.XviD-FQM.\[VTV\].avi media/tv.shows/burn.notice
+: 1235868515:0;cd ../csi.newyork
+: 1235868541:0;mv CSI.NY.S05E16.HDTV.XviD-0TV.avi media/tv.shows/csi.newyork
+: 1235868624:0;cd ../damages
+: 1235868630:0;rm Damages.2x07.\(HDTV-0TV\)\[VTV\].torrent
+: 1235868650:0;mv Damages.S02E0*.avi media/tv.shows/damages
+: 1235868658:0;unrar e Damages_S02E07_HDTV_XviD_0TV.rar
+: 1235868667:0;unrar e Damages_S02E08_HDTV_XviD_DOT_YTET_YDY.rar
+: 1235868730:0;rm Eleventh.Hour.US.S01E15.Electro.HDTV.XviD-FQM.\[eztv\].torrent
+: 1235868734:0;mv Eleventh.Hour.US.S01E15.Electro.HDTV.XviD-FQM.avi media/tv.shows/eleventh.hour
+: 1235868766:0;rm Lost.S05E07.HDTV.XviD-XOR.\[eztv\].torrent
+: 1235868771:0;rm Lost.S05E07.HDTV.XviD-XOR.avi
+: 1235868859:0;mv survivor.s18e03.hdtv.xvid-lmao.avi media/tv.shows/survivor
+: 1235868865:0;rm survivor.s18e03.hdtv.xvid-lmao.\[eztv\].torrent
+: 1235868877:0;cd ../su
+: 1235868908:0;rm CSI.S09E15.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1235868912:0;rm Lost.S05E07.PROPER.720p.HDTV.x264-get.proper.\[eztv\].torrent
+: 1235868995:0;cd Transporter.3\[2008\]DvDrip-aXXo
+: 1235869010:0;rm Transporter.3\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1235869015:0;rm Role.Models\[2008\]\[Unrated.Edition\]DvDrip-aXXo/Demonoid.com.txt
+: 1235869286:0;rm CSI.S09E15.Kill.Me.If.You.Can.HDTV.XviD-FQM.\[eztv\].torrent
+: 1235869306:0;rm HARRY_NILSSON_AERIAL_BALLET_\(MONO_MIX\)_REMASTERED_BY_PURPLE_CHICK\ \[mininova\].torrent
+: 1235869312:0;rm Survivor.S18E01.HDTV.XviD-XOXO.\[eztv\].torrent
+: 1235869322:0;mv Survivor.S18E01.HDTV.XviD-XOXO.avi media/tv.shows/survivor
+: 1235869336:0;mv Life.on.Mars.US.S01E12.720p.HDTV.x264-2HD.\[eztv\].torrent torrent
+: 1235869352:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E16.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1235935180:0;rm -rf Transporter.3\[2008\]DvDrip-aXXo
+: 1235961066:0;rm -rf Role.Models\[2008\]\[Unrated.Edition\]DvDrip-aXXo
+: 1236010173:0;rm Battlestar.Galactica.S04E17.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1236010180:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E16.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1236011034:0;rm torrent/Dollhouse.S01E02.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1236011054:0;rm Dollhouse.S01E03.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1236012308:0;dmesg
+: 1236012477:0;pacman -S gnomebaker
+: 1236013172:0;pacman -S brasero
+: 1236013581:0;pacman -S liburn libisofs dvdauthor gst-plugin-bad vcdimager
+: 1236013633:0;pacman -S libburn libisofs dvdauthor gst-plugin-bad vcdimager
+: 1236013663:0;pacman -S libburn libisofs dvdauthor vcdimager
+: 1236016566:0;pacman -S d-bus
+: 1236016585:0;pacman -S dbus
+: 1236016618:0;pacman -S rdynamic
+: 1236016769:0;brasero
+: 1236016978:0;sudo brasero
+: 1236032017:0;rm The.Amazing.Race.S14E03.PDTV.XviD-2HD.\[eztv\].torrent
+: 1236032022:0;mv The.Amazing.Race.S14E03.PDTV.XviD-2HD.avi media/tv.shows/amazing.race
+: 1236042000:0;mv Life.S02E16.HDTV.XviD-LOL.\[VTV\].avi media/tv.shows/life
+: 1236042075:0;cd media/tv.shows/life
+: 1236089410:0;rm Battlestar.Galactica.S04E17.720p.HDTV.x264-CTU.mkv
+: 1236089430:0;rm Dollhouse.S01E02.720p.HDTV.X264-DIMENSION.mkv
+: 1236089435:0;rm Dollhouse.S01E03.720p.HDTV.x264-CTU.mkv
+: 1236089450:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E16.720p.HDTV.x264-CTU.mkv
+: 1236117909:0;yaourt -Ss mplayer
+: 1236119258:0;yaourt -S mplayer
+: 1236128867:0;yaourt -Ss CoreAVC
+: 1236262912:0;mv /home/dingzi/American.Idol.S08E16.HDTV.XviD-2HD.avi .
+: 1236262926:0;rm American.Idol.S08E16.HDTV.XviD-2HD.\[eztv\].torrent
+: 1236262988:0;rm Kyle.XY.S03E08.HDTV.XviD-0TV.\[eztv\].torrent
+: 1236262998:0;mv Kyle.XY.S03E08.HDTV.XviD-0TV.avi media/tv.shows/kyle.xy
+: 1236263008:0;cd ../kyle.xy
+: 1236263015:0;ls *.avo
+: 1236263021:0;ls *.srt
+: 1236263083:0;unrar e Kyle_XY_S03E08_HDTV_XviD_0TV_YTET_YDY.rar
+: 1236263094:0;unrar e nr.rar
+: 1236263137:0;rm Brothers.and.Sisters.S03E16E17.HDTV.XviD-LOL.\[eztv\].torrent
+: 1236263144:0;mv Brothers.and.Sisters.S03E16E17.HDTV.XviD-LOL.avi media/tv.shows/brothers.and.sisters
+: 1236298241:0;unrar e 03_05_09_American_Idol_S08E17_HDTV_XviD_2HD_FRM.rar
+: 1236298244:0;unrar e American_idol_s08e17_hdtv_xvid_2hd_YTET_YDY.rar
+: 1236298278:0;mv /home/dingzi/American.Idol.S08E17.HDTV.XviD-2HD.avi .
+: 1236298282:0;rm /home/dingzi/American.Idol.S08E17.HDTV.XviD-2HD.\[eztv\].torrent
+: 1236300824:0;rm Heroes.S03E18.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1236300831:0;rm 24.S07E11.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1236300837:0;rm 24.S07E12.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1236300865:0;rm 24.S07E11.720p.HDTV.X264-DIMENSION.mkv
+: 1236300870:0;rm 24.S07E12.720p.HDTV.X264-DIMENSION.mkv
+: 1236300875:0;rm Heroes.S03E18.720p.HDTV.X264-DIMENSION.mkv
+: 1236352477:0;rm Lie.to.Me.1x05.\(HDTV-NoTV\)\[VTV\].torrent
+: 1236352485:0;mv Lie.to.Me.S01E05.HDTV.XviD-NoTV.\[VTV\].avi media/tv.shows/lie.to.me
+: 1236379434:0;hhmd
+: 1236379480:0;vdghjmdmh
+: 1236381935:0;mv /home/dingzi/American.Idol.S08E18.Read.Nfo.HDTV.XviD-2HD.avi .
+: 1236381939:0;rm /home/dingzi/American.Idol.S08E18.Read.Nfo.HDTV.XviD-2HD.\[eztv\].torrent
+: 1236394897:0;rm Damages.S02E06.PROPER.HDTV.XviD-0TV.\[VTV\].avi
+: 1236394937:0;hhmdaf
+: 1236482462:0;rm Damages.2x09.\(HDTV-0TV\)\[VTV\].torrent
+: 1236482467:0;mv Damages.S02E09.HDTV.XviD-0TV.\[VTV\].avi media/tv.shows/damages
+: 1236482491:0;ls media/tv.shows/burn.notice/*.rar
+: 1236482497:0;ls media/tv.shows/burn.notice/*.srt
+: 1236482516:0;ls media/tv.shows/chuck/*.rar
+: 1236482518:0;ls media/tv.shows/chuck/*.srt
+: 1236482527:0;rm Dollhouse.S01E04.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1236482532:0;mv Dollhouse.S01E04.HDTV.XviD-NoTV.avi media/tv.shows/dollhouse
+: 1236482542:0;rm Eleventh.Hour.S01E16.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1236482547:0;mv Eleventh.Hour.S01E16.HDTV.XviD-NoTV.avi media/tv.shows/eleventh.hour
+: 1236482564:0;rm Lost.S05E08.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1236482569:0;rm Lost.S05E08.720p.HDTV.x264-CTU.mkv
+: 1236482580:0;mv Survivor.S18E04.HDTV.XviD-VAiN.avi media/tv.shows/survivor
+: 1236482583:0;rm Survivor.S18E04.HDTV.XviD-VAiN.\[eztv\].torrent
+: 1236482626:0;rm Burn.Notice.2x16.\(HDTV-0TV\)\[VTV\].torrent
+: 1236482630:0;rm Chuck.S02E15.HDTV.XviD-0TV.\[eztv\].torrent
+: 1236482648:0;rm Twilight\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1236482661:0;rm CSI.S09E16.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1236482669:0;rm CSI.S09E16.HDTV.XviD-0TV.\[eztv\].torrent
+: 1236484033:0;cd Twilight\[2008\]DvDrip-aXXo
+: 1236540524:0;rm -rf Twilight\[2008\]DvDrip-aXXo
+: 1236569130:0;sudo shutdown -h now
+: 1236617997:0;rm Americas.Next.Top.Model.S12E01.What.Happens.in.Vegas.PDTV.XviD-FQM.\[eztv\].torrent
+: 1236618002:0;mv Americas.Next.Top.Model.S12E01.What.Happens.in.Vegas.PDTV.XviD-FQM.avi media/tv.shows/antm
+: 1236618007:0;cd media/tv.shows/antm
+: 1236632523:0;mv Burn.Notice.S02E16.HDTV.XviD-0TV.\[VTV\].avi media/tv.shows/burn.notice
+: 1236632529:0;mv Chuck.S02E15.HDTV.XviD-0TV.avi media/tv.shows/chuck
+: 1236632536:0;cd chuck
+: 1236632544:0;cd ../burn.notice
+: 1236632585:0;cd survivor
+: 1236632602:0;cd eleventh.hour
+: 1236632609:0;find . -name '*.rar'
+: 1236632693:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E17.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1236632712:0;rm Battlestar.Galactica.S04E18.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1236651907:0;rm Brothers.and.Sisters.S03E18.HDTV.XviD-2HD.\[eztv\].torrent
+: 1236651917:0;rm The.Amazing.Race.S14E04.PDTV.XviD-2HD.\[eztv\].torrent
+: 1236692652:0;df -sh * | sort -n
+: 1236697608:0;cd amazing.race
+: 1236697731:0;mv The.Amazing.Race.S14E04.PDTV.XviD-2HD.avi media/tv.shows/amazing.race
+: 1236710091:0;pacman -Ss mp3
+: 1236710159:0;pacman -Ss media
+: 1236710243:0;pacman -Ss audi
+: 1236710281:0;pacman -Ss audication
+: 1236710949:0;cd Vocabulary\ Booster
+: 1236732619:0;cd Quantum.Of.Solace\[2008\]DvDrip-aXXo
+: 1236732716:0;unrar e quantum_of_solace_trailer.rar
+: 1236732729:0;unrar e coa_qos_xvid.rar
+: 1236794159:0;rm Quantum.Of.Solace\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1236794248:0;rm Kyle.XY.S03E09.REPACK.HDTV.XviD-0TV.\[eztv\].torrent
+: 1236794253:0;mv Kyle.XY.S03E09.REPACK.HDTV.XviD-0TV.avi media/tv.shows/kyle.xy
+: 1236794293:0;rm 24.S07E13.HDTV.XviD-LOL.\[eztv\].torrent
+: 1236794302:0;mv 24.S07E13.HDTV.XviD-LOL.avi media/tv.shows/24
+: 1236794411:0;mv Brothers.and.Sisters.S03E18.HDTV.XviD-2HD.avi media/tv.shows/brothers.and.sisters
+: 1236794432:0;cd brothers.and.sisters
+: 1236796589:0;yaourt -S freeme2
+: 1236796953:0;rm -rf Watchmen\ \[2009\]\ English\ \ DVDRip\ XviD\ -\ aXXo
+: 1236796958:0;rm Watchmen\ \[2009\]\ English\ \ DVDRip\ XviD\ -\ aXXo\ \[mininova\].torrent
+: 1236810623:0;pkill mplayer
+: 1236810646:0;sudo pkill gmplayer
+: 1236810696:0;pkill gmplayer
+: 1236810705:0;pkill -9 gmplayer
+: 1236830550:0;rm Heroes.S03E19.HDTV.XviD-LOL.\[eztv\].torrent
+: 1236830562:0;mv Heroes.S03E19.HDTV.XviD-LOL.avi media/tv.shows/heroes
+: 1236830643:0;rm *.rary
+: 1236830782:0;rm House.S05E17.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1236830800:0;rm Chuck.S02E16.HDTV.XviD-XOR.\[eztv\].torrent
+: 1236831179:0;rm American.Idol.S08E19.HDTV.XviD-2HD.\[eztv\].torrent
+: 1236831189:0;mv American.Idol.S08E19.HDTV.XviD-2HD.avi media/tv.shows/american.idol
+: 1236831210:0;rm 24.S07E13.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1236831215:0;rm 24.S07E13.720p.HDTV.X264-DIMENSION.mkv
+: 1236831329:0;pkill mandb
+: 1236831334:0;pkill -9 mandb
+: 1236831337:0;sudo pkill -9 mandb
+: 1236831585:0;sudo /etc/rc.d/postgresql stop
+: 1236831603:0;sudo /etc/rc.d/nginx stop
+: 1236877460:0;cd Bolt\[2008\]DvDrip-aXXo
+: 1236877625:0;rm CSI.New.York.S05E17.HDTV.XviD-LOL.\[eztv\]\ \[mininova\].torrent
+: 1236877735:0;mv Chuck.S02E16.HDTV.XviD-XOR.avi media/tv.shows/chuck
+: 1236877741:0;cd media/tv.shows/chuck
+: 1236877790:0;rm Bolt\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1236877967:0;rm Punisher-War.Zone\[2008\]DvDrip-aXXo\ \[mininova\].torrent
+: 1236877971:0;cd Punisher-War.Zone\[2008\]DvDrip-aXXo
+: 1236877976:0;unrar e Punisher_War_Zone_720p_BluRay_x264_Felony.rar
+: 1236877983:0;unrar e _______2____________Punisher_War_Zone_BDRip_XviD_Larceny.rar
+: 1236877994:0;unrar e ________SCG______________2___________Punisher_War_Zone_BDRip_XviD_Larceny.rar
+: 1236878879:0;mv United.States.of.Tara.S01E0*.* torrent
+: 1236878890:0;mv Flight.of.the.Conchords.S02E08.HDTV.XviD-NoTV.\[eztv\].torrent torrent
+: 1236878901:0;rm Stephenie\ Meyer\ Twilight\ Saga\ Audio\ Books\ 1-4\ \[mininova\].torrent
+: 1236878913:0;mv Life.on.Mars.US.S01E14.720p.HDTV.X264-DIMENSION.\[eztv\].torrent torrent
+: 1236878924:0;rm English_Vocabulary_Booster\ \[mininova\].torrent
+: 1236909234:0;mv CSI.New.York.S05E17.HDTV.XviD-LOL.avi media/tv.shows/csi.newyork
+: 1236909319:0;cd ../lie.to.me
+: 1236909327:0;rm Lie.to.Me.S01E06.HDTV.XviD-LOL.\[VTV\]\ \[mininova\].torrent
+: 1236909334:0;mv Lie.to.Me.S01E06.HDTV.XviD-LOL.\[VTV\].avi media/tv.shows/lie.to.me
+: 1236916828:0;rm -rf Punisher-War.Zone\[2008\]DvDrip-aXXo
+: 1236957391:0;rm Heroes.S03E19.720p.HDTV.X264-DIMENSION.*
+: 1236957429:0;pacman -S freenx
+: 1236958449:0;rm American.Idol.S08E20.HDTV.XviD-2HD.\[eztv\].torrent
+: 1236958455:0;mv American.Idol.S08E20.HDTV.XviD-2HD.avi media/tv.shows/american.idol
+: 1236958578:0;cd american.idol
+: 1236958588:0;unrar e 03_12_09_American_Idol_S08E19_HDTV_XviD_2HD_FRM.rar
+: 1236958593:0;unrar e 03_12_09_American_Idol_S08E20_HDTV_XviD_2HD_FRM.rar
+: 1237063090:0; rm CSI.S09E17.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1237063095:0;rm Supernatural.S04E15.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1237063104:0;rm Smallville.S08E15.Infamous.HDTV.XviD-FQM.\[eztv\].torrent
+: 1237063126:0;rox
+: 1237063427:0;rm Eleventh.Hour.US.S01E17.Olfactus.HDTV.XviD-FQM.\[eztv\].torrent
+: 1237063434:0;rm Survivor.S18E05.Youre.Going.to.Want.that.Tooth.HDTV.XviD-FQM.\[eztv\].torrent
+: 1237063440:0;mv Eleventh.Hour.US.S01E17.Olfactus.HDTV.XviD-FQM.avi media/tv.shows/eleventh.hour
+: 1237063445:0;mv Survivor.S18E05.Youre.Going.to.Want.that.Tooth.HDTV.XviD-FQM.avi media/tv.shows/survivor
+: 1237063459:0;unrar e 03_13_09_Survivor_S18E05_HDTV_XVID_FQM_PLX.rar
+: 1237063464:0;unrar e survivor_s18e05_hdtv_xvid_fqm_YTET_YDY.rar
+: 1237063470:0;cd ../eleventh.hour
+: 1237214426:0;rm Battlestar.Galactica.S04E19.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1237214430:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E18.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1237230948:0;sudo mv *.mkv /media/wd2/tv.shows.series
+: 1237244229:0;hmdggnhjhkut,
+: 1237244239:0;_gdbx vvh,mhkk,him
+: 1237244252:0;hmd
+: 1237245320:0;rm The.Amazing.Race.S14E05.PDTV.XviD-2HD.\[eztv\].torrent
+: 1237247021:0;rm The.Mentalist.S01E16.HDTV.XviD-XOR.\[eztv\]\ \[mininova\].torrent
+: 1237247048:0;rm -rf Quantum.Of.Solace\[2008\]DvDrip-aXXo
+: 1237298313:0;mv The.Amazing.Race.S14E05.PDTV.XviD-2HD.avi media/tv.shows/amazing.race
+: 1237298323:0;mv The.Mentalist.S01E16.HDTV.XviD-XOR.avi media/tv.shows/mentalist
+: 1237298348:0;unrar e *.ra
+: 1237298424:0;rm Brothers.and.Sisters.S03E19.HDTV.XviD-2HD.\[eztv\]\ \[mininova\].torrent
+: 1237298430:0;rm Damages.2x10.\(HDTV-FQM\)\[VTV\].torrent
+: 1237298522:0;mv Damages.S02E10.Uh.Oh.Out.Come.The.Skeletons.HDTV.XviD-FQM.\[VTV\].avi media/tv.shows/damages
+: 1237326167:0;ping www.flyvoo.com
+: 1237338252:0;rm 24.7x14.\(HDTV-LOL\)\[VTV\].torrent
+: 1237338260:0;mv 24.S07E14.HDTV.XviD-LOL.\[VTV\].avi media/tv.shows/24
+: 1237338390:0;rm Dollhouse.S01E05.HDTV.XviD-LOL.\[eztv\].torrent
+: 1237338396:0;mv Dollhouse.S01E05.HDTV.XviD-LOL.avi media/tv.shows/dollhouse
+: 1237338439:0;cd media/tv.shows/24
+: 1237338442:0;rm *r.ar
+: 1237341586:0;cd ../dollhouse
+: 1237487354:0;rm American.Idol.S08E21.HDTV.XviD-2HD.\[eztv\].torrent
+: 1237487367:0;rm CSI.New.York.S05E18.HDTV.XviD-LOL.\[eztv\].torrent
+: 1237487376:0;rm House.S05E18.720p.HDTV.X264-DIMENSION.\[eztv\]\ \[mininova\].torrent
+: 1237487382:0;rm Kyle.XY.3x10.\(HDTV-0TV\)\[VTV\].torrent
+: 1237487390:0;rm Life.2x18.\(HDTV-LOL\)\[VTV\].torrent
+: 1237487401:0;rm Lost.S05E09.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1237487575:0;mv CSI.New.York.S05E18.HDTV.XviD-LOL.avi media/tv.shows/csi.newyork
+: 1237487612:0;mv Brothers.and.Sisters.S03E19.HDTV.XviD-2HD.avi media/tv.shows/brothers.and.sisters
+: 1237487705:0;mv Kyle.XY.S03E10.HDTV.XviD-0TV.\[VTV\].avi media/tv.shows/kyle.xy
+: 1237488137:0;mv Lost.S05E09.HDTV.XviD-NoTV.avi media/tv.shows/lost
+: 1237488149:0;cd kyle.xy
+: 1237502936:0;rm Lie.to.Me.1x07.\(HDTV-LOL\)\[VTV\].torrent
+: 1237502947:0;rm American.Idol.S08E22.HDTV.XviD-2HD.\[eztv\].torrent
+: 1237503038:0;mv Lie.to.Me.S01E07.HDTV.XviD-LOL.\[VTV\].avi media/tv.shows/lie.to.me
+: 1237503077:0;cd media/tv.shows/lie.to.me
+: 1237503085:0;cd csi.newyork
+: 1237503118:0;pacman -Ss mldonkey
+: 1237503152:0;yaourt -Ss mldonkey
+: 1237503204:0;pacman -S mldonkey
+: 1237503826:0;pacman -S librsvg libx11
+: 1237503945:0;mldonkey+gui
+: 1237504131:0;mldonkey --help
+: 1237504224:0;mldonkey Americas.Next.Top.Model.S12E03.New.Yorks.Finest.PDTV.XviD-FQM.\[eztv\].torrent
+: 1237504266:0;rm House.S05E18.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1237504271:0;cd media/tv.shows/damages
+: 1237559105:0;rm Americas.Next.Top.Model.S12E03.New.Yorks.Finest.PDTV.XviD-FQM.\[eztv\].torrent
+: 1237559110:0;rm Damages.2x11.\(HDTV-0TV\)\[VTV\].torrent
+: 1237559140:0;mv American.Idol.S08E21.HDTV.XviD-2HD.avi media/tv.shows/american.idol
+: 1237559184:0;mv Damages.S02E11.HDTV.XviD-0TV.\[VTV\].avi media/tv.shows/damages
+: 1237559260:0;cd damages
+: 1237559287:0;cd life
+: 1237597808:0;cd ../american.idol
+: 1237661844:0;sudo mv amazing.race/* /media/wd2/tv.shows.series/amazing.race
+: 1237744708:0;mv /home/dingzi/Dollhouse.S01E06.HDTV.XviD-LOL.avi dollhouse
+: 1237744720:0;rm /home/dingzi/Dollhouse.S01E06.HDTV.XviD-LOL.\[eztv\].torrent
+: 1237744776:0;cd dollhouse
+: 1237830016:0;rm Smallville.S08E16.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1237830035:0;rm Supernatural.S04E16.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1237830232:0;mv Life.S02E17.HDTV.XviD-LOL.\[VTV\].avi media/tv.shows/life
+: 1237830237:0;mv Life.S02E18.HDTV.XviD-LOL.\[VTV\].avi media/tv.shows/life
+: 1237830253:0;cd ../life
+: 1237830263:0;unrar * 03_17_09_Life_S02E17_HDTV_XviD_LOL_FRM.rar
+: 1237830287:0;unrar e 03_17_09_Life_S02E17_HDTV_XviD_LOL_FRM.rar
+: 1237830293:0;unrar e Life_S02E18_HDTV.rar
+: 1237902981:0;cd ../brothers.and.sisters
+: 1237902992:0;rm Brothers.and.Sisters.S03E20.HDTV.XviD-2HD.\[eztv\].torrent
+: 1237902997:0;mv Brothers.and.Sisters.S03E20.HDTV.XviD-2HD.avi media/tv.shows/brothers.and.sisters
+: 1237903016:0;unrar e brothers_and_sisters_s03e20_hdtv_xvid_2hd_YTET_YDY.rar
+: 1237903019:0;unrar e Brothers_and_Sisters_S03E19_HDTV_XviD_2HD_YTET_YDY.rar
+: 1237936238:0;rm The.Amazing.Race.S14E06.PDTV.XviD-XOXO.\[eztv\].torrent
+: 1237936244:0;mv The.Amazing.Race.S14E06.PDTV.XviD-XOXO.avi media/tv.shows/amazing.race
+: 1237936287:0;cd media/tv.shows/amazing.race
+: 1237939186:0;rm 24.S07E15.HDTV.XviD-LOL.\[eztv\].torrent
+: 1237939191:0;mv 24.S07E15.HDTV.XviD-LOL.avi media/tv.shows/24
+: 1237939445:0;cd ../24
+: 1237939459:0;rm *.txt
+: 1237939462:0;cd ../heroes
+: 1237942068:0;mv /home/dingzi/Heroes.S03E20.HDTV.XviD-LOL.avi .
+: 1237942073:0;rm /home/dingzi/Heroes.S03E20.HDTV.XviD-LOL.\[eztv\].torrent
+: 1237988741:0;rm The.Mentalist.S01E17.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1237988748:0;mv The.Mentalist.S01E17.HDTV.XviD-NoTV.avi media/tv.shows/mentalist
+: 1237988754:0;cd ../mentalist
+: 1238024017:0;pacman -S ibus
+: 1238024223:0;yaourt -Ss ibus
+: 1238024300:0;yaourt -S ibus-pinyin
+: 1238025019:0;vi ~/.xinitrc
+: 1238025118:0;ibus-daemon
+: 1238026606:0;pacman -Ss dilo
+: 1238035374:0;pacman -Ss imap
+: 1238035410:0;pacman -S offlineimap
+: 1238038372:0;cd dingzi
+: 1238038383:0;mv Chuck.S02E17.HDTV.XviD-NoTV.avi media/tv.shows/chuck
+: 1238038439:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E19.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1238038447:0;rm Battlestar.Galactica.S04E20.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1238038468:0;mv Greys.Anatomy.*.torrent torrent
+: 1238038501:0;mv torrent/United.States.of.Tara.S01E06.XviD-aAF.\[eztv\].torrent torrent/United.States.of.Tara.S01E08.HDTV.XviD-aAF.\[eztv\].torrent .
+: 1238076594:0;rm Lost.S05E10.HDTV.XviD-XOR.\[eztv\].torrent
+: 1238076618:0;mv Lost.S05E10.HDTV.XviD-XOR.avi media/tv.shows/lost
+: 1238077210:0;cd media/tv.shows/lost
+: 1238077218:0;cd ../chuck
+: 1238077224:0;unrar e 03_25_09_Chuck_S02E17_HDTV_XviD_NoTV_PLX.rar
+: 1238077227:0;rm 03_25_09_Chuck_S02E17_HDTV_XviD_NoTV_PLX.rar
+: 1238077233:0;unrar e Chuck_S02E17_HDTV_XviD_NoTV.rar
+: 1238077240:0;rm Chuck_S02E17_HDTV_XviD_NoTV.rar
+: 1238077242:0;ls *.rar
+: 1238077245:0;ls *.zip
+: 1238119648:0;rm Americas.Next.Top.Model.S12E02.PDTV.XViD-YesTV.\[eztv\].torrent
+: 1238119713:0;mkdir -p media/tv.shows/americas.next.top.model
+: 1238119722:0;mv Americas.Next.Top.Model.S12E02.PDTV.XViD-YesTV.avi media/tv.shows/americas.next.top.model
+: 1238119731:0;mv Americas.Next.Top.Model.S12E03.New.Yorks.Finest.PDTV.XviD-FQM.avi media/tv.shows/americas.next.top.model
+: 1238119802:0;rm Life.2x19.\(HDTV-LOL\)\[VTV\].torrent
+: 1238119809:0;mv Life.S02E19.HDTV.XviD-LOL.\[VTV\].avi media/tv.shows/life
+: 1238119824:0;rm Survivor.S18E06.The.First.Fifteen.Days.HDTV.XviD-FQM.\[eztv\].torrent
+: 1238119833:0;mv Survivor.S18E06.The.First.Fifteen.Days.HDTV.XviD-FQM.avi media/tv.shows/survivor
+: 1238119924:0;mv American.Idol.S08E22.HDTV.XviD-2HD.avi media/tv.shows/american.idol
+: 1238119994:0;rm Chuck.S02E17.HDTV.XviD-NoTV*
+: 1238123768:0;cd ../survivor
+: 1238177532:0;rm American.Idol.S08E23.HDTV.XviD-2HD.\[eztv\].torrent
+: 1238177539:0;rm Americas.Next.Top.Model.S12E04.Put.Your.Best.Face.Forward.PDTV.XviD-FQM.\[eztv\].torrent
+: 1238177551:0;rm CSI.New.York.S05E19.HDTV.XviD-LOL.\[eztv\].torrent
+: 1238177676:0;mv CSI.New.York.S05E19.HDTV.XviD-LOL.avi media/tv.shows/csi.newyork
+: 1238177691:0;cd media/tv.shows/csi.newyork
+: 1238177693:0;unrar e *.rar
+: 1238177696:0;rm *.rar
+: 1238198001:0;alsamixer
+: 1238205674:0;pacman -S canto
+: 1238205910:0;pacman -Sy
+: 1238205914:0;pacman -Su
+: 1238206026:0;cd mail
+: 1238206034:0;du -sh * 
+: 1238206035:0;du
+: 1238206043:0;du -h * 
+: 1238206045:0;du -sh
+: 1238206055:0;du -sh 
+: 1238206092:0;cd inbox
+: 1238206102:0;cd imap
+: 1238206105:0;cd gmail
+: 1238206210:0;lynx
+: 1238206216:0;_links
+: 1238206641:0;ifconfig
+: 1238207495:0;cd .tmp
+: 1238207500:0;_imagemagick
+: 1238207503:0;vim
+: 1238208607:0;cd .offlineimap
+: 1238208611:0;vi Account-dingwei2u
+: 1238208620:0;vi .offlineimaprc
+: 1238209308:0;vi Xdefaults
+: 1238209368:0;yaourt -Ss rxvt
+: 1238209616:0;sudo vi /etc/autofs/auto.master
+: 1238209634:0;sudo vi /etc/autofs/auto.master.pacnew
+: 1238209709:0;yaourt -Ss tk
+: 1238209821:0;yaourt -Ss vim
+: 1238209843:0;yaourt -Ss vim | less
+: 1238209997:0;elinks
+: 1238214357:0;pacman -S vim
+: 1238218478:0;pacman -S abook
+: 1238218504:0;yaourt -S yzis
+: 1238218530:0;vi .mutt/aliases.bak
+: 1238218543:0;cp .mutt/aliases.bak .mutt/aliases
+: 1238218629:0;yaourt -S canto
+: 1238218718:0;cp Xdefaults .Xdefaults
+: 1238218779:0;pacman -S mc
+: 1238218820:0;pacman -Ss newsbeuter
+: 1238218835:0;pacman -Ss news
+: 1238218852:0;pacman -S tin
+: 1238218883:0;yaourt -Ss newsb
+: 1238218911:0;yaourt -Ss newsbeuter-git
+: 1238218922:0;yaourt -S newsbeuter-git
+: 1238218970:0;pacman -Ss dvtm
+: 1238218976:0;yaourt -Ss dvtm
+: 1238218984:0;yaourt -S dvtm
+: 1238219040:0;yaourt -S newsbeuter
+: 1238219062:0;vim .xinitrc
+: 1238219122:0;dvtm -h
+: 1238219131:0;dvtm -h 1
+: 1238219135:0;dvtm -h 2
+: 1238219162:0;yaourt -Ss links
+: 1238219225:0;yaourt -Ss msmtp
+: 1238219234:0;pacman -S msmtp
+: 1238219244:0;pacman -S links-g
+: 1238219278:0;pacman -Ss links-g
+: 1238219306:0;links-g
+: 1238219381:0;pacman -S w3m
+: 1238219706:0;fg
+: 1238219842:0;dvtm -s
+: 1238219851:0;dvtm-status
+: 1238219935:0;dvtm -m ^w
+: 1238219970:0;dvtm 
+: 1238219976:0;\
+
+: 1238219986:0;
+: 1238220141:0;cd .canto
+: 1238220147:0;cp conf.example conf
+: 1238220150:0;rm conf.example
+: 1238220152:0;vi conf
+: 1238220241:0;python
+: 1238220441:0;pacman -Ss terminator
+: 1238220466:0;pacman -S terminator
+: 1238220517:0;terminator
+: 1238220569:0;terminator --help
+: 1238220719:0;e
+: 1238220968:0;yaourt -Ss urxvt
+: 1238220992:0;vi .config
+: 1238221032:0;sudo vi /usr/share/awesome/themes/default/themes
+: 1238221038:0;sudo vi /usr/share/awesome/themes/default/theme
+: 1238221072:0;yaourt -S rxvt-unicode-256color
+: 1238221139:0;cd .config/awesome
+: 1238221148:0;mv rc.lua rc.lua.back
+: 1238221164:0;cp /etc/xdg/awesome/rc.lua .
+: 1238221167:0;ls -l
+: 1238221219:0;vi .Xresources
+: 1238221407:0;pacman -R urxvt
+: 1238221418:0;pacman -R rxvt-unicode
+: 1238221819:0;pkill X
+: 1238222145:0;cp /etc/xdg/awesome/rc.lua .config/awesome
+: 1238222165:0;vi .config/awesome/rc.lua
+: 1238222304:0;dvtm -m ^a
+: 1238222381:0;links=g
+: 1238222386:0;links -g
+: 1238222571:0;xrdb .Xresources
+: 1238222808:0;source .zsh/rc.local
+: 1238222816:0;vi /etc/rc.conf
+: 1238222843:0;sudo vi /etc/rc.conf
+: 1238222922:0;yaourt -Ss mess
+: 1238223043:0;sudo rm /var/lib/pacman/db.lck
+: 1238223046:0;pacman -S rtorrent
+: 1238223756:0;offlineimap&
+: 1238223771:0;offlineimap
+: 1238223835:0;vi .mutt/format
+: 1238265674:0;pacman -S cplay
+: 1238265711:0;yaourt -S cplay
+: 1238265832:0;cplay
+: 1238265966:0;mc
+: 1238265990:0;quit
+: 1238265994:0;2
+: 1238271753:0;mv United.States.of.Tara.S01E*.torrent torrent
+: 1238271765:0;rm Smallville.S08E17.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1238271792:0;rm American.Idol.S08E24.HDTV.XviD-2HD.\[eztv\].torrent
+: 1238271802:0;mv American.Idol.S08E2*.avi media/tv.shows/american.idol
+: 1238271822:0;mv Greys.Anatomy.S05E19.PROPER.HDTV.XviD-2HD.\[eztv\].torrent torrent
+: 1238271951:0;mv Americas.Next.Top.Model.S12E04.Put.Your.Best.Face.Forward.PDTV.XviD-FQM.avi media/tv.shows/americas.next.top.model
+: 1238276531:0;yaourt -Ss msword
+: 1238276554:0;yaourt -Ss wvhtml
+: 1238276590:0;yaourt -Ss html
+: 1238276598:0;yaourt -Ss wv
+: 1238276650:0;pacman -S wv
+: 1238276714:0;pacman -S wv2
+: 1238276743:0;dvtm
+: 1238276810:0;pacman -S gzcat
+: 1238276842:0;pacman -S gunzip
+: 1238276858:0;pacman -Ss ps2ascii
+: 1238276878:0;pacman -Ss ps2
+: 1238276888:0;yaourt  -Ss ps2
+: 1238276915:0;t
+: 1238276924:0;pwd
+: 1238286502:0;pacman -S mutt-vc-query
+: 1238286538:0;pacman -S mutt_vc_query
+: 1238286559:0;yaourt -S muttprints
+: 1238286566:0;yaourt -S muttprint
+: 1238286930:0;vi .ssh/id_rsa.pub
+: 1238287124:0;yaourt -Ss git
+: 1238287266:0;git config --global user.name "starwalk"
+: 1238287279:0;git config --global user.email "dingwei2u@gmail.com"
+: 1238287298:0;touch README
+: 1238287303:0;git add README
+: 1238287340:0;git remote add origin git@github.com:starwalk/.mutt.git
+: 1238287587:0;tar czxf .mutt muttofflineimap.tar
+: 1238287598:0;tar czxf .mutt 
+: 1238287629:0;tar -cvvf .mutt muttofflineimap
+: 1238287631:0;tar -cvvf .mutt muttofflineimap.tar
+: 1238287638:0;tar -cvvf .mutt/ muttofflineimap.tar
+: 1238287643:0;tar -cvvf .mutt/* muttofflineimap.tar
+: 1238287678:0;tar -cvvf muttofflineimap.tar ./mutt
+: 1238287680:0;tar -cvvf muttofflineimap.tar ./mutt/
+: 1238287684:0;tar -cvvf muttofflineimap.tar ./mutt/*
+: 1238287696:0;man tar
+: 1238287707:0;tar -cxvf muttofflineimap.tar ./mutt/*
+: 1238287733:0;tar -cxvf .mutt/* muttofflineimap.tar
+: 1238287738:0;tar -cvf .mutt/* muttofflineimap.tar
+: 1238287760:0;mv .mutt .muttofflineimap
+: 1238287773:0;tar xzvf mutt10192008.combined.tar
+: 1238287783:0;rm -rf cache
+: 1238287935:0;rm -rf messages
+: 1238287943:0;mkdir -p bodies
+: 1238288133:0;cd less
+: 1238288145:0;mv cache cached
+: 1238288164:0;cd ../header
+: 1238288177:0;rm -rf imaps:dingwei2u@imap.gmail.com
+: 1238288181:0;rm -rf imaps:wed3@eximap.musc.edu
+: 1238288183:0;rm c3f4c39ef631bda2e6606d92efafb65c
+: 1238288211:0;mv source sourced
+: 1238288286:0;vi caching
+: 1238288354:0;vi folders.imap
+: 1238288390:0;rm folders.imap~
+: 1238288399:0;vi mailbox
+: 1238288414:0;vi accounts
+: 1238288439:0;ls *~
+: 1238288443:0;rm accounts~
+: 1238288446:0;rm caching~
+: 1238288453:0;rm mailbox~
+: 1238288456:0;find . -name '*' | xargs grep /less/source
+: 1238288464:0;find . -name '*' | xargs grep /less/source/
+: 1238288474:0;vi .mutt
+: 1238291795:0;cd media/tv.shows/flight.of.the.conchords
+: 1238291798:0;rm *.avi
+: 1238297868:0;s
+: 1238297974:0;vi .dir_colors
+: 1238297990:0;source .dir_colors
+: 1238298005:0;man dircolor
+: 1238298011:0;man color
+: 1238298018:0;yaourt -Ss dircolor
+: 1238298072:0;yaourt -Ss dir_color
+: 1238298105:0;man dir_color
+: 1238298111:0;dircolors
+: 1238298120:0;man dircolors
+: 1238298148:0;yaourt -Ss dircolors
+: 1238298275:0;j
+: 1238298532:0;yaourt -R mutt
+: 1238298657:0;w3m
+: 1238298663:0;w3m www.google.com
+: 1238298736:0;w3m wiki.archlinux.org
+: 1238298851:0;yaourt -Ss urlviews
+: 1238298881:0;yaourt -Ss urlview
+: 1238298906:0;cd bodies
+: 1238298912:0;cd ../headers
+: 1238298925:0;yaourt -S urlview
+: 1238299006:0;vi .msmtprc
+: 1238299433:0;find . -name '*' | xargs grep gpg
+: 1238299713:0;gpg
+: 1238299723:0;vi .gnupg
+: 1238299786:0;man gpg
+: 1238300232:0;vi .gnupg/gpg.conf
+: 1238300318:0;sudo gpg --gen-key
+: 1238300556:0;sudo gpg --gen-revoke  Wei Ding <dingwei2u@gmail.com>
+: 1238300564:0;sudo gpg --gen-revoke  "Wei Ding <dingwei2u@gmail.com>"
+: 1238300605:0;sudo host -l pgp.net | grep www|less
+: 1238300611:0;sudo host -l pgp.net 
+: 1238300619:0;host -l pgp.net
+: 1238300625:0;xhost
+: 1238300636:0;yaourt -Ss host
+: 1238300694:0;gpg --list-keys "Wei Ding<dingwei2u@gmail.com>"
+: 1238300707:0;vi .gnupg/pubring.gpg
+: 1238300717:0;vi .gnupg/secring.gpg
+: 1238300723:0;su
+: 1238300825:0;gpg --gen-key
+: 1238300929:0;cd .gnupg
+: 1238300931:0;vi trustdb.gpg
+: 1238300957:0;ll
+: 1238300974:0;gpg --armor --export BA56DDDA > 201.key
+: 1238301009:0;vi pubring.gpg
+: 1238301031:0;sudo chown -R dingzi:wheel *
+: 1238301034:0;ls -ls
+: 1238301037:0;gpg -kv
+: 1238301049:0;gpg --import 201.key
+: 1238301132:0;rm 201.key
+: 1238301134:0;gpg --armor --export 5BCF55CC > 201.key
+: 1238301136:0;vi 201.key
+: 1238301161:0;mv 201.key dingwei2u.key
+: 1238301280:0;find . -name '*' | xargs grep trash
+: 1238301444:0;yaourt -Ss mutt
+: 1238301676:0;vi noname
+: 1238301888:0;find . -name '*' | xargs grep smtp
+: 1238301936:0;cd ../../public
+: 1238301940:0;cd signatures
+: 1238301943:0;cd ../ls
+: 1238301989:0;yaourt -Ss newsfetch
+: 1238302375:0;pacman -Ss newsfetch
+: 1238339735:0;source /etc/Muttrc.gpg.dist
+: 1238339746:0;vi /etc/Muttrc.gpg.dist
+: 1238340176:0;vi composing
+: 1238340342:0;vi autoview
+: 1238340364:0;vi bindings
+: 1238340666:0;rm Supernatural.S04E17.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1238340677:0;rm BBC.Yellowstone.1of3.Winter.XviD.AC3.\[MVGroup.org\].torrent
+: 1238340685:0;rm BBC.Yellowstone.2of3.Summer.XviD.AC3.\[MVGroup.org\].torrent
+: 1238340798:0;cd media/tv.shows/american.idol
+: 1238340804:0;rm American.Idol.S08E24.HDTV.XviD-2HD.avi
+: 1238340906:0;vi fcc-hooks
+: 1238340940:0;vi folder-hooks.maildir
+: 1238340958:0;vi headers
+: 1238340979:0;vi lists
+: 1238341033:0;vi send-hooks
+: 1238341164:0;vi save-hooks
+: 1238341212:0;yaourt -Ss lddb
+: 1238341287:0;yaourt -Ss lbdb
+: 1238341322:0;yaourt -S lbdb
+: 1238341625:0;rm -rf Drafts
+: 1238341643:0;cd repository
+: 1238341821:0;vi muttrc2html
+: 1238341846:0;ls ls
+: 1238341852:0;ls | grep .
+: 1238341862:0;ls .*
+: 1238341881:0;ls .* | grep .*
+: 1238341883:0;ls .* | grep .
+: 1238341890:0;ls 
+: 1238341953:0;cp configtotar.sh
+: 1238341966:0;cp configbacktotar.sh configtotar.sh
+: 1238343120:0;ls ls .vimrc
+: 1238343123:0;ls -ls .vimrc
+: 1238343139:0;chmod -x .vimrc
+: 1238343141:0;ls .vimrc
+: 1238343548:0;cd .opera.back
+: 1238343652:0;d .opera
+: 1238343677:0;cd .opera
+: 1238343702:0;cd ../../.opera.back.2008.6.18
+: 1238343704:0;cd cache4
+: 1238343985:0;ls .
+: 1238344054:0;vi .rxvt-unicode-hp533
+: 1238344062:0;vi .rxvt-unicode-hp533w
+: 1238344214:0;vi .swp 
+: 1238344474:0;vi configbacktotar.sh
+: 1238344482:0;vi configsync.sh
+: 1238344653:0;du -h .*
+: 1238344911:0;sudo chown -R dingzi:wheel .kde4
+: 1238344914:0;du -h .* | sort -n
+: 1238344920:0;.rxvt-unicode-hp533= 
+: 1238344920:0;.rxvt-unicode-hp533w=
+: 1238345068:0;vi .bittorrent
+: 1238345247:0;pacman -S streamtuner
+: 1238345279:0;cd .mldonkey
+: 1238345291:0;cd web_infos
+: 1238345298:0;~/
+: 1238345462:0;cd .streamtuner
+: 1238345481:0;cd cache
+: 1238345482:0;rm -rf *
+: 1238351263:0;du -sh *.mkv
+: 1238351278:0;sudo cd /media/wd2
+: 1238351286:0;cd /media/wd2
+: 1238351307:0;cd /home/dingzi/media/tv.shows
+: 1238351380:0;sudo mv united.states.of.tara/ /media/wd2/tv.shows.series
+: 1238351394:0;ls *.mkv
+: 1238351408:0;cd media/tv.shows
+: 1238351429:0;du -h
+: 1238351441:0;du -sh * | sort -n
+: 1238351532:0;man rtorrent
+: 1238351541:0;du -h .* | sort -nk
+: 1238351679:0;cd media
+: 1238351681:0;du -sh *
+: 1238351685:0;cd bbc
+: 1238351687:0;cd 01
+: 1238351696:0;cd 02
+: 1238351708:0;rm -rf 01
+: 1238351712:0;rm -rf bbc
+: 1238351747:0;rm Smallville.S08E17.720p.HDTV.x264-CTU.mkv
+: 1238351789:0;pacman -S raggle
+: 1238351825:0;cd ~?
+: 1238351837:0;cd .bittorrent
+: 1238351841:0;cd data
+: 1238351844:0;cd torrents
+: 1238351853:0;cd incomplete
+: 1238351867:0;rm -rf .bittorrent
+: 1238351921:0;du -sh .*
+: 1238351948:0;rm .liferea_1.2
+: 1238351952:0;rm -rf .liferea_1.2
+: 1238351954:0;rm -rf .liferea_1.4
+: 1238351956:0;du -sh .* | sort -n
+: 1238352107:0;cd doc
+: 1238352125:0;cd ./doc
+: 1238352160:0;vi rc.lua
+: 1238352252:0;raggle
+: 1238352641:0;vi .zshrc
+: 1238352668:0;pacman -Syu
+: 1238352721:0;du -sh rcbackup.tar
+: 1238356004:0;mv rtorrent.rc .rtorrent.rc
+: 1238364329:0;dfhj
+: 1238366424:0;du -h rcbackup.tar
+: 1238366994:0;mv Dollhouse.S01E07.HDTV.XviD-0TV.avi media/tv.shows/dollhouse
+: 1238367001:0;rm Dollhouse.S01E07.HDTV.XviD-0TV.\[eztv\].torrent
+: 1238367345:0;pacman -Ss screen
+: 1238367379:0;pacman -S xscreensaver
+: 1238367495:0;vi test.txt
+: 1238367521:0;vim test.txt
+: 1238367995:0;    20 ibus-daemon &   export GTK_IM_MODULE=ibus
+: 1238367995:0;    18 export XMODIFIERS=@im=ibus
+: 1238367995:0;    19 export QT_IM_MODULE=ibus
+: 1238368004:0;export GTK_IM_MODULE=ibus
+: 1238368005:0;export XMODIFIERS=@im=ibus
+: 1238368005:0;export QT_IM_MODULE=ibus
+: 1238368019:0;ibus-daemon &
+: 1238368049:0;âƒ§§\
+
+: 1238368193:0;pkill xcompmgr
+: 1238368203:0;xcompmgr -Ss -n -Cc -fF -I-10 -O-10 -D1 -t-3 -l-4 -r4
+: 1238368220:0;xcompmgr -Ss -n -Cc -fF -I-10 -O-10 -D1 -t-3 -l-4 -r4 &
+: 1238368862:0;source .inputrc
+: 1238368882:0;		jlafdj
+: 1238369276:0;firefox
+: 1238369953:0;export XMODIFIERS="@im=ibus"
+: 1238369953:0;export GTK_IM_MODULE="ibus"
+: 1238369954:0;export QT_IM_MODULE="xim"
+: 1238369954:0;ibus-daemon --xim &
+: 1238370016:0;ä½ƒ€å¥½åƒ°ƒ·ä»ƒªå¤©æ€ƒ®
+: 1238370916:0;find . -name '*' | xargs grep spoolfile
+: 1238370931:0;vi display
+: 1238370936:0;vi spam
+: 1238380478:0;pkill ibus-daemon
+: 1238380505:0;pkill xterm
+: 1238380939:0;:q
+: 1238380945:0;screen -L
+: 1238380962:0;screen -r 6795.pts-3.hp533
+: 1238381127:0;vim .mutt/more/sourced/identity
+: 1238381252:0;vi README
+: 1238381327:0;.zsh
+: 1238381447:0;find . -name '*' | xargs grep NOBGNICE
+: 1238381454:0;find . -name '*' | xargs grep BGNICE
+: 1238381462:0;find . -name '*' | xargs grep HUP
+: 1238381500:0;find . -name '*' | xargs grep bindkey
+: 1238381566:0;run-help ljlasfjdljdfla1
+: 1238381573:0;run-help man
+: 1238381714:0;run-help asfdasdfasfdasfdafd
+: 1238381883:0;vi rc/zle.rc
+: 1238381979:0;vi ../.vimrc
+: 1238382032:0;vim LargeFile.vba.gz
+: 1238382540:0;vi
+: 1238383918:0;vi .rtorrent.rc
+: 1238388524:0;screen 
+: 1238389150:0;rm BBC.Yellowstone.3of3.Autumn.XviD.AC3.\[MVGroup.org\].torrent
+: 1238389505:0;vi 
+: 1238389526:0;rm .vimrc.back
+: 1238391219:0;ex
+: 1238391310:0;pkill urxvtc
+: 1238391312:0;pkill urxvt
+: 1238391363:0;screen -R 6795
+: 1238392018:0;screen -r
+: 1238392055:0;rm rcbackup.tar
+: 1238392493:0;mutt -y
+: 1238392528:0;jjjkkk
+: 1238392562:0;lkk
+: 1238392770:0;adsfadsfasfasfasfasfasf
+: 1238392780:0;adsfadsfadsfadsfdasfadsffdsaadfsad
+: 1238393016:0;find . -name '*' | xargs grep 'mutt -y'
+: 1238393023:0;find . -name '*' | xargs grep '-y'
+: 1238393106:0;find . -name '*' | xargs grep 'mailboxes'
+: 1238393117:0;vi mailboxes.non-imap
+: 1238393356:0;vi .mutt/more/sourced/display
+: 1238393583:0;vi .mutt/more/sourced
+: 1238394427:0;vi .mutt/more/sourced/
+: 1238394658:0;vi mailboxes\~
+: 1238395931:0;vi folder-hooks
+: 1238396063:0;mkdir -p .session
+: 1238396087:0;rm -rf .session
+: 1238396098:0;mkdir -p ./session/
+: 1238417201:0;yaourt -S mutt
+: 1238417373:0;yaourt -R mutt-trash-nntp
+: 1238417384:0;yaourt -R mutt-utils
+: 1238417585:0;canto -u
+: 1238417865:0;vi .newsbeuter/urls
+: 1238418535:0;y
+: 1238419573:0;passwd
+: 1238420240:0;yaourt -R mutt-sidebar
+: 1238420246:0;pacman -S mutt
+: 1238420848:0;pacman -R mutt
+: 1238421168:0;vi sourced/identity
+: 1238421202:0;yaourt -S mutt-sidebar
+: 1238422240:0;m
+: 1238422379:0;pacman -R mutt-sidebar
+: 1238422394:0;yaourt -S mutt-trash-nntp
+: 1238423417:0;xrdb ~/.Xdefaults
+: 1238423426:0;vi .xinitrc
+: 1238423473:0;yaourt -Ss unifont
+: 1238423779:0;cd ~/.vim
+: 1238423796:0;wget http://micampe.it/files/tango.vim
+: 1238424073:0;clear
+: 1238424312:0;pacman -S finch
+: 1238424342:0;pacman -Ss bitlbee
+: 1238424358:0;pacman -S bitlbee
+: 1238424473:0;sudo bitlbee
+: 1238424505:0;ls /var/lib/bitlbee
+: 1238424510:0;sudo ls /var/lib/bitlbee
+: 1238424515:0;sudo ls -ls/var/lib/bitlbee
+: 1238424518:0;sudo ls -ls /var/lib/bitlbee
+: 1238424522:0;sudo ls -ls /var/lib/
+: 1238424544:0;sudo vi /etc/group
+: 1238424573:0;source /etc/group
+: 1238424603:0;groups
+: 1238424615:0;sudo groupmod
+: 1238424634:0;sudo usermod
+: 1238424678:0;sudo groupmod -g dingzi
+: 1238424685:0;sudo groupmod -g bitlbee
+: 1238424698:0;sudo usermod -g bitlbee
+: 1238424703:0;sudo usermod -g dingzi
+: 1238424710:0;sudo usermod -g 
+: 1238424737:0;bitlbee
+: 1238424747:0;yaourt -Ss catdoc
+: 1238424772:0;pacman -S catdoc
+: 1238424828:0;yaourt -Ss when
+: 1238424855:0;pacman -S when
+: 1238424869:0;pacman -S pal
+: 1238424876:0;when
+: 1238424889:0;vi ~/.when
+: 1238424901:0;rm ~/.when
+: 1238424909:0;mkdir -p ~/.when
+: 1238424953:0;pal
+: 1238425023:0;vi ~/configtotar.sh
+: 1238425145:0;pacman -Ss pdftotext
+: 1238425161:0;pacman -S xpdf
+: 1238425166:0;pacman -S xpdf-chinese
+: 1238425244:0;yaourt -Ss xpdf
+: 1238425284:0;pacman -S xpdf-chinese-simplified
+: 1238425376:0;vi /etc/mailcap.muttutilssample
+: 1238425466:0;yaourt -S mutt-utils
+: 1238425717:0;pacman -S xanim
+: 1238425798:0;yaourt -Ss xanim
+: 1238425833:0;yaourt -S xanim
+: 1238426097:0;-------------------------------------------
+: 1238426138:0;vi .aurvote
+: 1238427862:0;   q
+: 1238428222:0;yaourt -Ss vifm
+: 1238428259:0;yaourt -S vifm
+: 1238428369:0;pacman -Ss fbi
+: 1238428389:0;pacman -S fbi
+: 1238428447:0;pacman -S fbida
+: 1238428485:0;fbi
+: 1238428494:0;pacman -S zgv
+: 1238428540:0;pacman -S htop
+: 1238428661:0;pacman -S rdup
+: 1238428679:0;yaourt -Ss rdup
+: 1238428702:0;yaourt -S rdup
+: 1238428860:0;rdup
+: 1238428918:0;rdup .mutt
+: 1238428939:0;rdup -h
+: 1238428976:0;rdup FILELIST
+: 1238429015:0;rdup .
+: 1238429019:0;rdup . -N
+: 1238429023:0;rdup . N
+: 1238429030:0;rdup . /home/di
+: 1238429035:0;rdup . /home/dingzi
+: 1238429052:0;vi .
+: 1238429068:0;rdup backupfile /home/dingzi
+: 1238429103:0;rdup back.list /home/dingzi
+: 1238429143:0;df -h
+: 1238429903:0;vi .mutt/more/sourced/macros
+: 1238430015:0;vi .mutt/more/sourced/folder-hooks
+: 1238430459:0;vi .mutt/more/sourced/identity
+: 1238430852:0;vi .mailcap
+: 1238431195:0;vi .mutt/more/sourced/send-hooks
+: 1238431224:0;vi .mutt/more/muttrc
+: 1238431258:0;man mutt
+: 1238431376:0;find . -name '*' | xrags bind
+: 1238431379:0;find . -name '*' | xargs bind
+: 1238431389:0;find . -name '*' | xargs grep  bind
+: 1238431474:0;vi ../muttrc
+: 1238431695:0;vi functions/_mutt 
+: 1238431769:0;cd functions
+: 1238431777:0;rm _mutt
+: 1238431861:0;cd .mutt/more/sourced
+: 1238431945:0;bash
+: 1238431960:0;cd ~/.zsh
+: 1238431975:0;find . -name '*' | xrags grep mutt
+: 1238431981:0;find . -name '*' | xargs grep mutt
+: 1238432010:0;svn update .zsh
+: 1238432038:0;vi rc
+: 1238432175:0;cd .zsh
+: 1238432177:0;vi rc.local
+: 1238432198:0;cd rc
+: 1238432200:0;vi alias.rc
+: 1238432328:0;c
+: 1238432332:0;qmutt
+: 1238432862:0;vi .mutt/more/sourced/mailboxes
+: 1238432970:0;cd .mutt/more
+: 1238432972:0;cd cached
+: 1238432974:0;cd headers
+: 1238433002:0;rm -rf imaps:dingwei2u@gmail.com@imap.gmail.com
+: 1238433008:0;cd ../sourced
+: 1238433039:0;find . -name '*' | xargs grep dingwei2u@gmail
+: 1238433460:0;cd more
+: 1238433462:0;cd sourced
+: 1238433630:0;vi .muttrc
+: 1238433966:0;vi ~/.muttrc
+: 1238434033:0;vi identity
+: 1238434047:0;vi mailboxes
+: 1238434158:0;ls *.avi
+: 1238434166:0;rm American.Idol.S08E24.RERIP.HDTV.XviD-2HD.\[eztv\].torrent
+: 1238434170:0;rm Damages.2x12.\(HDTV-FQM\)\[VTV\].torrent
+: 1238434174:0;rm Primeval.S03E01.WS.PDTV.XviD-RiVER.\[eztv\].torrent
+: 1238434186:0;rm Smallville.S08E17.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1238434190:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E20.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1238434200:0;mv United.States.of.Tara.S01E11.HDTV.XviD-SYS.\[eztv\].torrent torrent
+: 1238434203:0;ls *.torrent
+: 1238434208:0;mv 30.Rock.S03E15.HDTV.XviD-LOL.\[eztv\].torrent torrent
+: 1238434266:0;screen -R
+: 1238435246:0;sudo reboot
+: 1238435425:0;vi .canto/conf
+: 1238435502:0;htop
+: 1238435513:0;startx
+: 1238435541:0;newsbeuter
+: 1238435757:0;cd .mutt
+: 1238435760:0;cd more/sourced
+: 1238435765:0;vi gpg
+: 1238436161:0;vi muttrc
+: 1238436164:0;vim ~/.vimrc
+: 1238436532:0;top
+: 1238436707:0;./configtotar.sh
+: 1238436987:0;cp configtotar.sh configtotar
+: 1238437045:0;pacman -S lftp
+: 1238437088:0;lftp -u wei flyvoo.com
+: 1238438009:0;sudo vi /etc/conf.d/autofs
+: 1238438025:0;sudo vi /etc/autofs/auto.misc
+: 1238438074:0;sudo vi /etc/autofs/auto.media
+: 1238438111:0;sudo /etc/rc.d/autofs restart
+: 1238438128:0;cd /media
+: 1238438130:0;cd usbstick
+: 1238438140:0;cp /home/dingzi/rcbackup.tar .
+: 1238470933:0;canto
+: 1238471026:0;rtorrent
+: 1238472534:0;yaourt Ss ebay
+: 1238472733:0;yaourt -Ss sh
+: 1238472738:0;yaourt -Ss ssh
+: 1238472885:0;vifm
+: 1238472987:0;vi rcbackup.tar
+: 1238473046:0;vi .zsh/rc.local
+: 1238473703:0;vi configtotar
+: 1238473707:0;vi configtotar.sh
+: 1238473791:0;git
+: 1238473795:0;git init
+: 1238474294:0;lsvi config
+: 1238474305:0;ssh-keygen config
+: 1238474367:0;ssh-keygen -F
+: 1238474504:0;ssh-keygen -F github.com
+: 1238474568:0;vi id_rsa.pub
+: 1238474635:0;git config --global github.user starwalk
+: 1238474645:0;git config --global github.token a696007fcd9a211e4494b8baa27d8a93
+: 1238474649:0;ssh github.com
+: 1238474689:0;git config --global user.name "Wei Ding"
+: 1238474697:0;  git config --global user.email dingwei2u@gmail.com
+: 1238474750:0;git add .vimrc
+: 1238474755:0;  git commit -m 'first commit'
+: 1238474766:0;  git remote add origin git@github.com:starwalk/.config.git
+: 1238474802:0;git remote add origin git@github.com:starwalk/config.git
+: 1238474814:0;  git push origin master
+: 1238474870:0;git clone git@github.com:starwalk/config.git  
+: 1238474982:0;cp -rf ~/.zsh 
+: 1238475019:0;vi ~/.zsh/rc.local
+: 1238475056:0;source ~/.zsh/rc.local
+: 1238475081:0;cd config
+: 1238475085:0;cp ~/.zsh .
+: 1238475089:0;cp -rf ~/.zsh .
+: 1238475198:0;git commit -a
+: 1238475242:0;git commit
+: 1238475288:0;vi .git/HEAD
+: 1238475459:0;git add .zsh
+: 1238475462:0;git commit -m 'hp533'
+: 1238475507:0;git push
+: 1238475659:0;man ssh-keygen
+: 1238475857:0;ssh-add github.com
+: 1238508611:0;yaourt -Ss openssh
+: 1238508751:0;vi .ssh/config
+: 1238508970:0;vi known_hosts
+: 1238509034:0;cd .ssh
+: 1238510042:0;vi agent
+: 1238510525:0;ssh flyvoo
+: 1238510529:0;ssh flyvoo.com
+: 1238510594:0;vi config
+: 1238510662:0;vi ~/.Xdefaults
+: 1238510703:0;vi id_rsa
+: 1238510718:0;ssh-keygen
+: 1238510751:0;cd ~/
+: 1238510771:0;find . -name '*' | xargs grep '256color-bce'
+: 1238510838:0;find . -name '.*' | xargs grep '256color-bce'
+: 1238510850:0;find .* -name '*' | xargs grep '256color-bce'
+: 1238510863:0;find ~/.* -name '*' | xargs grep '256color-bce'
+: 1238510881:0;cd .scripts
+: 1238510884:0;cd ..
+: 1238511498:0;cd config/.vim
+: 1238511633:0;af
+: 1238511640:0;echo $ter
+: 1238511642:0;echo $term
+: 1238511714:0;cat $TERM
+: 1238512653:0;ssh flyvooguo
+: 1238512684:0;echo $TERM
+: 1238513322:0;vi .inputrc
+: 1238513547:0;xrdb .Xdefaults
+: 1238513609:0;yaourt -Ss rxvt-unicode-256color
+: 1238513630:0;yaourt -Ss rxvt-unicode
+: 1238513687:0;yaourt -Syu
+: 1238513771:0;echo $SHELL
+: 1238513777:0;vi .screenrc
+: 1238514485:0;screen
+: 1238514849:0;shopt
+: 1238514864:0;man zsh
+: 1238514931:0;export PS1="\u@\h:\W`if [ $? = 0 ]; then echo -e '\[\e[01;32m\] #'; else echo -e '\[\e[01;31m\] #'; fi` \[\e[0m\]"
+: 1238514970:0;mutt
+: 1238515042:0;export PS1='\u@\h:\W\[\033[01;32m\] # \[\033[0m\]' 
+: 1238515199:0;mv desert256.vim .vim/colors
+: 1238515401:0;vi .Xdefaults
+: 1238515413:0;vim .Xdefaults
+: 1238515527:0;mv pyte.vim .vim/colors
+: 1238516694:0;unzip dw_colors.zip
+: 1238516716:0;rm *.zip
+: 1238516721:0;cd plugin
+: 1238516742:0;rm -rf plugin
+: 1238516746:0;rm -rf colors
+: 1238516761:0;unzip ColorSamplerPack.zip
+: 1238516768:0;rm ColorSamplerPack.zip
+: 1238516968:0;vi ~/.screenrc
+: 1238517004:0;$TERM
+: 1238517255:0;mv ~/xterm16-2.43.tbz2 .
+: 1238517260:0;tar xzvf xterm16-2.43.tbz2
+: 1238517268:0;tar xvf xterm16-2.43.tbz2
+: 1238517285:0;cd xterm16-2.43
+: 1238517291:0;mv xterm16.vim ../
+: 1238517313:0;vi xterm16.txt
+: 1238517333:0;$VIMRUNTIME
+: 1238517342:0;mv * ../
+: 1238517356:0;rm -rf xterm16-2.43
+: 1238517363:0;rm xterm16-2.43.tbz2
+: 1238517368:0;rm ChangeLog
+: 1238517375:0;rm xterm16.txt
+: 1238517914:0;vi multisearch/scripts/queryViaweb.py
+: 1238518130:0;tar xzvf splaice-mydotfile-01935fd1a13ead5711aebd4b766199685501934d.tar.gz
+: 1238518134:0;cd splaice-mydotfile-01935fd1a13ead5711aebd4b766199685501934d
+: 1238518137:0;cd work
+: 1238518159:0;cp desert256-transparent.vim ~/.vim/colors
+: 1238518558:0;cd ../
+: 1238518569:0;vi .profile
+: 1238518884:0;rm .vimrc.swp
+: 1238518994:0;vi .vim/colors/splaice-mydotfile-01935fd1a13ead5711aebd4b766199685501934d/.vimrc
+: 1238519011:0;vi .vim/colors/splaice-mydotfile-01935fd1a13ead5711aebd4b766199685501934d/work/.vimrc
+: 1238519312:0;cd .vim/colors
+: 1238519318:0;rm -rf splaice-mydotfile-01935fd1a13ead5711aebd4b766199685501934d
+: 1238519322:0;rm splaice-mydotfile-01935fd1a13ead5711aebd4b766199685501934d.tar.gz
+: 1238519336:0;vi .vimrc
+: 1238519760:0;cd .vim
+: 1238519764:0;cd colors
+: 1238519769:0;vi cpalette.pl
+: 1238519784:0;rm cpalette.pl
+: 1238519793:0;vi xterm16.ct
+: 1238519811:0;vi xterm16.schema
+: 1238519828:0;rm xterm16.ct
+: 1238519831:0;rm xterm16.schema
+: 1238519837:0;vi xterm16.vim
+: 1238519947:0;cd ../plugin
+: 1238519948:0;ls
+: 1238519984:0;find . -name '*.vim' xargs grep 'colors'
+: 1238519997:0;find . -name '*' xargs grep 'colors'
+: 1238520003:0;find . -name '*' | xargs grep 'colors'
+: 1238520019:0;vi leo.vim
+: 1238520033:0;mv leo.vim ../colors
+: 1238520039:0;vi ~/.vimrc
+: 1238520059:0;exit
+: 1238520218:0;cd ~/
+: 1238520225:0;git add .vimrc
+: 1238520229:0;git push
+: 1238520248:0;vi .ssh/id_rsa.pub
+: 1238520386:0;hostname
+: 1238520394:0;vi /etc/hosts
+: 1238520407:0;vi /etc/rc.conf
+: 1238520445:0;vi .ssh/id_rsa.pub
+: 1238520508:0;cat .ssh/id_rsa.pub
+: 1238520548:0;git push
+: 1238520565:0;vi .ssh/config
+: 1238520607:0;ssh github.com
+: 1238520618:0;s
+: 1238520620:0;cd .ssh
+: 1238520621:0;ls
+: 1238520647:0;cp id_rsa.pub id_rsa.git.idot
+: 1238520652:0;vi config
+: 1238520662:0;ssh github.com
+: 1238520675:0;vi id_rsa
+: 1238520687:0;vi config
+: 1238520698:0;ssh github.com
+: 1238520724:0;cat .ssh/id_rsa.pub
+: 1238520731:0;cat id_rsa.pub
+: 1238520753:0;ssh github.com
+: 1238520788:0;rm id_rsa.git.idot
+: 1238520817:0;ssh-keygen -t rsa
+: 1238520842:0;ssh-agent
+: 1238520876:0;cat id_rsa.pub | xclip
+: 1238520880:0;cat id_rsa.pub | xclipboard
+: 1238520901:0;yaourt -S xclip
+: 1238520907:0;yaourt -Ss xclip
+: 1238520942:0;pacman -S xclip
+: 1238520957:0;cat id_rsa.pub | xclip
+: 1238521038:0;cat id_rsa.pub 
+: 1238521060:0;ssh github
+: 1238521064:0;ssh github.com
+: 1238521078:0;sudo vi /etc/hosts
+: 1238521145:0;cd ../
+: 1238521149:0;vi .gitconfig
+: 1238521170:0;vi .git/config
+: 1238521196:0;ssh github.com
+: 1238521206:0;git push
+: 1238521236:0;vi .vimrc
+: 1238521299:0;cat .ssh/id_rsa.pub
+: 1238521313:0;vi .ssh/id_rsa
+: 1238521326:0;ssh flyvooguo
+: 1238521347:0;ssh github.com
+: 1238521368:0;vi .git
+: 1238521399:0;rm -rf .git
+: 1238521404:0;ls
+: 1238521543:0;cd config
+: 1238521543:0;ls
+: 1238521551:0;ls -ls .*
+: 1238522165:0;  git config --global user.name "Wei Ding"
+: 1238522172:0;  git config --global user.email dingwei2u@gmail.com
+: 1238522226:0;git config --global github.user starwalk
+: 1238522231:0;git config --global github.token a696007fcd9a211e4494b8baa27d8a93
+: 1238522246:0;git init
+: 1238522256:0;vi .git
+: 1238522267:0;cd ../
+: 1238522276:0;git init
+: 1238522285:0;rm -rf config
+: 1238522295:0;git add .zsh

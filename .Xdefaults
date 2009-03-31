@@ -1,0 +1,133 @@
+!------------------!
+!       XFT        !
+!------------------!
+Xft.dpi:        96
+Xft.antialias:    true
+Xft.hinting:      true
+Xft.hintstyle:    0 
+
+!------------------!
+!   URvxt Stuff    !
+!------------------!
+!--[term name]--!
+URxvt.termName: rxvt-256color
+!URxvt.termName: rxvt-unicode
+
+URxvt.title: URxvt
+URxvt.buffered: true
+!--[trans and fg/bg]--!
+URxvt.depth: 32
+URxvt.borderLess: false 
+URxvt.transparent: false
+URxvt.background: rgba:0000/0000/0000/8000
+!URxvt.background:[80]black
+URxvt.foreground: #ffffff
+!--[scrolling]--! 
+URxvt.scrollBar: false
+URxvt.saveLines: 10000
+!--[cursor]--!
+URxvt.cursorBlink: true
+!--[font]--! 
+!--[italicFont and boldItalicFont undefined]--!
+!URxvt.font:-*-fixed-medium-r-*-*-15-*-*-*-*-*-*-*,\
+!xft:wenquanyi bitmap song:medium:pixelsize=15:antialias=False
+!URxvt.boldFont:-*-fixed-bold-r-*-*-15-*-*-*-*-*-*-*,\
+!xft:wenquanyi bitmap song:bold:pixelsize=15:antialias=False
+URxvt.font: xft:Terminus:pixelsize=20:antialias=false,\
+xft:wenquanyi bitmap song:medium:pixelsize=16:antialias=False
+!-wenquanyi-wenquanyi bitmap song-medium-r-normal--13-130-75-75-p-80-iso10646-1
+URxvt.boldFont: xft:Terminus:bold:pixelsize=20:antialias=false,\
+xft:wenquanyi bitmap song:bold:pixelsize=16:antialias=False
+!-wenquanyi-wenquanyi bitmap song-medium-r-normal--13-130-75-75-p-80-iso10646-1
+!--[Colours]--!
+URxvt.cursorColor: Green
+URxvt.underlineColor: yellow
+!--[URL]--!
+URxvt.urlLauncher: links -g
+URxvt.matcher.button: 1
+!--[tabs]--! 
+URxvt.perl-ext-common: default,tabbed,matcher
+!--[Input]--!
+URxvt.preeditType:Root
+!URxvt.preeditType: OverTheSpot
+!URxvt.inputMethod: ibus 
+!URxvt.imFont: xft:simhei:pixelsize=16:encoding=iso10646-1  
+!!Yellow (orange)
+*color3:         rgb:ff/7e/00
+*color11:        rgb:fa/d4/3d
+!redefine color to use tango theme in vim
+!Black
+!URxvt.color0:           #000000
+!URxvt.color8:           #555753
+!Red
+!URxvt.color1:           #CC0000
+!URxvt.color9:           #EF2929
+!Green
+!URxvt.color2:           #4E9A06
+!URxvt.color10:          #8AE234
+!Yellow
+!URxvt.color3:           #C4A000
+!URxvt.color11:          #FCE94F
+!Blue
+!URxvt.color4:           #3465A4
+!URxvt.color12:          #729FCF
+!Magenta
+!URxvt.color5:           #75507B
+!URxvt.color13:          #AD7FA8
+!Cyan
+!URxvt.color6:           rgb:06/98/9a
+!URxvt.color14:          #34E2E2
+!White
+!URxvt.color7:           #D3D7CF
+!URxvt.color15:          #EEEEEC
+
+!------------------!
+!   Xterm Stuff    !
+!------------------!
+
+XTerm*highlightColor:           LightSkyBlue
+XTerm*cursorColor:              MediumBlue
+XTerm*pointerColor:             MediumBlue
+XTerm*internalBorder:           3
+XTerm*scrollBar:                true
+XTerm*rightScrollBar:           true
+XTerm*loginShell:               true
+XTerm*geometry:                 85x23
+XTerm*saveLines:                5000
+XTerm*charClass:                33:48,35:48,37:48,43:48,45-47:48,64:48,95:48,126:48,35:48,58:48
+XTerm*scrollTtyOutput:      false
+XTerm*scrollKey:            true
+XTerm*eightBitInput:   false
+XTerm*metaSendsEscape: true
+!same with attribute "underlined", changed them to be colored (green) ,too. 
+XTerm*underLine:                true
+XTerm*colorUL:                  #1FA638
+XTerm*colorULMode:              true
+!If you don´t want to show up Bold characters as bold (what makes it difficult to read), then add: 
+XTerm*boldColors:               false
+XTerm*boldMode:                 false
+XTerm*colorBD:                  MediumBlue
+XTerm*colorBDMode:              true
+!
+XTerm*jumpScroll:               true
+XTerm*multiScroll:              true
+!# Scrolling on wheel mouse: 4 Lines normally, half a page with shift
+      XTerm.vt100.translations: #override\n\
+!      <Btn4Down>,<Btn4Up>:scroll-back(1,line)\n\
+!      <Btn5Down>,<Btn5Up>:scroll-forw(1,line)\n\
+      Ctrl<Btn4Down>,<Btn4Up>:scroll-back(1,page)\n\
+      Ctrl<Btn5Down>,<Btn5Up>:scroll-forw(1,page)\n\
+Shift<Btn4Down>,<Btn4Up>:scroll-back(1,halfpage)\n\
+Shift<Btn5Down>,<Btn5Up>:scroll-forw(1,halfpage)\n\
+None<Btn4Down>,<Btn4Up>:scroll-one-line-down()scroll-one-line-down()scroll-one-line-down()scroll-one-line-down()scroll-one-line-down()\n\
+None<Btn5Down>,<Btn5Up>:scroll-one-line-up()scroll-one-line-up()scroll-one-line-up()scroll-one-line-up()scroll-one-line-up()\n\     
+
+
+!# In the scrollbar we map buttons 5 & 4 to 1 and 2 otherwise, core dump
+!# This will move proportionnaly to cursor position but we dont know how to
+!# program the same exact behavior as in the text widget.
+      XTerm.vt100.Scrollbar.translations: #override\n\
+      <Btn5Down>: StartScroll(Forward)\n\
+      <Btn4Down>: StartScroll(Backward)\n\
+
+

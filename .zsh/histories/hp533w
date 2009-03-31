@@ -1,0 +1,2303 @@
+: 1220382747:0;vi _openssl 
+: 1220382790:0;稃�度..
+: 1220383472:0;rm .aliases
+: 1220383496:0;rm .exports
+: 1220383706:0;vi Linux.zsh
+: 1220383791:0;cd histories
+: 1220383810:0;vi alias.rc
+: 1220383834:0;ls --color
+: 1220383844:0;vi check_update.rc
+: 1220383897:0;zstyle ':completion:*' completer _expand _complete _correct _approximate
+: 1220383897:0;zstyle ':completion:*' expand prefix suffix
+: 1220383897:0;zstyle ':completion:*' file-sort access
+: 1220383897:0;zstyle ':completion:*' list-suffixes true
+: 1220383897:0;zstyle ':completion:*' matcher-list '' '+m:{a-z}={A-Z}' 'r:|[._-]=** r:|=**' 'l:|=* r:|=*'
+: 1220383897:0;zstyle ':completion:*' preserve-prefix '//[^/]##/'
+: 1220383897:0;zstyle ':completion:*' use-cache on
+: 1220383897:0;zstyle ':completion:*' cache-path ~/.zsh/cache
+: 1220383897:0;zstyle ':completion:*:*:kill:*' menu yes select
+: 1220383897:0;zstyle ':completion:*:kill:*'   force-list always
+: 1220383897:0;zstyle ':completion:::::' completer _complete _approximate
+: 1220383897:0;zstyle ':completion:*:approximate:*' max-errors 2
+: 1220383897:0;zstyle :compinstall filename '/home/prmohan/.zshrc'
+: 1220383897:0;zstyle ':completion:*' completer _complete _prefix
+: 1220383897:0;zstyle ':completion::prefix-1:*' completer _complete
+: 1220383897:0;zstyle ':completion:incremental:*' completer _complete _correct
+: 1220383897:0;zstyle ':completion:predict:*' completer _complete # Completion caching
+: 1220383897:0;zstyle ':completion::complete:*' use-cache 1
+: 1220383897:0;zstyle ':completion::complete:*' cache-path ~/.zsh/cache/$HOST # Expand partial paths
+: 1220383897:0;zstyle ':completion:*' expand 'yes'
+: 1220383897:0;zstyle ':completion:*' squeeze-slashes 'yes' # Include non-hidden directories in globbed file completions
+: 1220383897:0;zstyle ':completion:*:complete:-command-::commands' ignored-patterns '*\~' # Separate matches into groups
+: 1220383897:0;zstyle ':completion:*:matches' group 'yes' # Describe each match group.
+: 1220383898:0;zstyle ':completion:*:descriptions' format "%B---- %d%b" # Messages/warnings format
+: 1220383898:0;zstyle ':completion:*:messages' format '%B%U---- %d%u%b'
+: 1220383898:0;zstyle ':completion:*:warnings' format '%B%U---- no match for: %d%u%b' # Describe options in full
+: 1220383898:0;zstyle ':completion:*:options' description 'yes'
+: 1220383898:0;zstyle ':completion:*:options' auto-description '%d'
+: 1220383898:0;# compctl -b bindkey
+: 1220383898:0;# compctl -v export
+: 1220383898:0;# compctl -o setopt
+: 1220383898:0;# compctl -v unset
+: 1220383898:0;# compctl -o unsetopt
+: 1220383898:0;# compctl -c which
+: 1220383898:0;# Load the super duper completion stuff
+: 1220383898:0;autoload -U compinit
+: 1220383898:0;compinit
+: 1220383898:0;autoload -U promptinit
+: 1220383898:0;promptinit
+: 1220383899:0;autoload zmv
+: 1220383899:0;#-------Completions----------------------
+: 1220383899:0;#-------Histroy----------------------
+: 1220383899:0;HISTFILE=~/.zshistory
+: 1220384070:0;cd misc
+: 1220384079:0;vi 00modules.rc
+: 1220384095:0;vi options.rc
+: 1220384119:0;ll
+: 1220384129:0;vi rc.host
+: 1220384460:0;cp default.zsh $ls
+: 1220384482:0;cp default.zsh ${$(hostname)//.*/}.zsh
+: 1220384491:0;vi ../README
+: 1220384571:0;cp zshrc rc.local
+: 1220384592:0;vi zshrc
+: 1220384641:0;cp rc/alias.rc rc.local 
+: 1220384646:0;vi rc.local
+: 1220384699:0;rm zshist
+: 1220384728:0;vi _svc
+: 1220384746:0;vi functions.rc
+: 1220384992:0;vi history.rc
+: 1220385001:0;vi misc.rc
+: 1220385010:0;vi variables.rc
+: 1220385019:0;vi zle.rc
+: 1220385074:0;vi rc.os/Linux.zsh
+: 1220385140:0;cd rc.os
+: 1220385151:0;cd rc.host
+: 1220385155:0;vi hp533w.zsh
+: 1220385222:0;cd rc.host/s
+: 1220385255:0;cd bin
+: 1220385259:0;vi zshist
+: 1220385281:0;vi _auto-apt
+: 1220385298:0;vi _openssl
+: 1220385352:0;checkXML
+: 1220385394:0;cd .svn
+: 1220385409:0;vi rc.host/hp533w.zsh
+: 1220385519:0;uptime
+: 1220385535:0;vmstat
+: 1220385553:0;fortune
+: 1220385642:0;v configbacktotar.sh
+: 1220413446:0;pacman -s raggle
+: 1220413454:0;pacman -S raggle
+: 1220413661:0;_raggle
+: 1220413676:0;whereis raggle
+: 1220413686:0;/usr/bin/raggle
+: 1220413712:0;whereis ncurses
+: 1220414706:0;sudo yaourt -S links-utf8
+: 1220414877:0;offlineimap 
+: 1220416070:0;sudo yaourt -S links-g
+: 1220415790:0;cd /var/abs/local
+: 1220415803:0;mkdir -p links-g
+: 1220415857:0;sudo mkdir -p links-g
+: 1220415864:0;cd links-g
+: 1220415914:0;axel http://repos.archlinux.org/viewvc.cgi/community/network/links-g/PKGBUILD?revision=1.18&root=community&pathrev=CURRENT
+: 1220415924:0;axel http://repos.archlinux.org/viewvc.cgi/community/network/links-g/PKGBUILD?revision=1.18&root=community/&pathrev=CURRENT
+: 1220415929:0;axel http://repos.archlinux.org/viewvc.cgi/community/network/links-g/PKGBUILD?revision=1.18&root=community\&pathrev=CURRENT
+: 1220415936:0;axel http://repos.archlinux.org/viewvc.cgi/community/network/links-g/PKGBUILD?revision=1.18&root=community\\&pathrev=CURRENT
+: 1220415941:0;axel http://repos.archlinux.org/viewvc.cgi/community/network/links-g/PKGBUILD?revision=1.18&root=community//&pathrev=CURRENT
+: 1220415959:0;vi
+: 1220416056:0;:q
+: 1220416059:0;:
+: 1220498090:0;ssh-keygen
+: 1220498171:0;msmtp dingwei2u@gmail.com
+: 1220498187:0;mail -s "hello" dignwei2u@gmail.com
+: 1220499275:0;mkdir -p certs
+: 1220499299:0;mv certs .certs
+: 1220499302:0;chmod 0600 .certs
+: 1220499318:0;mv ~/mail/certs/* ~/.certs
+: 1220499326:0;sudo mv ~/mail/certs/* ~/.certs
+: 1220499360:0;chmod 0700 ~/.certs
+: 1220499365:0;cd .certs
+: 1220499377:0;c_rehash ~/.certs
+: 1220499394:0;rm -rf ~/mail/certs
+: 1220499428:0;mkdir -p .msmtp
+: 1220499509:0;screen -r 20788
+: 1220499525:0;screen -r 
+: 1220499699:0;vi .screenrc
+: 1220499723:0;vi dead.letter
+: 1220499731:0;rm dead.letter
+: 1220499801:0;cat message
+: 1220499927:0;rm zshbackup
+: 1220499952:0;cp configbacktotar.sh configsync.sh
+: 1220499958:0;vi configsync.sh
+: 1220499979:0;rm eBayISAPI.dll
+: 1220732725:0;screen 
+: 1220732788:0;cd /var/tmp/
+: 1220732871:0;sudo del *
+: 1220733486:0;yaourt -Su urbanterror
+: 1220733554:0;whereis urbanteeror
+: 1220733584:0;sudo find /var -name 'urban*.*'
+: 1220733634:0;sudo find /tmp -name 'urban*.*'
+: 1220749541:0;locate yaourt
+: 1220749556:0;locate yaourt | less
+: 1220749592:0;cd /var/lib
+: 1220749599:0;cd backupfiles
+: 1220749601:0;cd yaourt
+: 1220749606:0;cd yaourt-0.9.1-1
+: 1220749613:0;vi yaourtrc
+: 1220749628:0;vi /etc/yaourtrc
+: 1220749662:0;whereis yaourt
+: 1220749672:0;cd /var
+: 1220749678:0;cd pacman
+: 1220749681:0;cd pkg
+: 1220749685:0;ls u*
+: 1220749740:0;yaourt -C urbanterror
+: 1220749831:0;man yaourt
+: 1220749892:0;yaourt -c urbanterror
+: 1220758300:0;screen -ls
+: 1220762015:0;w3m www.shootern.cn
+: 1220762019:0;w3m www.shoote.cn
+: 1220762076:0;lynx 
+: 1220762252:0;w3m www.shooter.com.cn
+: 1220762405:0;unzip *.zip
+: 1220762860:0;cd Downloads/Iron\ Man\[2008\]DvDrip\[Eng\]-FXG
+: 1220762868:0;vi Iron\ Man.2008.DvDrip.FXG.chs.srt
+: 1220768709:0;rm -rf /tmp/yaourt-tmp-root/aur-urbanterror
+: 1220768715:0;sudo rm -rf /tmp/yaourt-tmp-root/aur-urbanterror
+: 1220768728:0;yaourt -S urbanterror
+: 1221181576:0;del *
+: 1221181576:0;zsh
+: 1221181576:0;cd abs/
+: 1221181576:0;cd local/
+: 1221181576:0;cd yaourtbuild/
+: 1221181576:0;cd dfbsee/
+: 1221181576:0;find /var -name 'Urban*' | print 
+: 1221181576:0;find /var -name 'Urban*' | less
+: 1221181576:0;find /var/ -name 'Urban*' | less
+: 1221181576:0;find -name /var/ 'Urban*'
+: 1221181576:0;find /var -name '*' 
+: 1221181576:0;find /var -name 'Urban*' 
+: 1221181576:0;find /var -name 'urban*' 
+: 1221181576:0;find /var -name '*.zip' 
+: 1221181576:0;find / -name '*.zip' 
+: 1221181576:0;find /home/dingzi '*.zip'
+: 1221181576:0;find /home/dingzi -name '*.zip'
+: 1221181576:0;rm -rf /tmp/yaourt-tmp-root/aur-urbanterror/
+: 1221181576:0;find /tmp -name '*.zip'
+: 1221181576:0;cd /tmp/
+: 1221181576:0;cd yaourt-tmp-root/
+: 1221181576:0;vi pacdiffviewer.
+: 1221181576:0;vi pacdiffviewer.log 
+: 1221181576:0;vi sysupgrade 
+: 1220826238:0;l 
+: 1220826246:0;pkill -9 gmplayer
+: 1220826777:0;sudo moun/dev/sdb1 /mnt/1
+: 1220826834:0;sudo mv media/tv.show/swingtown/swingtown.s01e12.hdtv.xvid-dot.YTET@YDY.rar /mnt/2/tv.shows.series/swingtown
+: 1221181576:0;cd media/tv.show/swingtown/
+: 1220826879:0;cd /mnt/2/tv.shows.series/swingtown
+: 1220826896:0;unrar e swingtown.s01e12.hdtv.xvid-dot.YTET@YDY.rar 
+: 1220967807:0;cd media/tv.show/prison.break
+: 1220967818:0;unrar e Prison.Break.S04E01.PROPER.720p.HDTV.x264-CTU@YDY.rar
+: 1220967824:0;unrar e Prison.Break.S04E02.PROPER.720p.HDTV.x264-CTU@YDY.rar
+: 1220967835:0;unzip Prison.Break.S04E01.Scylla.720p.HDTV.X264-DIMENSION.zip
+: 1220967841:0;unzip Prison.Break.S04E02.Breaking\ and\ Entering.720p.HDTV.X264-DIMENSION.zip
+: 1221181576:0;mount  /dev/sr1 /mnt/dvd/
+: 1221181576:0;mount -t UDF /dev/sr1 /mnt/dvd/
+: 1221181576:0;dmesg | tail 
+: 1221181576:0;pacman -S mount.udfs
+: 1221181576:0;mount -F udfs /dev/sr1 /mnt/dvd
+: 1221181576:0;mount -t udfs /dev/sr1 /mnt/dvd/
+: 1221181576:0;mount -F udf /dev/sr1 /mnt/dvd
+: 1221181576:0;mount -t /dev/sr0 /mnt/dvd/
+: 1221181576:0;mount -t udf /dev/sr1 /mnt/dvd/
+: 1221181576:0;mount auto /dev/sr1 /mnt/dvd/
+: 1221181576:0;mount -auto /dev/sr1 /mnt/dvd/
+: 1221181576:0;mount -a /dev/sr1 /mnt/dvd/
+: 1221181576:0;mount -A /dev/sr1 /mnt/dvd/
+: 1221181576:0;mount -f udf /dev/sr1 /mnt/dvd/
+: 1221181576:0;cd ../the.secret.life.of.the.american.teenager/
+: 1221181576:0;mv *.* /mnt/2/tv.shows.series/the.secret.life.of.the.american.teenager/
+: 1221181576:0;cd ../swingtown/
+: 1221181576:0;unrar e swingtown.s01e12.hdtv.xvid-dot.YTET\@YDY.rar 
+: 1221181576:0;unrar e swingtown.s01e13.hdtv.xvid-0tv.YTET\@YDY.rar 
+: 1221181576:0;mv * /mnt/2/tv.shows.series/swingtown/
+: 1221181576:0;mv /home/dingzi/*.rar /mnt/2/tv.shows.series/csi.new.york/
+: 1221181576:0;mv /home/dingzi/*.zip /mnt/2/tv.shows.series/csi.new.york/
+: 1221181576:0;cd /mnt/2/tv.shows.series/csi.new.york/
+: 1221181576:0;unrar e CSI.NY.S04E01.HDTV.XviD-XOR.rar 
+: 1221181576:0;unrar e csi.new.york.S04E02.hdtv-lol.YTET\@YDY.rar 
+: 1221181576:0;unrar e CSI.NY.S04E03.hdtv-lol.YTET\@YDY.rar 
+: 1221181576:0;unrar e CSI.NY.S04E04.HDTV.XviD-LOL.YTET\@YDY.rar 
+: 1221181576:0;unrar e CSI.New.York.S04E05.HDTV.XviD-LOL.rar 
+: 1221181576:0;unrar e csi.new.york.406.hdtv-lol.rar 
+: 1221181576:0;unrar e csi.new.york.407.hdtv-lol.rar 
+: 1221181576:0;unrar e csi.new.york.408.hdtv-lol.rar 
+: 1221181576:0;unrar e csi.new.york.409.hdtv-lol.rar 
+: 1221181576:0;unrar e csi.ny.s04e01.hdtv.xvid-xor-repack.rar 
+: 1221181576:0;vi /etc/proftpd.conf 
+: 1221181576:0;cd /mnt/2/
+: 1221181576:0;chown -dingzi tv.shows.series/
+: 1221181576:0;chown dingzi tv.shows.series/
+: 1221181576:0;man chown
+: 1221181576:0;chown --help
+: 1221181576:0;chown -hR dingzi tv.shows.series/
+: 1221181576:0;cd /mnt/
+: 1221181576:0;umount /mnt/2
+: 1220968639:0;mount /dev/sdb2 /mnt/2
+: 1220970418:0;rox
+: 1220973366:0;x11vnc 
+: 1221181576:0;cd /mnt/2/tv.shows.series/
+: 1221181576:0;cd burn.notice/
+: 1221181576:0;cd Burn.Notice.S01.DVDRip.x264.AC3-COMPLETE/
+: 1221181576:0;unrar e Burn.Notice.S01.DVDRip.XviD-TOPAZ.eng.rar 
+: 1221181576:0;unrar e Burn.Notice.S01.DVDRip.XviD-TOPAZ.rar 
+: 1221181576:0;unrar e burn
+: 1221181576:0;unrar e burn\ notice\ S1.rar 
+: 1221139114:0;check_update
+: 1221139161:0;cd rc
+: 1221139261:0;vi .mutt/mailbox
+: 1221139277:0;vi .mutt/mailboxes
+: 1221139722:0;links www.eztv.it
+: 1221171251:0;x11vnc
+: 1221171327:0;pkill -9 x11vnc
+: 1221173725:0;cd UrbanTerror
+: 1221173742:0;chmod +x ioUrTded.i386
+: 1221173763:0;chmod +x ioUrbanTerror.i386
+: 1221173775:0;vi ioUrbanTerror_README.txt
+: 1221173822:0;du
+: 1221176219:0;cd tools/UrbanTerror
+: 1221176672:0;vi ioUrbanTerror_id-readme.txt
+: 1221176772:0;./ioUrbanTerror.i386
+: 1221177035:0;pacman -S AssaultCube
+: 1221177053:0;yaourt -S AssaultCube
+: 1221177596:0;pkill -9 xcompmgr
+: 1221177643:0;tar xzvf AssaultCube_v0.93.tar.bz2
+: 1221177665:0;bzip2 Adobe\ flash\ player\ 9\ on\ FreeBSD\ and\ Linux\ compatibility\ environment.\ Looking\ at\ both\ Mozilla\ Firefox\ and\ Opera..html AssaultCube_v0.93.tar.bz2
+: 1221177680:0;unbuffer Adobe\ flash\ player\ 9\ on\ FreeBSD\ and\ Linux\ compatibility\ environment.\ Looking\ at\ both\ Mozilla\ Firefox\ ajl
+: 1221177688:0;man bzip2
+: 1221177711:0;bzip2 -d AssaultCube_v0.93.tar.bz2
+: 1221177734:0;tar xzvf AssaultCube_v0.93.tar
+: 1221177740:0;tar xvf AssaultCube_v0.93.tar
+: 1221177774:0;rm Adobe\ flash\ player\ 9\ on\ FreeBSD\ and\ Linux\ compatibility\ environment.\ Looking\ at\ both\ Mozilla\ Firefox\ and\ Opera..html.bz2
+: 1221177781:0;cd AssaultCube
+: 1221177789:0;./assaultcube_server.sh
+: 1221177834:0;sudo pacman -S sdl
+: 1221177969:0;sudo pacman -S sdl_image
+: 1221178124:0;sudo pacman -S sdl_net sdl_mixer sdl_sound sdl_ttf
+: 1221178196:0;sudo pacman -S sdl_gfx sdl_pango sdl_perl smpeg
+: 1221178248:0;sudo pacman -S xmame-sdl dgen-sdl
+: 1221178267:0;./assaultcube.sh
+: 1221179871:0;pypanel 
+: 1221180102:0;top | grep panel
+: 1221180129:0;top -hv
+: 1221180132:0;top -h
+: 1221180136:0;top h
+: 1221180215:0;bmpanel
+: 1221180227:0;top -b
+: 1221180264:0;top --help
+: 1221180270:0;top -d
+: 1221180280:0;top --u dingzi
+: 1221180400:0;pypanel
+: 1221181374:0;feh -bg-scale ~/.background/Ladybug.jpg
+: 1221181401:0;feh -bg-scale ~/.background/Ladybug.jpg -y &
+: 1221181430:0;pkill feh
+: 1221181435:0;feh -bg-scale ~/.background/Ladybug.jpg &
+: 1221181492:0;eval 'cat .fehbg' &
+: 1221181546:0;vi autostart.sh
+: 1221181556:0;vi rc.xml
+: 1221182375:0;pacman -S obconf
+: 1221183184:0;pacman -S obmenu
+: 1221183233:0;cp /usr/share
+: 1221183241:0;locate openbox
+: 1221183255:0;locate openbox | less
+: 1221183539:0;pacman -S xev
+: 1221183614:0;cd openbox
+: 1221183623:0;obmenu --help
+: 1221183879:0;cp /etc/xdg/openbox/menu.xml .
+: 1221184241:0;obmenu
+: 1221185879:0;yaourt -S menumaker
+: 1221185918:0;mmaker -v OpenBox3
+: 1221186072:0;ls *.xml
+: 1221186088:0;mmaker -fv OpenBox3
+: 1221186312:0;cd .config/openbox
+: 1221186317:0;vi menu.xml
+: 1221188498:0;cd .background
+: 1221188511:0;vi edge_by_ether.jpg edge.jpg
+: 1221188530:0;mv edge_by_ether.jpg edge.jpg
+: 1221188854:0;mkdir -p tools/openbox/themes
+: 1221188867:0;mv *.gz tools/openbox/themes
+: 1221188871:0;ls *.gz
+: 1221188896:0;mv *.bz2 tools/openbox/themes
+: 1221188906:0;mv *.obt tools/openbox/themes
+: 1221188921:0;mv *.zip tools/openbox/themes
+: 1221188965:0;cd openbox/themes
+: 1221189131:0;bzip2 --help
+: 1221189141:0;bzip2 -d *
+: 1221189163:0;gzip --help
+: 1221189171:0;gzip -d *
+: 1221189180:0;tar xzvf *
+: 1221189189:0;tar xvf *
+: 1221189198:0;tar xvf 57310-Nova.tar
+: 1221189208:0;tar xvf 58426-Fawn.tar
+: 1221189213:0;tar xvf 58555-conky_twolines.tar
+: 1221189224:0;tar xvf 60053-Nova-openbox.tar
+: 1221189238:0;tar xvf 60129-Fawn-openbox.tar
+: 1221189242:0;tar xvf 62000-Dyne-openbox.tar
+: 1221189250:0;tar xvf 68803-BlackWhite.tar
+: 1221189255:0;tar xvf 68805-BlackWhite-OPENBOX.tar
+: 1221189260:0;tar xvf 74000-arch.blue.tar
+: 1221189272:0;tar xvf titan-stable.tar
+: 1221189290:0;unzip Ion_for_Openbox_by_bl1nks.zip
+: 1221189295:0;unzip MacFly_for_Openbox_by_bl1nks.zip
+: 1221189330:0;ls ~/.config/openbox
+: 1221189376:0;cp -rf BlackWhite/ ~/.themes
+: 1221189392:0;ls ~/.themes
+: 1221189417:0;cp -rf Dyne ~/.themes
+: 1221189426:0;cp -rf Fawn ~/.themes
+: 1221189437:0;cp -rf Ion_openbox  ~/.themes
+: 1221189448:0;cp -rf Ion_Openbox  ~/.themes
+: 1221189458:0;cp -rf Nova  ~/.themes
+: 1221189466:0;cp -rf Titan  ~/.themes
+: 1221189472:0;cp -rf arch.blue  ~/.themes
+: 1221189482:0;cp -rf macfly_Openbox  ~/.themes
+: 1221190162:0;gzip -d Dyne.tar.gz
+: 1221190166:0;tar xvf Dyne.tar
+: 1221190346:0;feh -bg-scale ~/.background/edge.jpg
+: 1221190410:0;cp .conkyrc ~/tools/conkyrc
+: 1221190449:0;cp ~/tools/openbox/themes/conky/.conky* ~/
+: 1221190489:0;cp -rf  ~/tools/openbox/themes/conky/arch-updates/ .
+: 1221190512:0;cp   ~/tools/openbox/themes/conky/gmail.py .
+: 1221190628:0;mkdir -p scripts
+: 1221190665:0;cp conky-updates.pl ~/scripts
+: 1221190699:0;vi ~/scripts/conky-updates.pl
+: 1221190776:0;mkdir -p ~/scripts/arch-updates
+: 1221190791:0;cp updates.log ~/scripts/arch-updates
+: 1221190853:0;vi pacsync.sh
+: 1221190960:0;cd tools/openbox/themes/conky
+: 1221191070:0;vi ~/.conkyweatherrc
+: 1221191089:0;vi ~/.conkyrc_gmail
+: 1221191130:0;mv ~/.conkyrc_gmail ~/.conkyrc
+: 1221191151:0;mv ~/.conkyweatherrc ~/scripts
+: 1221191194:0;mv ~/gmail.py ~/scripts
+: 1221191205:0;vi README.txt
+: 1221191247:0;sudo cp pacsync.sh /etc/cron.hourly
+: 1221191339:0;yaourt -S weatherget
+: 1221191401:0;vi gmail.py
+: 1221191587:0;vi conky-updates.pl
+: 1221191611:0;cd arch-updates
+: 1221191615:0;vi updates.log
+: 1221191650:0;vi .conkyweatherrc
+: 1221192157:0;cd ~/tools/openbox/themes/conky
+: 1221192161:0;vi ReadMe
+: 1221192923:0;weatherget --lookup="Charleston, SC"
+: 1221192928:0;weatherget --stationid=USSC5501
+: 1221192941:0;weatherget -s=USSC5501
+: 1221192952:0;weatherget -s =USSC5501 --metric
+: 1221192964:0;weatherget -s =USSC5501 --standard
+: 1221192973:0;weatherget -s ="USSC5501" --standard
+: 1221192981:0;weatherget -s =29401 --standard
+: 1221192987:0;weatherget -s "USSC5501" --standard
+: 1221193149:0;feh .fehbg
+: 1221193158:0;gqview .fehbg
+: 1221193199:0;cp .background/edge.jpg ~/.fehbg
+: 1221193281:0;rm .fehbg
+: 1221230442:0;cd hcache
+: 1221232721:0;cd .getmail
+: 1221232799:0;getmail -r yahoorc
+: 1221232830:0;getmail -r gmailrc
+: 1221232847:0;/usr/bin/procmail
+: 1221232901:0;vi gmailrc
+: 1221232921:0;getmail -n -r gmailrc
+: 1221232932:0;cp yahoorc
+: 1221232937:0;cp yahoorc ymailrc
+: 1221233005:0;vi ymailrc
+: 1221233028:0;getmail -n -r ymailrc
+: 1221233134:0;vi yahoorc
+: 1221233145:0;getmail -n -r yahoorc
+: 1221233304:0;cp folders.online folders.online.gmail
+: 1221233324:0;cp folders.online.gmail folders.online.ymail
+: 1221233329:0;rm folders.online
+: 1221233336:0;vi folders.online.ymail
+: 1221234773:0;vi mailboxes
+: 1221234810:0;cp mailboxes mailboxes.local
+: 1221234819:0;mv mailboxes mailboxes.gmail
+: 1221235365:0;bash
+: 1221236520:0;cd ../.zsh
+: 1221236531:0;vi _mutt
+: 1221236548:0;vi ..
+: 1221236566:0;vi rc/functions.rc
+: 1221270443:0;cd ~/media/tv.show/90210
+: 1221274907:0;pacman -S mpd
+: 1221275463:0;cp /etc/mpd.conf.example ~/.mpdconf
+: 1221275493:0;vi .mpdconf
+: 1221275610:0;vi /var/log/mpd/mpd.log
+: 1221275624:0;sudo vi /var/log/mpd/mpd.log
+: 1221275630:0;mpd
+: 1221275633:0;sudo mpd
+: 1221275987:0;cd .fluxbox
+: 1221275995:0;vi init
+: 1221276197:0; .conkyrc
+: 1221276242:0;conky
+: 1221276329:0;pkill coy
+: 1221276373:0;cp .conkyrc .conkyrc.backup
+: 1221276390:0;cp tools/conkyrc .conkyrc
+: 1221276944:0;xcompmgr -c -t-5 -l-5 -r4 -0.55 &
+: 1221276953:0;xcompmgr -c -t-5 -l-5 -r4 -o.55 &
+: 1221434059:0;unrar e 09.08.08.Americas.Next.Top.Model.S11E01-E02.PDTV.XviD-XOR@PLX.rar
+: 1221434066:0;unrar e 09.13.08.America\'s\ next\ top\ model.S11E03.PDTV.XviD-2HD@PLX.rar
+: 1221525265:0;vi tools/conky/scripts/weather/weather.sh
+: 1221525329:0;weatherget
+: 1221525400:0;quit
+: 1221525437:0;weatherget -s 29401
+: 1221525450:0;weatherget -l charleston,sc
+: 1221526089:0;pypanel &
+: 1221526154:0;locate bmpanel
+: 1221526176:0;bmpanel --help
+: 1221526186:0;bmpanel ?
+: 1221526189:0;bmpanel 
+: 1221526226:0;top -u dingzi
+: 1221526270:0;pkill bmpanel
+: 1221526470:0;whereis bmpanel
+: 1221526478:0;cd /usr/share/bmpanel
+: 1221526483:0;cd themes
+: 1221604375:0;pacman -Q go
+: 1221604388:0;sudo pacman -Q go
+: 1221604397:0;pacman -Q gnomego
+: 1221604401:0;pacman -Q gnome-go
+: 1221604403:0;abs
+: 1221604406:0;sudo abs
+: 1221604614:0;cd /var/cache
+: 1221604621:0;cd pacman/pkg
+: 1221604627:0;sudo *
+: 1221604656:0;man rm
+: 1221604660:0;rm --help
+: 1221604722:0;sudo rm -rf *
+: 1221604750:0;find /var/abs -name 'gnome*go*'
+: 1221606568:0;lftp 192.168.1.104
+: 1221606588:0;ping 192.168.1.104
+: 1221606591:0;ping 192.168.1.101
+: 1221606594:0;ping 192.168.1.102
+: 1221606596:0;ping 192.168.1.103
+: 1221606603:0;lftp 192.168.1.103
+: 1221606692:0;sudo /var/abs
+: 1221606700:0;sudo cd /var/abs
+: 1221606707:0;cd /var/abs
+: 1221606714:0;cd extra
+: 1221606719:0;ls mu*
+: 1221606724:0;cd mutt
+: 1221606727:0;vi PKGBUILD
+: 1221607069:0;vi mailbox
+: 1221607087:0;vi folders.local
+: 1221607107:0;vi folders.online.gmail
+: 1221607978:0;vi mailboxes.gmail
+: 1221607989:0;vi mailboxes.local
+: 1221620520:0;cd tools/
+: 1221620534:0;cd scripts
+: 1221620553:0;cp * ~/scripts
+: 1221620561:0;cp -rf * ~/scripts/
+: 1221620584:0;cd ~/scripts
+: 1221620605:0;mv scripts .scripts
+: 1221620809:0;rm -rf hcache
+: 1221621390:0;cd .opera
+: 1221621394:0;cd cache4
+: 1221621409:0;cd revocation
+: 1221621455:0;du -h .*
+: 1221621470:0;du -h .* | less
+: 1221621568:0;du -h .* | sort -n
+: 1221621583:0;du -h .* | sort -n | less
+: 1221621612:0;cd .Trash
+: 1221621621:0;cd ../.trash
+: 1221621831:0;cd .picasa
+: 1221621838:0;cd drive_c
+: 1221621840:0;cd Documents\ and\ Settings
+: 1221621845:0;cd dingzi/Local\ Settings
+: 1221621860:0;cd Application\ Data/Google/Picasa2/db
+: 1221621868:0;rm *.db
+: 1221621899:0;rm -0.jpg
+: 1221622380:0;du -h rcbackup.tar
+: 1221627230:0;rm -rf *
+: 1221627437:0;cd functions
+: 1221627443:0;rm _mutt
+: 1221627483:0;sh zshrc
+: 1221627534:0;vi .zshrc
+: 1221627546:0;sh .zshrc
+: 1221627620:0;cd mailboxes.imap/
+: 1221627630:0;cd folders.imap/accounts
+: 1221627633:0;vi gmail
+: 1221627648:0;vi imap
+: 1221627660:0;cd accounts
+: 1221627663:0;vi musc
+: 1221627716:0;./configbacktotar.sh
+: 1221684486:0;sudo mount -t iso9660 /dev/sr0 /mnt/dvd
+: 1221684522:0;sudo mount -t iso9660 /dev/sr1 /mnt/dvd
+: 1221688880:0;pacman -S krunner
+: 1221688904:0;yaourt -S krunner
+: 1221689785:0;mount /dev/sr1 /mnt/cdrom
+: 1221689790:0;sudo mount /dev/sr1 /mnt/cdrom
+: 1221689811:0;sudo mount -t iso9660 /dev/sr1 /mnt/cdrom
+: 1221689816:0;cd /mnt/cdrom
+: 1221698374:0;vi core
+: 1221698397:0;vi mirrorlist.pacnew
+: 1221698439:0;vi pacman.conf.pacnew
+: 1221698510:0;sudo vi pacman.conf
+: 1221698678:0;sudo cp pacman.conf.pacnew pacman.conf
+: 1221698694:0;cp mirrorlist.pacnew mirrorlist
+: 1221698704:0;sudo cp mirrorlist.pacnew mirrorlist
+: 1221698766:0;cd pacman.d
+: 1221698775:0;sudo rm community
+: 1221698792:0;sudo rm core current extra mirrorlist.pacnew release testing unstable
+: 1221776013:0;cd ~/media/tv.show/flashpoint
+: 1221862726:0;cd tools/archlinux
+: 1221862738:0;md5sum archlinux-2008.06-core-i686.iso
+: 1221866460:0;groups dingzi
+: 1221866483:0;pacman -Q {hal,dbus,hal-info}
+: 1221866491:0;sudo vi /etc/fstab
+: 1221866556:0;sudo vim /etc/fstab
+: 1221870651:0;pacman -S gnome-do
+: 1221871035:0;pkill gnome-do
+: 1221871258:0;vi configbacktotar.sh
+: 1221871288:0;gnome-do &
+: 1221871403:0;p
+: 1221871407:0;pacman -S gmrun
+: 1221871758:0;grub-install
+: 1221871898:0;grub
+: 1221871912:0;gmrun
+: 1221871957:0;find . -name 'gmrun*'
+: 1221872441:0;gmrun --help
+: 1221872452:0;gmrun -?
+: 1221920648:0;sudo pacman -S fbrun
+: 1221920686:0;yaourt -S fbrun
+: 1221921127:0;lsls
+: 1221921137:0;ljfexit
+: 1221933798:0;pacman -S kazehakase
+: 1221936427:0;pacman -S roxterm
+: 1221937127:0;yaourt -S arora
+: 1221937265:0;pacman -S osmo
+: 1221937324:0;pacman -S zim
+: 1221937389:0;pacman -S amarok,alsaplayer
+: 1221937424:0;pacman -S amarok mirage xpad alsaplayer
+: 1221937486:0;pacman -S mirage xpad alsaplayer
+: 1221938670:0;pacman -S amarok
+: 1221969704:0;yaourt -S amrok
+: 1221969759:0;yaourt -S amarok
+: 1222034332:0;psme
+: 1222034338:0;psmem
+: 1222034620:0;cd /mnt/dvd
+: 1222034654:0;sudo eject /dev/sr0
+: 1222034740:0;sudo mount /dev/sr1 /mnt/dvd
+: 1222035372:0;umount /mnt/dvd
+: 1222035378:0;sudo umount /mnt/dvd
+: 1222035388:0;sudo eject /dev/sr1
+: 1222048615:0;slim
+: 1222048620:0;sudo slim
+: 1222125104:0;w3m www.shooter.cn
+: 1222126987:0;mkdir -p supernatural
+: 1222126999:0;mv /home/dingzi/supernatural.rar .
+: 1222127011:0;mv /home/dingzi/Supernatural.S04E01.HDTV.XviD-NoTV.avi .
+: 1222127505:0;rm supernatural.s04e01.hdtv.xvid-dot.gb.srt
+: 1222127514:0;rm supernatural.s04e01.hdtv.xvid-dot.big5.srt
+: 1222127536:0;mv ~/90210.S01E04.HDTV.XviD-2HD.avi .
+: 1222259821:0;tar cvzf archlinux.tar .xinitrc .zsh/ /etc/rc.conf .screenrc .fehrc .fehbg .fluxbox .config .conkyrc .scripts .offlineimaprc .msmtprc .Xresources .tilda .urlview .weathergetrc
+: 1222259849:0;ls -h archlinux.tar
+: 1222259854:0;ls -hls archlinux.tar
+: 1222295622:0;mkdir -p tscc
+: 1222295627:0;mv tscc.203.repack-notv.YTET@YDY.rar tscc
+: 1222295644:0;mv /home/dingzi/Terminator.The.Sarah.Connor.Chronicles.S02E03.REPACK.HDTV.XviD-NoTV.avi .
+: 1222295650:0;mv Terminator.The.Sarah.Connor.Chronicles.S02E03.REPACK.HDTV.XviD-NoTV.avi tscc
+: 1222295656:0;cd tscc/
+: 1222295663:0;unrar e tscc.203.repack-notv.YTET@YDY.rar
+: 1222298542:0;cd ../burn.notice
+: 1222298546:0;cd ../true.blood/`
+: 1222298548:0;cd ../true.blood/
+: 1222298554:0;unrar e 09.14.08.True.Blood.S01E01.HDTV.XviD-0TV@FRM.rar
+: 1222298756:0;unrar e 09.22.08.True.Blood.S01E02.RERIP.HDTV.XviD-0TV@FRM.rar
+: 1222312030:0;screen -r
+: 1222312054:0;yaourt -S kazehakase-webkit
+: 1222312745:0;pacman -S midori
+: 1222381975:0;cd ../flashpoint
+: 1222384815:0;rm conkyrc
+: 1222384820:0;cd conky
+: 1222384831:0;mkdir -p forgentoo
+: 1222384844:0;mv conkyrc.simple forgentoo
+: 1222384850:0;mv scripts forgentoo
+: 1222384857:0;mv forgentoo/ gentoo
+: 1222384874:0;cp ~/.conkyrc gentoo
+: 1222384890:0;cp -r ~/.scripts gentoo
+: 1222385023:0;rm -rf Gossip.Girl.S02E03.720p.HDTV.X264-DIMENSION
+: 1222778623:0;sudo shutdown -h
+: 1222778626:0;sudo shutdown -now
+: 1222778634:0;sudo shutdown -H
+: 1222778643:0;sudo shutdown -f
+: 1222903246:0;unrar e 09.26.08.Americas.Next.Top.Model.S11E05.PDTV.XviD-XOR@PLX.rar
+: 1222903259:0;unrar e 09.29.08.Americas.Next.Top.Model.S11E05.PDTV.XviD-XOR@FRM.rar
+: 1222903266:0;unrar e 09.21.08.Americas.Next.Top.Model.S11E04.PDTV.XviD-XOR@PLX.rar
+: 1222903272:0;unrar e 09.22.08.Americas.Next.Top.Model.S11E04.PDTV.XviD-XOR@FRM.rar 
+: 1222905710:0;mv ~/Americas.Next.Top.Model.S11E05.PDTV.XviD-XOR.avi .
+: 1222998943:0;kazehakase&
+: 1222999414:0;tar xzvf pythonclsfile.tar
+: 1222999420:0;rm pythonclsfile.tar
+: 1222999426:0;ls 8
+: 1222999468:0;mv icd9-cm-diseases-list-fy03.txt icd9.txt
+: 1222999546:0;cp clearproblemfile.py clearicd9.py
+: 1223004122:0;vi clearicd9.py
+: 1223004149:0;python clearicd9.py
+: 1223004190:0;vi icd9new.txt
+: 1223004336:0;vi unknown_meds.csv
+: 1223004593:0;tar czvf clearfile.tar *
+: 1223088262:0;sudo pacman -Syu
+: 1223134524:0;yaourt -Ss mdbtools
+: 1223134557:0;yaourt -S mdbtools
+: 1223172308:0;feh --bg--scale .background/edge.jpg
+: 1223172350:0;pacman -S imlib2
+: 1223172470:0;sudo rox
+: 1223225856:0;cp .Xresources .Xresources.old
+: 1223230113:0;tar xvf urxvt.tar
+: 1223230198:0;cd developer/python
+: 1223230208:0;cd modules
+: 1223230480:0;gzip -d pycurl-7.19.0.tar.gz
+: 1223230486:0;tar xvf pycurl-7.19.0.tar
+: 1223230502:0;sudo python setup.py build
+: 1223230572:0;gzip -d progressbar-2.2.tar.gz
+: 1223230583:0;tar xvf progressbar-2.2.tar
+: 1223230585:0;cd progressbar
+: 1223230594:0;cd progressbar-2.2
+: 1223230727:0;pacman -S liburl
+: 1223230735:0;pacman -S libcurl
+: 1223230752:0;yaourt -S libcurl
+: 1223230829:0;cd pycurl-7.19.0
+: 1223230849:0;vi TODO
+: 1223230947:0;pacman -Qo /usr/lib/libcurl.so.3
+: 1223230963:0;pacman -Ss libcurl
+: 1223231003:0;pacman -S curlftpfs
+: 1223231025:0;pacman -Q libcurl
+: 1223231030:0;pacman -Q liburl
+: 1223231034:0;pacman -Qq liburl
+: 1223231038:0;pacman -Qo liburl
+: 1223231046:0;locate libcurl
+: 1223231082:0;pacman -Qo /usr/lib/libcurl.so.4
+: 1223231181:0;pacman -Qo /usr/lib/libcurl.so
+: 1223231189:0;pacman -Qo /usr/lib/libcurl.so.4.1.0
+: 1223231202:0;yaourt -Ss liburl
+: 1223231277:0;tar xzvf pycurl-7.18.2.tar.gz
+: 1223231282:0;cd pycurl-7.18.2
+: 1223231378:0;cat ../../musc/icd9/clearicd9.py
+: 1223231393:0;pacman -Ss psyco
+: 1223231408:0;pacman -S psyco
+: 1223231512:0;tar zxvf BeautifulSoup.tar.gz
+: 1223231515:0;cd BeautifulSoup-3.0.7a
+: 1223231522:0;python setup.py build
+: 1223231539:0;sudo python setup.py install
+: 1223231578:0;cd ~/developer/python
+: 1223231580:0;cd musc
+: 1223231588:0;cd icd9
+: 1223231594:0;vi icd9.txt
+: 1223231635:0;cd datafiles
+: 1223231638:0;vi dtab09.txt
+: 1223232696:0;cp generateicd9database.py geticd9namefromweb.py
+: 1223234998:0;python generateicd9database.py
+: 1223235739:0;vi geticd9namefromweb.py
+: 1223235784:0;python geticd9namefromweb.py
+: 1223419263:0;alsamixer
+: 1223827003:0;svn checkout .zsh
+: 1223827083:0;cd ../media/tv.show
+: 1223827093:0;mv ~/Brothers.and.Sisters.S03E01.HDTV.XViD-DOT.avi .
+: 1223827097:0;rm ~/Brothers.and.Sisters.S03E01.HDTV.XViD-DOT.\[eztv\].torrent
+: 1223827373:0;unrar e brothers.and.sisters.s03e01.hdtv.xvid-dot.rar
+: 1223827383:0;cd su
+: 1223827452:0;cd survivor
+: 1223827551:0;mkdir -p media/tv.show/life
+: 1223827560:0;mv Life.S02E01.HDTV.XviD-LOL.\[VTV\].avi media/tv.show/life
+: 1223827621:0;sudo chown -R dingzi media/tv.show/survivor
+: 1223827626:0;sudo chown -R dingzi media/tv.show/amazing.race
+: 1223827629:0;mv Survivor.S17E02.HDTV.XviD-GNARLY.avi media/tv.show/survivor
+: 1223827638:0;mv 90210.S01E05.PROPER.HDTV.XviD-2HD.avi media/tv.show/90210
+: 1223827644:0;rm Survivor.S17E02.HDTV.XviD-GNARLY.\[eztv\].torrent
+: 1223827650:0;rm Americas.Next.Top.Model.S11E06.PDTV.XviD-XOR.\[eztv\].torrent
+: 1223828291:0;mkdir -p csi.newyork
+: 1223828299:0;mv ../CSI.New.York.S05E01.HDTV.XviD-LOL.avi csi.newyork
+: 1224112531:0;rm voice.rar
+: 1224112535:0;rm urxvt.tar
+: 1224112541:0;rm rcbackup.tar
+: 1224112548:0;rm archlinux.tar
+: 1224112637:0;rm Dyne.tar
+: 1224112751:0;tar czvf old_supervim.tar .vimrc .vim
+: 1224112940:0;cd ls
+: 1224112954:0;cd perl-support
+: 1224113011:0;vi minibufexpl.vim
+: 1224113250:0;mkdir -p muscvim
+: 1224113252:0;cd muscvim
+: 1224113352:0;tar zxvf vim20081008.tar
+: 1224113679:0;cd ~/.vim
+: 1224113709:0;rm -rf*.gz
+: 1224113740:0;rm README.*
+: 1224113746:0;rm FAQ.txt
+: 1224113749:0;rm INSTALL
+: 1224113752:0;rm MANIFEST
+: 1224113757:0;rm changes.txt
+: 1224113774:0;vi easy.vimrc
+: 1224113805:0;vi versions.txt
+: 1224113820:0;rm versions.txt
+: 1224113855:0;cp -rf muscvim/.vim/* .
+: 1224114009:0;rm *.gz
+: 1224114117:0;cd plugin
+: 1224114152:0;find . -name '*.vim' 
+: 1224114171:0;find . -name '*.vim' | xargs grep 'vcs;\
+'
+: 1224114183:0;find . -name '*.vim' | xargs grep 'vc'\
+'
+: 1224114185:0;find . -name '*.vim' | xargs grep 'vc'
+: 1224114404:0;vi plugin/NERD_commenter.vim
+: 1224114474:0;vi /usr/share/vim/plugin/vcscommand.vim
+: 1224114510:0;find . -name '*.vim' | xargs grep ',ca'
+: 1224114539:0;pacman -U vim
+: 1224114544:0;pacman -U gvim
+: 1224114551:0;pacman -Syu vim
+: 1224116901:0;mkdir -p .vim
+: 1224116973:0;cd dingzi
+: 1224117052:0;mv ~/vim20081008.tar .
+: 1224117060:0;tar xzvf vim20081008.tar
+: 1224117075:0;mv .vim ~/vim
+: 1224117086:0;mv ~/vim ~/.vim
+: 1224117100:0;mv vim ~/.vim
+: 1224117117:0;mv .vim/vim ~/.vim
+: 1224117133:0;cd vim
+: 1224117140:0;mv * ../
+: 1224117145:0;rm -rf vim
+: 1224117154:0;rm *.tar
+: 1224117158:0;vi ~/.vimrc
+: 1224131566:0;vi True.Blood.S01E04.720p.HDTV.x264-2HD.mkvq
+: 1224131687:0;rm -rf home
+: 1224131691:0;rm rf imaps:wed3@imaps.musc.edu:993
+: 1224131708:0;rm -rf imaps:dingwei2u@gmail.com@imap.gmail.com:993
+: 1224131718:0;rm -rf imaps:wed3@imaps.musc.edu:993
+: 1224131753:0;vi mutt
+: 1224131788:0;vi muttrc2html
+: 1224131797:0;vi .muttrc
+: 1224131815:0;cd .vim
+: 1224131831:0;tar xzvf vim20081016combined.tar
+: 1224131943:0;mutt -v
+: 1224131946:0;mutt -V
+: 1224131978:0;tar xzvf mutt20081016_smtp.tar
+: 1224131991:0;cd .mutt
+: 1224131995:0;cd cache
+: 1224131997:0;cd header
+: 1224132001:0;rm -rf imaps:wed3@eximap.musc.edu
+: 1224132006:0;cd bodies
+: 1224132013:0;mutt -y
+: 1224132032:0;vi ~/.muttrc
+: 1224132053:0;mutt 
+: 1224132174:0;offlineimap
+: 1224132211:0;tar czvf urxvtcolor.tar .Xresources
+: 1224132312:0;svn checkout http://svn.asyd.net/svn/zsh/trunk .zsh
+: 1224132456:0;sudo rm -rf /usr/lib/klibc/include/asm/
+: 1224161125:0;sudo rm /usr/lib/klibc/include
+: 1224161132:0;sudo rm -rf /usr/lib/klibc/include
+: 1224204656:0;pacman -Ss awesome
+: 1224204692:0;pacman -Ss awesomes
+: 1224204696:0;pacman -Ss awesome3
+: 1224204875:0;yaourt amazing-git
+: 1224204892:0;yaourt -S awesome3
+: 1224204953:0;yaourt -S amazing-git
+: 1224207260:0;pkill tilda
+: 1224207377:0;yaourt -S wicked-git noteo-awesome eminent-git awesome-git
+: 1224286195:0;pacman -Rd cairo-xcb
+: 1224286199:0;pacman -Rd cairo
+: 1224286204:0;pacman -U cairo-xcb-1.8.0-2-i686.pkg.tar.gz
+: 1224287314:0;rm -rf .vim
+: 1224287361:0;ls *.part
+: 1224287384:0;ls *.tar
+: 1224287395:0;ls *.tar.
+: 1224287397:0;ls *.tar.*
+: 1224287617:0;vi .gtkrc-2.0
+: 1224287630:0;rm .gtkrc-2.0
+: 1224287641:0;stardict
+: 1224287737:0;awesome -k
+: 1224287745:0;awesome -v
+: 1224287765:0;cd /tmp
+: 1224287773:0;pacman -U awesome-git-20081017-1-i686.pkg.tar.gz
+: 1224287802:0;df
+: 1224287804:0;sa
+: 1224287873:0;cd /etc/xdg/awesome/
+: 1224287892:0;cp rc.lua ~/.config/awesome
+: 1224287970:0;feh --bg-scale ~/.background/edge.jpg
+: 1224287995:0;cd ~/.config/aw
+: 1224287998:0;cd ~/.config/awesome
+: 1224288076:0;vi ~/.xinitrc
+: 1224288138:0;feh --bg-scale .background/edge.jpg
+: 1224288168:0;mv .background .wallpapger
+: 1224288313:0;tar xzvf vim10172008.tar
+: 1224288503:0;sudo vi /usr/share/vim/plugin/vcscommand.vim
+: 1224288735:0;vi .vimrc`
+: 1224288980:0;rm vim10172008.tar
+: 1224288984:0;rm vim20081016combined.tar
+: 1224288989:0;rm old_supervim.tar
+: 1224289029:0;rm mutt081015.tar
+: 1224289220:0;vi .zsh/rc.os
+: 1224289233:0;vi .zsh/rc.local
+: 1224289256:0;vi .zsh/rc.host/hp533w.zsh
+: 1224289300:0;source .zsh/rc.host/hp533w.zsh
+: 1224289327:0;ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+: 1224289340:0;vi .zsh/rc.os/prompt.zsh
+: 1224289405:0;llsllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+: 1224290024:0;vi rc.lua
+: 1224297932:0;cp /etc/xdg/awesome/rc.lua .config/awesome
+: 1224298010:0;rm .wallpaper
+: 1224298014:0;mv .wallpapger .wallpaper
+: 1224362336:0;urxvtc
+: 1224461233:0;unrar e CSI.New.York.S05E03.HDTV.XviD-LOL.rar
+: 1224461398:0;mv ~/CSI.New.York.S07E03.HDTV.XviD-LOL.avi .
+: 1224461404:0;rm ~/CSI.New.York.S07E03.HDTV.XviD-LOL.\[eztv\].torrent
+: 1224461410:0;cd ../90210
+: 1224461775:0;unrar e 10.11.08.CSI.New.York.S07E03.HDTV.XviD-LOL@FRM.rar
+: 1224462367:0;rm .mplayer
+: 1224462374:0;rm -rf .mplayer
+: 1224542806:0;mv Americas.Next.Top.Model.S11E07.PDTV.XviD-XOR.avi media/tv.show/americas.next.top.model
+: 1224545386:0;unrar e 10.14.08.Americas.Next.Top.Model.S11E07.PDTV.XviD-XOR@FRM.rar
+: 1224545393:0;unrar e americas.next.top.model.s11e07.rar
+: 1224594255:0;pppppppppppppppppppppppppppppppppppppppppppnnn
+: 1224594439:0;//////////o-0ppppoiiiiipu0                                                                                                                                                                                     ffuiiiijjjjjjjjjkkkkk
+: 1224594442:0;clear
+: 1224634766:0;ping www.yahoo.com
+: 1224638073:0;vi /etc/host.conf
+: 1224638119:0;vi /etc/hosts.allow
+: 1224638281:0;source /etc/hosts
+: 1224638323:0;vi /etc/hosts.deny
+: 1224638343:0;sudo vi /etc/hosts.deny
+: 1224638694:0;feh --bg-scale .wallpaper/edge.jpg
+: 1224638900:0;vi /etc/hosts.allow 
+: 1224639294:0;vi /etc/hosts.deny 
+: 1224639366:0;pacman
+: 1224640078:0;cd pacman.d/
+: 1224640078:0;vi mirrorlist 
+: 1224639894:0;ls Life.*
+: 1224640043:0;cd media/tv.show/life
+: 1224640052:0;mv ~/Life.S02E04.HDTV.XviD-LOL.\[VTV\].avi .
+: 1224640062:0;unrar e life.204.hdtv-lol.YTET@YDY.rar
+: 1224644180:0;vi /etc/rc.conf
+: 1224644291:0;_nmap
+: 1224644373:0;proftpd 
+: 1224644472:0;sudo proftpd
+: 1224721678:0;sudo mount /dev/sr0 /mnt/dvd
+: 1224721685:0;sudo mount -t udf /dev/sr0 /mnt/dvd
+: 1224800008:0;mount /dev/sr0 /mnt/dvd/
+: 1224800008:0;mount -t udf /dev/sr0 /mnt/dvd/
+: 1224800008:0;mount -t iso9660 /dev/sr0 /mnt/dvd/
+: 1224800008:0;mount -t auto /dev/sr0 /mnt/dvd/
+: 1224800008:0;source  /etc/fstab
+: 1224800008:0;mount /mnt/dvd/
+: 1224800008:0;mount /mnt/cdrom
+: 1224721793:0;cd cdrom
+: 1224721795:0;cd ../dvd
+: 1224721981:0;cd sr1/
+: 1224772053:0;vi README
+: 1224772096:0;vi update.sh
+: 1224772112:0;chmod +x update.sh
+: 1224799463:0;pacman -S unixodbc
+: 1224799777:0;dhcpcd -restart
+: 1224802844:0;mc
+: 1224802917:0;xit
+: 1224802934:0;pacman -Rd awesome
+: 1224802940:0;pacman -Rd awesome3
+: 1224803431:0;pkill gmplaer
+: 1224803656:0;cd /media/sr1
+: 1224887493:0;vi /etc/fstab
+: 1224804077:0;cd ../sr2
+: 1224887429:0;cd media/tv.show/brothers\&sisters
+: 1224887443:0;unrar e b.and.s.304.xvid-notv.rar
+: 1224887464:0;mv ~/Brothers.and.Sisters.S03E03.HDTV.XviD-NoTV.avi .
+: 1224887472:0;mv ~/Brothers.and.Sisters.S03E04.HDTV.XviD-NoTV.avi .
+: 1224887481:0;rm ~/Brothers.and.Sisters.S03E03.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1224887488:0;rm ~/Brothers.and.Sisters.S03E04.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1224893806:0;rm urxvtcolor.tar
+: 1224893813:0;rm mutt20081016_smtp.tar
+: 1224893841:0;pacman -Qs awesome
+: 1224894007:0;pacman -Rd awesome-git
+: 1224894017:0;yaourt -Ss awesome
+: 1224894091:0;yaourt -S awesome-git
+: 1224898705:0;pacman -S moblock
+: 1224900597:0;moblock
+: 1224900616:0;yaourt -S moblock
+: 1224900640:0;yaourt -Ss peerguardian
+: 1224900703:0;yaourt -Ss moblock-control
+: 1224900721:0;yaourt -S moblock-control mobloquer
+: 1224905957:0;vi /etc/make.conf
+: 1224905985:0;vi /etc/makepkg.conf
+: 1224956040:0;vi .bashrc 
+: 1224956040:0;cat \u
+: 1224956040:0;find . -name 'make.conf'
+: 1224955635:0;ls c*
+: 1224955639:0;ls C*
+: 1224955670:0;rm Californication.S02E03.720p.HDTV.x264-SYS*.torrent
+: 1224955679:0;rm Californication.S02E04.720p.HDTV.X264-DIMENSION.*.torrent
+: 1224956030:0;ls bro*
+: 1224956080:0;cd .config
+: 1224956083:0;cd awesome
+: 1224956092:0;cp /etc/xdg/awesome/rc.lua .
+: 1224956106:0;sudo vi /usr/share/awesome/themes/default
+: 1224956259:0;sudo mount /dev/sdb1 /mn1
+: 1224956285:0;cd /mnt/1
+: 1224956289:0;cd ../2
+: 1224956668:0;moblock-update
+: 1224956724:0;sudo moblock-update
+: 1224956918:0;sudo moblock-control
+: 1224956989:0;yaourt -Ss moblock
+: 1224957101:0;yaourt -S mobloquer
+: 1224962166:0;vi /etc/moblock/moblock.conf
+: 1224962316:0;cd /var/spool/moblock
+: 1224962322:0;vi Microsoft
+: 1224962348:0;find . -name '*' | xargs grep 'safenet'
+: 1224962370:0;cd /etc/moblock
+: 1224962374:0;vi banned.list
+: 1224962397:0;vi blocklists.list
+: 1224962461:0;vi moblock.conf
+: 1224962621:0;sudo moblock
+: 1224962644:0;sudo moblock -n
+: 1224962654:0;sudo moblock -n banned.list
+: 1224962681:0;sudo moblock -d banned.list
+: 1224962686:0;sudo moblock -p banned.list
+: 1224962689:0;sudo moblock -q banned.list
+: 1224986761:0;sudo sudo moblock-control start
+: 1224986779:0;sudo moblock-control start
+: 1224986803:0;pkill moblock
+: 1224987164:0;sudo vi /usr/bin/moblock
+: 1224987543:0;moblock-control
+: 1224987548:0;moblock-control start
+: 1224987588:0;vi /etc/moblo
+: 1224987650:0;cd /root
+: 1224987655:0;sudo cd /root
+: 1225079214:0;vi .viminfo 
+: 1225079214:0;vi /etc/moblock/moblock.conf 
+: 1225046053:0;moblock start
+: 1225046059:0;sudo moblock start
+: 1225046229:0;sudo mount /dev/sdb1 /mnt/1
+: 1225046235:0;sudo mount /dev/sdb2 /mnt/2
+: 1225046833:0;pacman -Ss namap
+: 1225046849:0;pacman -Ss map
+: 1225047729:0;pacman -S terminus-font
+: 1225058366:0;vi /etc/ssh/sshd_config
+: 1225058671:0;netstat
+: 1225059095:0;cd 2
+: 1225059108:0;sudo chown -R dingzi tv.shows.series
+: 1225059501:0;sudo vi /etc/proftpd.conf
+: 1225060255:0;sudo /etc/rc.d/proftpd restart
+: 1225061010:0;yaourt -Ss iplist
+: 1225061375:0;qxfzff
+: 1225061389:0;hbjjj
+: 1225061396:0;hgg
+: 1225061494:0;yaourt -Ss ipbloc
+: 1225061527:0;yaourt -Ss ipblock
+: 1225061570:0;yaourt -S iplist
+: 1225062084:0;sudo iplist
+: 1225079214:0;iplist 
+: 1225079214:0;iplist --help
+: 1225079214:0;iplist --show
+: 1225079214:0;vi /etc/ipblock.conf 
+: 1225079214:0;iplist
+: 1225079615:0;chown -R dingzi tv.shows.series/
+: 1225079615:0;vi /etc/group
+: 1225079615:0;/etc/rc.d/proftpd restart
+: 1225079615:0;mount /dev/fb0  /mnt/
+: 1225079615:0;mount /dev/
+: 1225079615:0;cd /mnt/2
+: 1225079615:0;cd /dev/
+: 1225079615:0;vi initctl 
+: 1225079533:0;urxvt --help
+: 1225079559:0;urxvtc --tabed
+: 1225079625:0;vi .Xresources
+: 1225079651:0;xrdb .Xresources
+: 1225079668:0;pacman -S autofs
+: 1225079794:0;sudo vi /etc/autofs/auto.master
+: 1225080078:0;sudo vi /etc/conf.d/autofs
+: 1225080104:0;sudo vi /etc/default/aufofs
+: 1225080127:0;mkdir /media
+: 1225080135:0;cd mit
+: 1225080156:0;cd sr2
+: 1225080275:0;modprobe autofs4
+: 1225080279:0;sudo modprobe autofs4
+: 1225080321:0;pacman -S cups ghostscript gsfonts
+: 1225080416:0;mkdir -p wb1
+: 1225080435:0;sudo chown -R dingzi /media
+: 1225080460:0;cd wd1
+: 1225080514:0;yaourt -Ss ntfs
+: 1225080554:0;yaourt -S ntfs-config ntfsprogs-fuse-cvs
+: 1225081286:0;sudo moblock-control restart
+: 1225081303:0;moblock status
+: 1225081306:0;sudo moblock status
+: 1225081964:0;sudo vi /etc/moblock/moblock.conf
+: 1225082042:0;cd /mnt
+: 1225082049:0;sudo rm -rf 1
+: 1225082051:0;sudo rm -rf 2
+: 1225082058:0;rm -rf 3
+: 1225082063:0;sudo rm -rf 3
+: 1225082289:0;cd cd
+: 1225153793:0;sudo vi /etc/group
+: 1225244010:0;cd media/tv.show/americas.next.top.model
+: 1225244021:0;mv ~/Americas.Next.Top.Model.S11E08.PDTV.XviD-XOR.avi .
+: 1225244025:0;mv ~/Americas.Next.Top.Model.S11E09.PDTV.XViD-YesTV.avi .
+: 1225244034:0;unrar e 10.21.08.Americas.Next.Top.Model.S11E08.PDTV.XviD-XOR@FRM.rar
+: 1225244064:0;unrar e CSI.New.York.S05E04.HDTV.XviD-LOL.rar
+: 1225244079:0;mv ~/CSI.New.York.S05E04.HDTV.XviD-LOL.avi .
+: 1225317993:0;rm Crusoe.S01E03.HDTV.XViD-DOT.\[eztv\].torrent
+: 1225318000:0;rm CSI.S09E03.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1225318011:0;rm Desperate.Housewives.S05E04.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1225318025:0;rm Eleventh.Hour.S01E02.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1225318042:0;mv ~/Eleventh.Hour.S01E02.HDTV.XviD-NoTV.avi .
+: 1225318054:0;unrar e Eleventh.Hour.US.S01E02.720p.HDTV.x264-CTU.rar
+: 1225318093:0;cd ../crusoe
+: 1225318158:0;rm *.srt
+: 1225318162:0;rm *.SRT
+: 1225318170:0;unrar e Eleventh.Hour.S01E02.HDTV.XviD-NoTV.rar
+: 1225318180:0;cd crusoe
+: 1225318196:0;mv ~/Crusoe.S01E03.HDTV.XViD-DOT.avi .
+: 1225318258:0;unrar e crusoe.s01e03.hdtv.xvid-dot.YTET@YDY.rar
+: 1225327845:0;mutt
+: 1225327907:0;vi .mailcap
+: 1225459527:0;sudo umount usbdrive
+: 1225459541:0;sudo mkdir cdrom
+: 1225459552:0;mkdir cdrom
+: 1225460121:0;sudo vi .config/awesome/rc.lua
+: 1225460213:0;vi .config/awesome/rc.lua
+: 1225460265:0;sudo cd dvd
+: 1225487804:0;mkdir dvd
+: 1225487804:0;rm -r dvd
+: 1225487804:0;rm -f dvd
+: 1225487804:0;rm -rf dvd
+: 1225487804:0;cd usbdrive/
+: 1225487804:0;cd media/wd1
+: 1225487804:0;vi /etc/autofs/auto.media 
+: 1225487804:0;l;s
+: 1225493860:0;unrar e Eleventh.Hour.S01E03.HDTV.XviD-NoTV.rar
+: 1225493870:0;rm Eleventh.Hour.S01E03.HDTV.XviD-NoTV.rar
+: 1225493885:0;mv ~/Eleventh.Hour.S01E03.HDTV.XviD-NoTV.avi .
+: 1225493895:0;rm ~/Eleventh.Hour.S01E03.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1225585953:0;rm House.S05E06.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1225585962:0;rm Heroes.S03E07.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1225585987:0;touch a
+: 1225586297:0;urxvtc -tabed
+: 1225586303:0;urxvtc -tabbed
+: 1225586343:0;urxvtc --tabbed
+: 1225586407:0;urxvtc --tabbed | grep tab
+: 1225586478:0;vi .vimrc
+: 1225586713:0;cd .fbpanel
+: 1225586723:0;cd /usr/share
+: 1225586734:0;cd icons
+: 1225586748:0;cd hicolor
+: 1225586752:0;cd 32x32
+: 1225586756:0;cd apps
+: 1225586774:0;cd ~?
+: 1225586783:0;vi .fbpanel/default
+: 1225586791:0;q
+: 1225587061:0;rm Heroes.S03E05.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1225587094:0;rm Heroes.S03E06.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1225587170:0;sudo mv Heroes.S03E05.720p.HDTV.x264-CTU.mkv /media/wd2/tv.shows.series/heroes
+: 1225587208:0;sudo mv Heroes.S03E06.720p.HDTV.X264-DIMENSION.mkv /media/wd2/tv.shows.series/heroes
+: 1225588204:0;ls /media/wd2/tv.shows.series/prison.break
+: 1225588401:0;ls /media/wd2/tv.shows.series/smallville
+: 1225588692:0;ls /media/wd2/tv.shows.series/house
+: 1225588696:0;ls /media/wd2/tv.shows.series/house/*.mkv
+: 1225588796:0;ls media/tv.show/amazing.race
+: 1225588833:0;ls merlin*
+: 1225588839:0;ls Merlin.2008.S01E0*
+: 1225588863:0;ls media/tv.show/csi.newyork
+: 1225588866:0;ls media/tv.show/csi.newyork/*.avi
+: 1225588935:0;ls /media/wd2/tv.shows.series/dexter
+: 1225588992:0;ls /media/wd2/tv.shows.series/stargate.atlantis
+: 1225588995:0;ls /media/wd2/tv.shows.series/stargate.atlantis/*.mkv
+: 1225589058:0;ls Star*
+: 1225589077:0;ls /media/wd2/tv.shows.series/californication
+: 1225589124:0;ls life*
+: 1225589143:0;rm Life.on.Mars.US.S01E02.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1225589147:0;ls Life*
+: 1225589159:0;rm Life.on.Mars.US.S01E03.HDTV.XviD-LOL.\[eztv\].torrent
+: 1225589188:0;ls /media/wd2/tv.shows.series/supernatural
+: 1225589240:0;rm Supernatural.S04E05.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1225589242:0;ls Supernatural.S04E0*
+: 1225589261:0;ls /media/wd2/tv.shows.series/fringe
+: 1225589307:0;ls Fr*
+: 1225589352:0;ls Terminator.*
+: 1225589391:0;cd Generation.Kill.Part.6.READNFO.720p.HDTV.X264-0TV
+: 1225589404:0;unrar e generation.kill.part.6.720p.hdtv.x264-0tv.part01.rar
+: 1225589413:0;unrar e generation.kill.part.6.720p.hdtv.x264-0tv.rar
+: 1225589593:0;mv media/tv.show/eleventh.hour/*.torrent .
+: 1225589606:0;rm media/tv.show/eleventh.hour/*.torrent 
+: 1225589613:0;ls media/tv.show/eleventh.hour
+: 1225589678:0;ls /media/wd2/tv.shows.series/greys.anatomy
+: 1225589724:0;ls /media/wd2/tv.shows.series/desperate.housewives
+: 1225589769:0;ls media/tv.show/americas.next.top.model
+: 1225589772:0;ls media/tv.show/americas.next.top.model/*.avi
+: 1225589863:0;ls media/tv.show/survivor/*.avi
+: 1225589923:0;rm Top.Gear.Australia.S01E03.WS.PDTV.XviD-BiA.\[eztv\].torrent
+: 1225589938:0;ls *.torrent | less
+: 1225590667:0;cd house/
+: 1225590667:0;mv /home/dingzi/House.S05E06.720p.HDTV.x264-CTU.mkv .
+: 1225590667:0;cd ../heroes/
+: 1225590667:0;mv /home/dingzi/Heroes.S03E07.720p.HDTV.X264-DIMENSION.mkv .
+: 1225642349:0;rm House.S05E04.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1225642369:0;rm House.S05E05.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1225642446:0;sudo mv House.S05E0*.mkv /media/wd2/tv.shows.series/house
+: 1225674477:0;cd ../wd2
+: 1225674510:0;sudo umount ../usbdrive 
+: 1225674561:0;cd weeds
+: 1225674583:0;sudo mv *.* /media/wd2/tv.shows.series/weeds
+: 1225674629:0;rm Brothers.and.Sisters.S03E05.HDTV.XViD-DOT.\[eztv\].torrent
+: 1225674645:0;rm CSI.NY.S05E05.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1225674661:0;mv CSI.NY.S05E05.HDTV.XviD-NoTV.avi media/tv.show/csi.newyork
+: 1225674673:0;mv Brothers.and.Sisters.S03E05.HDTV.XViD-DOT.avi media/tv.show/brothers\&sisters
+: 1225674886:0;ls media/tv.show/brothers\&sisters
+: 1225675444:0;pkill kazehakase 
+: 1225675549:0;unrar e brothers.and.sisters.s03e05.hdtv.xvid-dot.rar
+: 1225675555:0;unrar e bas.303.xvid-notv.rar
+: 1225678918:0;rm -rf weeds
+: 1225678922:0;sudo rm -rf weeds
+: 1225680343:0;cd ../usbdrive
+: 1225680403:0;mv Terminator/*.* ../../wd2/tv.shows.series/terminator
+: 1225680412:0;sudo mv Terminator/*.* ../../wd2/tv.shows.series/terminator
+: 1225681241:0;ls Terminator/
+: 1225681247:0;sudo -rf Terminator
+: 1225681252:0;sudo rm -rf Terminator
+: 1225681257:0;ls ../../wd2/tv.shows.series/terminator
+: 1225681266:0;ls ../../wd2/tv.shows.series/terminator/*.mkv
+: 1225682487:0;cd ../../wd2
+: 1225682507:0;cd dv
+: 1225683151:0;sudo vi /usr/bin/MoBlock-nfq.sh
+: 1225684564:0;sudo rm /media/wd2/tv.shows.series/terminator/*.*
+: 1225684575:0;ls /media/wd2/tv.shows.series/terminator/*.*
+: 1225684673:0;cd tv.shows.series/house
+: 1225684688:0;ls /media/usbdrive/tv.shows/house/*.mkv
+: 1225684714:0;sudo mv /media/usbdrive/tv.shows/house/*.* .
+: 1225685694:0;ls /media/usbdrive/tv.shows/house
+: 1225685710:0;sudo rm -rf /media/usbdrive/tv.shows/house
+: 1225723159:0;vi ~/.scripts/weather/weather.sh
+: 1225723246:0;vi ~/.conkyrc
+: 1225723362:0;yaourt -Ss pypanel
+: 1225723430:0;pacman -Rd pypanel
+: 1225723665:0;ls /media/usbdrive/tv.shows/csi
+: 1225723702:0;mv usbdrive/tv.shows/csi/*.* wd2/tv.shows.series/csi
+: 1225723717:0;sudo mv usbdrive/tv.shows/csi/*.* wd2/tv.shows.series/csi
+: 1225723720:0;ls usbdrive/tv.shows/csi
+: 1225723730:0;sudo rm -rf usbdrive/tv.shows/csi
+: 1225723736:0;ls usbdrive/tv.shows/
+: 1225723758:0;sudo mv usbdrive/tv.shows/eureka/*.* wd2/tv.shows.series/eureka
+: 1225723855:0;pkill pbpanpel
+: 1225723887:0;pkill fbpanel
+: 1225723899:0;pypanel&
+: 1225723981:0;vi .pypanelrc
+: 1225724271:0;chmod +x dmenu.sh
+: 1225724331:0;vi dmenu.sh
+: 1225724380:0;pacman -S dmenu
+: 1225724429:0;./dmenu.sh
+: 1225724458:0;vi .config/openbox/rc.xml
+: 1225724748:0;rm Brothers.and.Sisters.S03E02.HDTV.XViD-DOT.\[eztv\].torrent
+: 1225724758:0;mv Brothers.and.Sisters.S03E02.HDTV.XViD-DOT.avi media/tv.show/brothers\&sisters
+: 1225724770:0;rm Eleventh.Hour.1x04.Savant.HDTV.XviD-FoV.\[eztv\].torrent
+: 1225724786:0;mv Eleventh.Hour.1x04.Savant.HDTV.XviD-FoV.avi media/tv.show/eleventh.hour
+: 1225724795:0;rm Eli.Stone.S02E02.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1225724819:0;mkdir -p media/tv.show/eli.stone
+: 1225724829:0;mv Eli.Stone.S02E02.HDTV.XviD-NoTV.avi media/tv.show/eli.stone
+: 1225724989:0;ls /media/wd2/tv.shows.series/eureka
+: 1225725000:0;ls /media/wd2/tv.shows.series/eureka/mkv
+: 1225725004:0;ls /media/wd2/tv.shows.series/eureka/*.mkv
+: 1225725336:0;yaourt -Ss conky
+: 1225725496:0;yaourt -Ss majkhii
+: 1225725560:0;yaourt -Ss notifier
+: 1225725611:0;pacman -S checkgmail pacupdate
+: 1225725917:0;sudo visudo /usr/bin/pa
+: 1226071451:0;visudo
+: 1225726018:0;pacupdate
+: 1225726040:0;pacman -S pynotify
+: 1225726055:0;yaourt -S pynotify
+: 1225726075:0;yaourt -Ss notify
+: 1225726462:0;chmod 744 sync_pacman
+: 1225726477:0;sudo cp sync_pacman /etc/cron.hourly
+: 1225726611:0;vi sync_pacman
+: 1225726631:0;vi pacmannotify.py
+: 1225726655:0;mv pacmannotify.py pacnotify.py
+: 1225726662:0;chmod +x pacnotify.py
+: 1225726668:0;./pacnotify.py
+: 1225727759:0;cd .scripts
+: 1225727780:0;tar xzvf conky-gmail.tar.gz
+: 1225727794:0;vi conky-gmail/gmail.py
+: 1225727838:0;vi conky-gmail/README
+: 1225727942:0;pkill conky-
+: 1225728053:0;vi .conkyrc
+: 1225728257:0;conky&
+: 1225730966:0;sudo rm /media/wd2/tv.shows.series/eureka/*.*
+: 1225732236:0;sudo mv Fringe.S01E06.720p.HDTV.x264-CTU.mkv /media/wd2/tv.shows.series/fringe
+: 1225732256:0;cd fringe
+: 1225732258:0;ls -lsh
+: 1225733246:0;sudo mv /media/usbdrive/tv.shows/torrent/*.* ~/
+: 1225733327:0;cd ../eli.stone
+: 1225733393:0;unrar e 10.28.08.Eli.Stone.S02E02.HDTV.XviD-NoTV@FRM.rar
+: 1225744538:0;cd tv.shows.series/fringe
+: 1225744570:0;cd eureka
+: 1225744578:0;sudo rm -rf eureka
+: 1225744597:0;sudo *.* /media/wd2/tv.shows.series/heroes
+: 1225744602:0;sudo mv *.* /media/wd2/tv.shows.series/heroes
+: 1225752766:0;sudo rm -rf heroes
+: 1225761333:0;cd tv.shows.series/heroes
+: 1225761414:0;sudo rm Heroes.S03E01.Repack.720p.HDTV.X264-DIMENSION.mkv
+: 1225761422:0;sudo rm Heroes.S03E02.720p.HDTV.X264-DIMENSION.mkv
+: 1225761433:0;sudo rm Heroes.S03E03.720p.HDTV.X264-DIMENSION.mkv
+: 1225761445:0;ls /media/usbdrive/tv.shows
+: 1225761514:0;sudo mv /media/usbdrive/tv.shows/prison.break /media/wd2/tv.shows.series/prison.break
+: 1225768510:0;sudo mv *.* ../
+: 1225768601:0;cd usbdrive
+: 1225768638:0;sudo mv *.* /media/wd2/tv.shows.series/stargate.atlantis
+: 1225768736:0;cd wd2/tv.shows.series
+: 1225768743:0;cd stargate.atlantis
+: 1225772180:0;sudo rm Stargate.Atlantis.S05E01.720p.HDTV.x264-LOLCATS.mkv
+: 1225772187:0;sudo rm Stargate.Atlantis.S05E02.720p.HDTV.X264-DIMENSION.mkv
+: 1225772193:0;sudo rm Stargate.Atlantis.S05E03.720p.HDTV.x264-aAF.
+: 1225772196:0;sudo rm Stargate.Atlantis.S05E03.720p.HDTV.x264-aAF.mkv
+: 1225772202:0;sudo rm Stargate.Atlantis.S05E04.720p.HDTV.x264-2HD.mkv
+: 1225772211:0;sudo rm Stargate.Atlantis.S05E05.720p.HDTV.x264-CTU.mkv
+: 1225772223:0;sudo rm Stargate.Atlantis.S05E06.720p.HDTV.x264-BAJSKORV.mkv
+: 1225772237:0;sudo rm Stargate.Atlantis.S05E05.PROPER.720p.HDTV.x264-SAiNTS.mkv
+: 1225772246:0;sudo rm Stargate.Atlantis.S05E07.720p.HDTV.x264-2HD.mkv
+: 1225772257:0;sudo rm Stargate.Atlantis.S05E08.720P.HDTV.X264-hV.mkv
+: 1225772324:0;cd ~/media/tv.show
+: 1225772377:0;ls ../brothers\&sisters
+: 1225772380:0;ls ../brothers\&sisters/*.avi
+: 1225772414:0;ls ../csi.newyork/*.avi
+: 1225772576:0;cd /media/usbdrive
+: 1225772580:0;cd tv.shows
+: 1225772617:0;sudo mv * /media/wd2/tv.shows.series/smallville
+: 1225772834:0;sudo rm -rf stargate.atlantis
+: 1225772849:0;cd smallville
+: 1225772866:0;lls
+: 1225772917:0;cd true.blood
+: 1225773853:0;ls ../../wd2/tv.shows.series/smallville/*.mkv
+: 1225773865:0;ls -lsh ../../wd2/tv.shows.series/smallville/*.mkv
+: 1225773912:0;sudo mv true.blood/*.* /media/wd2/tv.shows.series/true.blood
+: 1225774616:0;ls true.blood
+: 1225774622:0;sudo rm -rf true.blood
+: 1225774630:0;ls torrent
+: 1225774636:0;sudo rm -rf torrent
+: 1225774650:0;sudo mv gossip.girl /media/wd2/tv.shows.series
+: 1225818984:0;cd jericho
+: 1225819007:0;sudo umount /media/usbdrive
+: 1225819026:0;fuser
+: 1225819040:0;fuser -c
+: 1225819050:0;fuser -l
+: 1225819324:0;mv ~/90210.S01E08.HDTV.XViD-DOT.avi .
+: 1225819329:0;rm ~/90210.S01E08.HDTV.XViD-DOT.\[eztv\].torrent
+: 1225819346:0;mkdir -p 30.rock
+: 1225819355:0;mv 30.rock ../
+: 1225819360:0;cd 30.rock
+: 1225819368:0;mv ~/30.Rock.S03E01.HDTV.XviD-LOL.avi .
+: 1225819372:0;rm ~/30.Rock.S03E01.HDTV.XviD-LOL.\[eztv\].torrent
+: 1225819395:0;mv ~/Americas.Next.Top.Model.S11E* .
+: 1225819408:0;rm *.torrent
+: 1225819458:0;cd ../brothers\&sisters
+: 1225819466:0;mv ~/Brothers.and.Sisters.S03E06.HDTV.XViD-DOT.avi .
+: 1225819471:0;rm ~/Brothers.and.Sisters.S03E06.HDTV.XViD-DOT.\[eztv\].torrent
+: 1225819491:0;mv ~/CSI.New.York.S05E02.HDTV.XviD-LOL.avi .
+: 1225819496:0;rm ~/CSI.New.York.S05E02.HDTV.XviD-LOL.\[eztv\].torrent
+: 1225820627:0;sudo rm House.S05E01.REPACK.PROPER.720p.HDTV.x264-CTU.mkv
+: 1225820639:0;sudo rm House.S05E02.Repack.720p.HDTV.X264-DIMENSION.
+: 1225820642:0;sudo rm House.S05E02.Repack.720p.HDTV.X264-DIMENSION.mkv
+: 1225820667:0;sudo rm House.S05E03.720p.HDTV.X264-DIMENSION.mkv
+: 1225820676:0;sudo rm House.S05E04.720p.HDTV.X264-DIMENSION.mkv
+: 1225820754:0;dh -sh * | sort -n
+: 1225820902:0;cd prison.break
+: 1225820911:0;sudo rm prison.break
+: 1225820915:0;sudo rm -rf prison.break
+: 1225820930:0;cd heroes
+: 1225820984:0;cd /home/dingzi
+: 1225820986:0;cd media
+: 1225820990:0;cd tv.show
+: 1225821061:0;sudo mv eleventh.hour survivor generation.kill so.you.think.you,can.dance  /media/wd2/tv.shows.series
+: 1225821143:0;cd americas.next.top.model
+: 1225821558:0;unrar e 10.04.08.Americas.Next.Top.Model.S11E06.PDTV.XviD-XOR@FRM.rar
+: 1225821565:0;unrar e 10.28.08.Americas.Next.Top.Model.S11E09.PDTV.XViD-YesTV@FRM.rar
+: 1225821979:0;cd brothers\&sisters
+: 1225822001:0;unrar e brothers.and.sisters.s03e02.hdtv.xvid-dot.rar
+: 1225822008:0;unrar e brothers.and.sisters.s03e06.hdtv.xvid-dot.rar
+: 1225826130:0;cd supernatural
+: 1225826167:0;rm supernatural
+: 1225826171:0;rm -rf supernatural
+: 1225826188:0;ls tscc
+: 1225826213:0;ls /media/wd2/tv.shows.series/terminator
+: 1225826235:0;ls ~/*.torrent
+: 1225826272:0;rm -rf tscc
+: 1225826303:0;rm -rf flashpoint
+: 1225826324:0;cd samurai.girl
+: 1225826340:0;sudo rm -rf samurai.girl
+: 1225826415:0;sudo mv survivor generation.kill amazing.race eli.stone life /media/wd2/tv.shows.series
+: 1225829870:0;sudo mv brothers\&sisters /media/wd2/tv.shows.series
+: 1225844367:0;cd 90210
+: 1225844377:0;unrar e 90210.s01e08.hdtv.xvid-dot.YTET@YDY.rar
+: 1225844449:0;sudo mv americas.next.top.model /media/wd2/tv.shows.series
+: 1225846330:0;sudo mv survivor /media/wd2/tv.shows.series
+: 1225846347:0;sudo mv survivor/* /media/wd2/tv.shows.series/survivor
+: 1225847362:0;sudo mv 90210 /media/wd2/tv.shows.series/
+: 1225896902:0;rm Chuck.2x02.Chuck.Versus.The.Seduction.HDTV.XviD-FoV.\[eztv\].torrent
+: 1225896913:0;rm Chuck.S02E01.HDTV.XViD-HiQT.\[eztv\].torrent
+: 1225896920:0;rm CSI.S09E04.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1225896981:0;sudo mkdir /media/wd2/tv.shows.series/chuck
+: 1225897010:0;sudo mv Chuck.2x02.Chuck.Versus.The.Seduction.HDTV.XviD-FoV.avi Chuck.S02E01.HDTV.XViD-HiQT.avi /media/wd2/tv.shows.series/chuck
+: 1225897355:0;sudo mv CSI.S09E04.720p.HDTV.X264-DIMENSION.mkv /media/wd2/tv.shows.series/csi
+: 1225903302:0;sudo ls
+: 1225903383:0;ls Heroes.*
+: 1225903573:0;rm Heroes.S03E01.*
+: 1225903580:0;rm Heroes.S03E02.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1225911921:0;rm Californication.S02E02.720p.HDTV.X264-0TV.\[eztv\].torrent
+: 1225912096:0;sudo mv Californication.S02E02.720p.HDTV.X264-0TV.mkv /media/wd2/tv.shows.series/californication
+: 1225928624:0;sudo cd /media/dvd
+: 1225932739:0;cd media/movie
+: 1226010857:0;conky &
+: 1226018644:0;cd /media
+: 1226071534:0;ls heroes/*.mkv
+: 1226071534:0;ls prison.break/*.mkv
+: 1226071534:0;ls prison.break/*.*
+: 1226071534:0;
+: 1226071534:0;ls stargate.atlantis/
+: 1226071534:0;ls stargate.atlantis/*.mkv
+: 1226071534:0;ls dexter/*.mkv
+: 1226071534:0;ls dexter/*.*
+: 1226071534:0;ls true.blood/*.mkv
+: 1226071534:0;ls true.blood/*.*
+: 1226071534:0;cd survivor/
+: 1226071534:0;rm -rf Survivor-Vanuatu/
+: 1226076654:0;ls ls
+: 1226166937:0;cd media/tv.show/90210
+: 1226166943:0;mv ~/90210.S01E09.HDTV.XviD-LOL.avi .
+: 1226166954:0;rm ~/90210.S01E09.HDTV.XviD-LOL.\[eztv\].torrent
+: 1226253305:0;vi /etc/hosts
+: 1226262470:0;cd ~/media/tv.show/csi.newyork
+: 1226262647:0;mv ~/CSI.New.York.S05E06.HDTV.XviD-LOL.avi .
+: 1226262654:0;rm ~/CSI.New.York.S05E06.HDTV.XviD-LOL.\[eztv\].torrent
+: 1226351718:0;cd t23.config/boot
+: 1226351723:0;cd t23.config/
+: 1226351731:0;cd boot
+: 1226351739:0;cd etc
+: 1226351753:0;cd home
+: 1226351757:0;cd tools
+: 1226351763:0;cd 2007-05-04--12.35.23
+: 1226351774:0;cd usr
+: 1226351777:0;cd src
+: 1226351780:0;cd linux
+: 1226351784:0;vi config
+: 1226446677:0;cd media/tv.show/
+: 1226446682:0;mkdir -p chunk
+: 1226446698:0;mv ~/Chuck.S02E03.HDTV.XviD-LOL.avi .
+: 1226446704:0;mv ~/Chuck.S02E04.HDTV.XviD-LOL.avi
+: 1226446708:0;mv ~/Chuck.S02E04.HDTV.XviD-LOL.avi .
+: 1226446713:0;rm ~/Chuck.S02E03.HDTV.XviD-LOL.\[eztv\].torrent
+: 1226446719:0;rm ~/Chuck.S02E04.HDTV.XviD-LOL.\[eztv\].torrent 
+: 1226446742:0;ls /media/wd2/tv.shows.series/chuck
+: 1226447307:0;unrar e chuck.s02e01.hdtv.xvid-hiqt.rar
+: 1226447313:0;unrar e chuck.s02e02.hdtv.xvid-hiqt@YDY.rar
+: 1226447326:0;unrar e chuck.204.hdtv-lol@YDY.rar
+: 1226447334:0;unrar e chuck.205.hdtv-lol@YDY.rar
+: 1226600067:0;sudo rm /usr/share/man/man1/zsh*
+: 1226624963:0;rm 30.Rock.S03E02.HDTV.XviD-LOL.\[eztv\].torrent
+: 1226624970:0;rm Americas.Next.Top.Model.S11E11.PDTV.XViD-YesTV.\[eztv\].torrent
+: 1226624982:0;rm Californication.S02E05.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1226624990:0;rm Californication.S02E06.720p.HDTV.x264-2HD.\[eztv\].torrent
+: 1226624998:0;rm Chuck.S02E05.HDTV.XviD-LOL.\[eztv\].torrent
+: 1226625015:0;rm CSI.S09E05.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1226625026:0;rm Dexter.S03E02.720p.HDTV.x264-SYS.\[eztv\].torrent
+: 1226625036:0;rm Fringe.S01E04.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1226625054:0;rm Fringe.S01E05.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1226625067:0;rm Gossip.Girl.S02E09.HDTV.XviD-XOR.\[VTV\].avi
+: 1226625103:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E05.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1226625115:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E06.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1226625126:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E07.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1226676593:0;mv ~/30.Rock.S03E02.HDTV.XviD-LOL.avi 30.rock/
+: 1226676626:0;mkdir -p antm
+: 1226676638:0;mv ~/Americas.Next.Top.Model.S11E11.PDTV.XViD-YesTV.avi antm
+: 1226676649:0;mv ~/Chuck.S02E05.HDTV.XviD-LOL.avi chunk
+: 1226676671:0;mv ~/Gossip.Girl.S02E09.HDTV.XviD-XOR.\[VTV\].avi 
+: 1226676679:0;mkdir -p gossip.girl
+: 1226676690:0;mv ~/Gossip.Girl.S02E09.HDTV.XviD-XOR.\[VTV\].avi gossip.girl
+: 1226767758:0;ls 30ls
+: 1226767773:0;30.rock
+: 1226768117:0;pacman -S zsh
+: 1226768170:0;unrar e 30.rock.301.hdtv-lol.rar
+: 1226768191:0;unrar e 30.rock.rock.303.hdtv-lol.YTET.rar
+: 1226768199:0;unrar e 30.rock.303.hdtv-lol.YTET.rar
+: 1226768240:0;unrar e 30.Rock.S03E02.HDTV.XviD-LOL.rar
+: 1226768249:0;cd antm
+: 1226768275:0;unrar e 11.11.08.Americas.Next.Top.Model.S11E11.PDTV.XViD-YesTV@FRM.rar
+: 1226768289:0;ls ../csi.ny
+: 1226768292:0;ls ../csi.newyork
+: 1227840304:0;umount usbdrive 
+: 1227840304:0;umount dvd
+: 1227840304:0;umount /media/dvd
+: 1227840304:0;pkill k3b
+: 1227840304:0;vi /etc/autofs/auto.media
+: 1227840304:0;ls ../terminator/*.mkv
+: 1227840304:0;ls ../terminator/*.*
+: 1227840304:0;cd ../terminator/
+: 1227840304:0;cd terminator/
+: 1227840304:0;rm /home/dingzi/Prison.Break.S04E01-02.REAL.PROPER.720p.HDTV.x264-E7.\[eztv\].torrent 
+: 1227840304:0;rm /home/dingzi/Prison.Break.S04E07.720p.HDTV.X264-DIMENSION.\[eztv\].torrent 
+: 1227840304:0;y
+: 1227840304:0;rm /home/dingzi/Prison.Break.S04E09.720p.HDTV.X264-DIMENSION.\[eztv\].torrent 
+: 1227840304:0;mv /home/dingzi/Prison.Break.S04E01-02.REAL.PROPER.720p.HDTV.x264-E7.mkv .
+: 1227840304:0;mv /home/dingzi/Prison.Break.S04E09.720p.HDTV.X264-DIMENSION.mkv .
+: 1227840304:0;mv /home/dingzi/Prison.Break.S04E07.720p.HDTV.X264-DIMENSION.mkv .
+: 1227840304:0;mv /home/dingzi/Prison.Break.S04E08.720p.HDTV.X264-DIMENSION.mkv .
+: 1227840304:0;mv Terminator.The.Sarah.Connor.Chronicles.S02E0*.mkv /media/wd2/tv.shows.series/terminator/
+: 1227840304:0;ls /media/wd2/tv.shows.series/fringe/*.mkv
+: 1227840304:0;rm Fringe.S01E06.720p.HDTV.x264-CTU.\[eztv\].torrent 
+: 1227840304:0;mv Fringe.S01E0*.mkv /media/wd2/tv.shows.series/fringe/
+: 1227840304:0;mv Dexter.S03E0*.mkv /media/wd2/tv.shows.series/dexter/
+: 1227840304:0;df -f
+: 1227840304:0;.
+: 1227840304:0;cd media/dvd
+: 1227840304:0;/etc/rc.d/autofs stop
+: 1227840304:0;umount dvd/
+: 1227840304:0;/etc/rc.d/autofs start
+: 1227840304:0;eject /media/dvd
+: 1227840304:0;/etc/rc.d/autofs restart
+: 1227840304:0;eject dvd
+: 1227840304:0;cd dvd/
+: 1226786190:0;pkill scim-panel-gtk
+: 1226786208:0;pkill conky
+: 1226786220:0;pkill pypanel
+: 1226786249:0;pkill scim
+: 1226786289:0;bmpanel &
+: 1226786575:0;yaourt -Syu
+: 1226786705:0;yaourt --help
+: 1226786765:0;yaourt -Q pypanel
+: 1226786779:0;yaourt -Qs pypanel
+: 1226786826:0;yaourt -S pypanel-gaps
+: 1226966024:0;du -sh 
+: 1226966045:0;ls crusoe
+: 1226966049:0;ls chunk
+: 1226966059:0;cd gossip.girl
+: 1226966854:0;sudo vi /etc/autofs/auto.media
+: 1226966909:0;cd tmp
+: 1226967023:0;sudo /etc/rc.d/autofs restart
+: 1226967028:0;sudo /etc/rc.d/autofs stop
+: 1226967053:0;sudo /etc/rc.d/autofs start
+: 1226967074:0;cd .mplayer
+: 1226967198:0;vi gui.history
+: 1226967208:0;rm gui.history
+: 1226967225:0;gmplayer
+: 1226973298:0;8g6yr6iooukjkkikkkllll/lpolopoo
+: 1226973304:0;hjtuuyuyjuyijuy
+: 1226973314:0;uduryryyjyt\\
+hhxgwgg
+: 1226973321:0;\rrqewrergfttgt
+: 1226973332:0;sfetrr5467890
+: 1226973337:0;juijhi
+: 1226973341:0;kjuuutut
+: 1226973345:0;hrhth
+: 1226973353:0;jhguyuyt]
+: 1226973360:0;t6tds5etewh4f
+: 1226973425:0;harryyyyyyY
+: 1226973506:0;HARRY  DING
+: 1226973522:0;DAD
+: 1226973555:0;MOM
+: 1226973624:0;HHAWFNBVCXZ
+: 1226973679:0;QXCVBN B BX  UUGHGJHHJNHJJKUK
+: 1226973745:0;MNBGHYWWQSSAZZCVD//OTEEEERETTLP[[NVHHJYHHHYHN 
+: 1226973764:0;GGJHG
+: 1226973773:0;HFHGYHGNH+
+: 1226973822:0;URGHYTJ7YYUYKYUUYUMYMG6TU777H9O9IOPMNBVCXZAAQWERTUYUOO[[]''./.;LLLLLJRDA``1
+: 1226973830:0;juuuiu7yjyuyyyj
+: 1226973862:0;iueuryyiu,hkkkjiik
+: 1226973917:0;lhl977668888[11~2~3~2~4~3~8~7~3~4~3~8~7~5~8~8~joknjuhjjjhb
+: 1226973942:0;chyfijyf7~5~8~8~9~
+: 1226973957:0;hh
+: 1226973963:0;h
+: 1226973999:0;harruy
+: 1226974054:0;harf678890                                  kkkkkkk
+: 1226974342:0;jiilnhmnnnbvlknjvgggggggcvmmkliublh
+: 1226974367:0;lhjjgt
+: 1227030720:0;mv ~/CSI.NY.5x07.Dead.Inside.HDTV.XviD-FoV.avi .
+: 1227030726:0;unrar e CSI_NY.5x07.Dead_Inside.HDTV_XviD-FoV.rar
+: 1227030739:0;mv ~/Merlin.2008.S01E01.WS.PDTV.XviD-RiVER.avi .
+: 1227030741:0;unrar e *.rara
+: 1227030805:0;rm Merlin.2008.S01E01.WS.PDTV.XviD-RiVER.\[eztv\].torrent
+: 1227030818:0;rm CSI.S09E06.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1227030825:0;rm CSI.NY.5x07.Dead.Inside.HDTV.XviD-FoV.\[eztv\].torrent
+: 1227030886:0;rm Fringe.S01E07.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1227030894:0;rm Heroes.S03E08.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1227030902:0;rm House.S05E07.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1227030926:0;rm Prison.Break.S04E10.720p.HDTV.x264-MainEvent.\[eztv\].torrent
+: 1227030952:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E08.720p.HDTV.x264-DOT.\[eztv\].torrent
+: 1227074528:0;cd bonekickers
+: 1227074549:0;ls /media/wd2/tv.shows.series/brothers\&sisters
+: 1227110221:0;rm -rf APPLE.MAC.OSX.LEOPARD.V10.5.ISO-OSX
+: 1227110232:0;rm APPLE.MAC.OSX.LEOPARD.V10.5.ISO-OSX*
+: 1227110524:0;unrar e 09.28.08.Merlin.2008.S01E02.WS.PDTV.XviD-AFFiNiTY@FRM.rar
+: 1227110529:0;rm 09.28.08.Merlin.2008.S01E02.WS.PDTV.XviD-AFFiNiTY@FRM.rar
+: 1227110534:0;unrar e 10.05.08.Merlin.2008.S01E03.WS.PDTV.XviD-RiVER@FRM.rar
+: 1227110537:0;rm 10.05.08.Merlin.2008.S01E03.WS.PDTV.XviD-RiVER@FRM.rar
+: 1227110545:0;unrar e Merlin.2008.S01E03.WS.PDTV.XviD-RiVER.rar
+: 1227110551:0;rm Merlin.2008.S01E03.WS.PDTV.XviD-RiVER.rar
+: 1227110595:0;unrar e Merlin.2008.S01E02.WS.PDTV.XviD-AFFiNiTY.rar
+: 1227110603:0;unrar e Merlin.2008.S01E01.WS.PDTV.XviD-RiVER.rar
+: 1227110679:0;mv ~/Merlin.2008.S01E02.WS.PDTV.XviD-AFFiNiTY.avi .
+: 1227110684:0;rm ~/Merlin.2008.S01E02.WS.PDTV.XviD-AFFiNiTY.\[eztv\].torrent
+: 1227134181:0;mv Merlin.2008.S01E03.WS.PDTV.XviD-RiVER.avi media/tv.show/merlin
+: 1227134184:0;rm Merlin.2008.S01E03.WS.PDTV.XviD-RiVER.\[eztv\].torrent
+: 1227140109:0;unrar e CSI_NY.5x07.Dead_Inside.HDTV_XviD-FoV.rar `
+: 1227140111:0;unrar e CSI_NY.5x07.Dead_Inside.HDTV_XviD-FoV.rar 
+: 1227140513:0;unrar e 11.13.08.CSI_NY.5x07.Dead_Inside.HDTV_XviD-FoV@PLX.rar
+: 1227200059:0;unrar e 10.20.08.Merlin.2008.S01E05.WS.PDTV.XviD-BiA@FRM.rar
+: 1227200068:0;unrar e Merlin.2008.S01E04.WS.PDTV.XviD-RiVER.rar
+: 1227200075:0;unrar e Merlin.2008.S01E05.WS.PDTV.XviD-BiA.rar
+: 1227200088:0;unrar e Merlin.2008.S01E09.WS.PDTV.XviD-RiVER.rar
+: 1227200093:0;unrar e merlin.2008.s01e04.ws.pdtv.xvid-river.rar
+: 1227200103:0;unrar e merlin_2008_s01e0920081116181011.rar
+: 1227202613:0;mv ~/Merlin.2008.S01E04.WS.PDTV.XviD-RiVER.avi .
+: 1227202627:0;mv ~/Merlin.2008.S01E05.WS.PDTV.XviD-BiA.avi .
+: 1227202631:0;rm ~/Merlin.2008.S01E04.WS.PDTV.XviD-RiVER.\[eztv\].torrent
+: 1227202637:0;rm ~/Merlin.2008.S01E05.WS.PDTV.XviD-BiA.\[eztv\].torrent
+: 1227224003:0;rddggsttgtxtx 
+: 1227224014:0;ggyfhhuygj
+: 1227224053:0;h0opl;/lkkn mjb kg,.ikg432'';;[]]yhgytujdu8i0o6u 
+: 1227224381:0;abcdefghijklmnopqrstuvwxyz
+: 1227224419:0;ABCDEFGHIJKLMNOPQRSTUVWXYZ  
+: 1227224452:0;BVJHIHVIKHGKLYGIY,NMNBBVVVCXXXGVFGHKP;;OJYDIOOURREWQ
+: 1227224464:0;GTGGFFFFH
+: 1227224473:0;LTUTI
+: 1227224478:0;OLOOLOIK
+: 1227224482:0;O8I98
+: 1227224485:0;LLIUO
+: 1227224489:0;[IOI'\
+'HOUL
+: 1227224493:0;PJLU..
+: 1227224496:0;IOIKYTG
+: 1227224498:0;,GL
+: 1227224501:0;KOGI3
+: 1227224802:0;mv ~/Brothers.and.Sisters.S03E08.HDTV.XViD-DOT.avi
+: 1227224805:0;mv ~/Brothers.and.Sisters.S03E08.HDTV.XViD-DOT.avi .
+: 1227224812:0;rm ~/Brothers.and.Sisters.S03E08.HDTV.XViD-DOT.\[eztv\].torrent
+: 1227224819:0;unrar e brothers.and.sisters.s03e08.hdtv.xvid-dot.rar
+: 1227224826:0;cd ../merlin
+: 1227225332:0;unrar e 10.26.08.Merlin.2008.S01E06.WS.PDTV.XviD-RiVER@FRM.rar
+: 1227225340:0;unrar e 11.02.08.Merlin.2008.S01E07.WS.PDTV.XviD-RiVER@FRM.rar
+: 1227225347:0;unrar e 11.02.08.merlin.2008.s01e07.ws.pdtv.xvid-river@PLX.rar
+: 1227225354:0;unrar e 11.09.08.merlin.2008.s01e08.ws.pdtv.xvid-affinity@PLX.rar
+: 1227225362:0;unrar e Merlin.2008.S01E06.WS.PDTV.XviD-RiVER.rar
+: 1227225369:0;unrar e Merlin.2008.S01E07.WS.PDTV.XviD-RiVER.rar
+: 1227225373:0;unrar e merlin.2008.s01e06.ws.pdtv.xvid-river.YYeTs.rar
+: 1227225446:0;mv ~/Merlin.2008.S01E07.WS.PDTV.XviD-RiVER.avi .
+: 1227225451:0;rm ~/Merlin.2008.S01E07.WS.PDTV.XviD-RiVER.\[eztv\].torrent
+: 1227225476:0;mv ~/Merlin.2008.S01E09.WS.PDTV.XviD-RiVER.avi .
+: 1227225482:0;rm ~/Merlin.2008.S01E09.WS.PDTV.XviD-RiVER.\[eztv\].torrent
+: 1227225504:0;du -h
+: 1227235963:0;sudo mv /home/dingzi/Prison.Break.S04E11.720p.HDTV.X264-DIMENSION.mkv tv.shows.series/prison.break
+: 1227236016:0;mv Merlin.2008.S01E06.WS.PDTV.XviD-RiVER.avi media/tv.show/merlin
+: 1227236030:0;rm Merlin.2008.S01E06.WS.PDTV.XviD-RiVER.\[eztv\].torrent
+: 1227236075:0;rm Prison.Break.S04E11.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1227241374:0;sudo mv /home/dingzi/Heroes.S03E09.720p.HDTV.X264-DIMENSION.mkv tv.shows.series/heroes
+: 1227324697:0;sudo mv CSI.*.mkv /media/wd1/tv.shows
+: 1227324733:0;ls /media/wd2/tv.shows.series/csi/*.mkv
+: 1227324742:0;ls /media/wd2/tv.shows.series/heroes/*.mkv
+: 1227330352:0;sudo mv Californication.S02E0*.mkv /media/wd1/tv.shows
+: 1227409561:0;mv Merlin.2008.S01E08.WS.PDTV.XviD-AFFiNiTY.avi media/tv.show/merlin
+: 1227409564:0;rm Merlin.2008.S01E08.WS.PDTV.XviD-AFFiNiTY.\[eztv\].torrent
+: 1227409854:0;ls media/tv.show/merlin/*.srt
+: 1227410164:0;ls media/tv.show/brothers.and.sisters/*.avi
+: 1227410233:0;ls /media/wd2/tv.shows.series/brothers\&sisters/*.avi
+: 1227496793:0;sudo mv Prison.Break.S04E10.720p.HDTV.x264-MainEvent.mkv /media/wd2/tv.shows.series/prison.break
+: 1227497429:0;mv Smallville.S08E03.720p.HDTV.x264-CTU.mkv
+: 1227497455:0;sudo mv Smallville.S08E03.720p.HDTV.x264-CTU.mkv /media/wd2/tv.shows.series/smallville
+: 1227505898:0;cd house
+: 1227505911:0;sudo mv * /media/wd2/tv.shows.series/house
+: 1227506114:0;rm -rf house
+: 1227506119:0;cd ttscc
+: 1227506151:0;sudo mv * /media/wd2/tv.shows.series/terminator
+: 1227506243:0;sudo mv prison.break/* /media/wd2/tv.shows.series/prison.break
+: 1227506251:0;rm -rf prison.break
+: 1227506284:0;sudo mv heroes /media/wd2/tv.shows.series/heroes
+: 1227506344:0;sudo mv smallville/* /media/wd2/tv.shows.series/smallville
+: 1227506349:0;rm -rf smallville
+: 1227506373:0;sudo mv csi/ /media/wd2/tv.shows.series/csi
+: 1227506379:0;rm -rf csi
+: 1227506403:0;rm -rf avatar
+: 1227506410:0;rm -rf bonekickers
+: 1227541070:0;mv Brothers.and.Sisters.S03E07.HDTV.XViD-HiQT.avi media/tv.show/brothers.and.sisters
+: 1227541076:0;rm Brothers.and.Sisters.S03E07.HDTV.XViD-HiQT.\[eztv\].torrent
+: 1227541086:0;rm Dexter.S03E08.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1227541096:0;rm Fringe.S01E08.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1227541103:0;rm Heroes.S03E09.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1227541108:0;rm House.S05E08.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1227541115:0;rm Merlin.2008.S01E10.WS.PDTV.XviD-RiVER.\[eztv\].torrent
+: 1227541130:0;mv Merlin.2008.S01E10.WS.PDTV.XviD-RiVER.avi media/tv.show/merlin
+: 1227541158:0;rm Smallville.S08E03.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1227541169:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E09.720p.HDTV.x264-DOT.\[eztv\].torrent
+: 1227570969:0;rm Americas.Next.Top.Model.S11E12.DSR.XViD-YesTV.\[eztv\].torrent
+: 1227570989:0;mv Americas.Next.Top.Model.S11E12.DSR.XViD-YesTV.avi media/tv.show/antm
+: 1227571002:0;cd media/tv.show/brothers.and.sisters
+: 1227571015:0;cd ../antm
+: 1227571022:0;unrar e 11.19.08.Americas.Next.Top.Model.S11E12.DSR.XViD-YesTV@FRM.rar
+: 1227624293:0;rm /home/dingzi/CSI.S09E07.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1227624457:0;mv ~/CSI.New.York.S05E08.HDTV.XviD-LOL.avi .
+: 1227624467:0;rm ~/CSI.New.York.S05E08.HDTV.XviD-LOL.\[eztv\].torrent
+: 1227840304:0;cd prison.break/
+: 1227840304:0;cd ../Avatar\ the\ last\ Airbender/
+: 1227840304:0;ls /home/dingzi/media/tv.show/avatar/book.1/
+: 1227840304:0;ls /home/dingzi/media/tv.show/avatar/book.2
+: 1227840304:0;ls /home/dingzi/media/tv.show/avatar/book.3
+: 1227840304:0;cd Season\ 
+: 1227840304:0;cd Season\ 1
+: 1227840304:0;cd Season\ 2
+: 1227840304:0;mv /home/dingzi/media/tv.show/avatar/book.2/*.* .
+: 1227840304:0;unrar e AvatarS02full0.99.rar 
+: 1227840304:0;cd ../Season\ 3
+: 1227840304:0;mv /home/dingzi/media/tv.show/avatar/book.3/* .
+: 1227840304:0;mv /home/dingzi/Fringe.S01E0*.mkv ../../fringe/
+: 1227840304:0;rm -rf Avatar\ the\ last\ Airbender/
+: 1227840304:0;mv /home/dingzi/House.S05E0*.mkv house/
+: 1227840304:0;mv /home/dingzi/Terminator.The.Sarah.Connor.Chronicles.S02E09.720p.HDTV.x264-DOT.mkv terminator/
+: 1227840304:0;ls /home/dingzi/*.mkv
+: 1227840304:0;mv /home/dingzi/Heroes.S03E08.720p.HDTV.x264-CTU.mkv heroes/
+: 1227840304:0;cd /media/dvd
+: 1227840304:0;cd /media/
+: 1227840304:0;cd dvd
+: 1227840304:0;cd media/
+: 1227840304:0;cd wd2
+: 1227840304:0;cd dexter/
+: 1227840304:0;mv /home/dingzi/Dexter.S03E08.720p.HDTV.X264-DIMENSION.mkv .
+: 1227840304:0;mv /home/dingzi/CSI.S09E07.720p.HDTV.X264-DIMENSION.mkv csi
+: 1227840304:0;cd heroes/
+: 1227840304:0;cd /media/wd1
+: 1227840304:0;cd tv.shows/
+: 1227840304:0;ls /home/dingzi/media/tv.show/csi.newyork/*.avi
+: 1227840304:0;mv CSI.S09E0*.mkv ../../wd2/tv.shows.series/csi
+: 1227802342:0;p;./p;;kpi;o;oop;opffdrrsrrr5e4asdedddddfttohgmkmjhhhhhhhhyhhh+
+: 1227802403:0;gvhs
+: 1227802414:0;~~ffgbggftfrfr
+: 1227802421:0;hhygfgtretttdbtv
+: 1227802426:0;fdseffrr
+: 1227802429:0;grwrew
+: 1227802432:0;ijtdeefrtrey
+: 1227802435:0;[=ikmh
+: 1227802439:0;;ht
+: 1227802442:0;rny7hfdf
+: 1227802444:0;ewhtgr
+: 1227802447:0;tregggg
+: 1227813801:0;rm /var/lib/pacman/db.lck
+: 1227815813:0;pwd
+: 1227838899:0;sudo mv Prison.Break.S04E12.720p.HDTV.X264-DIMENSION.mkv /media/wd2/tv.shows.series/prison.break
+: 1227839793:0;sudo mv Heroes.S03E10.720p.HDTV.X264-DIMENSION.mkv /media/wd2/tv.shows.series/heroes
+: 1227936593:0;cd dexter
+: 1227936607:0;rm Dexter.S03E04.720p.HDTV.X264-DIMENSION.mkv
+: 1227936617:0;sudo rm Dexter.S03E04.720p.HDTV.X264-DIMENSION.mkv
+: 1227936627:0;sudo rm Dexter.S03E02.720p.HDTV.x264-SYS.mkv
+: 1227936634:0;sudo rm Dexter.S03E03.720p.RETORRENT.HDTV.x264-SYS.mkv
+: 1227936645:0;sudo rm Dexter.S03E05.720p.HDTV.X264-DIMENSION.mkv
+: 1227936656:0;sudo rm Dexter.S03E06.720p.HDTV.X264-DIMENSION.mkv
+: 1227936665:0;cd ../csi.new.york
+: 1227936680:0;sudo mkdir -p season4
+: 1227936730:0;mv * season4
+: 1227936735:0;sudo mv * season4
+: 1227936745:0;mkdir -p season5
+: 1227936752:0;sudo mkdir -p season5
+: 1227936757:0;cd season5
+: 1227936770:0;sudo mv /home/dingzi/media/tv.show/csi.newyork/* .
+: 1227987461:0;rm Eleventh.Hour.S01E01.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1227987500:0;mkdir -p media/tv.show/eleventh.hour
+: 1227987511:0;mv Eleventh.Hour.S01E01.HDTV.XviD-NoTV.avi media/tv.show/eleventh.hour
+: 1228027234:0;ls *
+: 1228027264:0;ls /media/wd2/tv.shows.series
+: 1228027270:0;ls /media/wd2/tv.shows.series/csi.new.york
+: 1228027275:0;ls /media/wd2/tv.shows.series/csi.new.york/season5
+: 1228027283:0;ls /media/wd2/tv.shows.series/csi.new.york/season5/*.avi
+: 1228029507:0;transmission &
+: 1228034705:0;ping -l www.google.com
+: 1228034719:0;ping -a www.google.com
+: 1228060452:0;ping www.google.com\\
+
+: 1228098734:0;cd csi.newyork
+: 1228098741:0;mv ~/CSI.New.York.S05E09.HDTV.XviD-LOL.avi .
+: 1228098752:0;rm ~/CSI.New.York.S05E09.HDTV.XviD-LOL.\[eztv\].torrent
+: 1228175145:0;sudo /etc/rc.d/moblock restart
+: 1228175636:0;sudo /etc/rc.d/moblock start
+: 1228175646:0;rm Fringe.S01E09.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1228175660:0;rm Heroes.S03E04.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1228175677:0;rm Heroes.S03E10.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1228175686:0;rm House.S05E09.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1228175693:0;rm Prison.Break.S04E12.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1228175715:0;rm Smallville.S08E04.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1228175734:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E10.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1228231414:0;ls /media/wd2/tv.shows.series/prison.break/*.mkv
+: 1228231427:0;rm Prison.Break.S04E08.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1228231533:0;sudo mv Fringe.S01E09.720p.HDTV.x264-CTU.mkv /media/wd2/tv.shows.series/fringe
+: 1228232358:0;sudo mv Heroes.S03E*.mkv /media/wd2/tv.shows.series/heroes
+: 1228233616:0;screen -R
+: 1228233636:0;sudo mv House.S05E09.720p.HDTV.X264-DIMENSION.mkv /media/wd2/tv.shows.series/house
+: 1228233658:0;sud
+: 1228270581:0;cd media/wd2
+: 1228270581:0;cd tv.shows.series/dexter/
+: 1228270581:0;rm Dexter.S03E08.720p.HDTV.X264-DIMENSION.mkv 
+: 1228270642:0;pscpu
+: 1228270650:0;kill -9 4487
+: 1228319039:0;pacman -S libgl
+: 1228319059:0;pacman -Searh libgl
+: 1228319062:0;pacman -searh libgl
+: 1228319074:0;pacman -l libgl
+: 1228319079:0;pacman --help
+: 1228319091:0;pacman -Q libgl
+: 1228351756:0;pacman -S intel-dri
+: 1228358489:0;rm Merlin.2008.S01E11.WS.PDTV.XviD-AFFiNiTY.\[eztv\].torrent
+: 1228358497:0;mv Merlin.2008.S01E11.WS.PDTV.XviD-AFFiNiTY.avi media/tv.show/merlin
+: 1228413540:0;mv ~/Brothers.and.Sisters.S03E09.HDTV.XviD-XOR.avi .
+: 1228413545:0;rm ~/Brothers.and.Sisters.S03E09.HDTV.XviD-XOR.\[eztv\].torrent
+: 1228488808:0;find /usr/ -name 'rgb'
+: 1228488808:0;cd /usr/
+: 1228422705:0;start
+: 1228422910:0;sudo mv xorg.conf xorg.conf.back
+: 1228488808:0;xorgcfg 
+: 1228488808:0;xorgconfig 
+: 1228488808:0;lspci
+: 1228488808:0;cd /usr/lib/X11/Cards 
+: 1228488808:0;vi /etc/X11/xorg.conf
+: 1228488808:0;cp xorg.conf.back xorg.conf
+: 1228488808:0;/usr/share/X11/
+: 1228488808:0;cd /usr/share/X11/
+: 1228439094:0;sudo /usr/share
+: 1228488808:0;cd /usr/share/
+: 1228488808:0;cd lib
+: 1228488808:0;ls X11/xkb
+: 1228488808:0;find /usr -name 'intel_dri
+: 1228488808:0;pacman -Q intel
+: 1228488808:0;pacman -Q intel-dri
+: 1228488808:0;find /usr -name 'intel-dri*'
+: 1228488808:0;'
+: 1228488808:0;cd /usr/lib
+: 1228488808:0;ls X11/
+: 1228488808:0;cd X11/
+: 1228488808:0;vi Cards 
+: 1228488808:0;/etc/rc.d/moblock stop
+: 1228488808:0;links
+: 1228488808:0;vi /etc/pacman.conf
+: 1228488808:0;vi /etc/pacman.d/mirrorlist 
+: 1228488808:0;lsmod 
+: 1228488808:0;cd /etc/X11/
+: 1228439775:0;vi xorg.conf
+: 1228439808:0;lsmod | i810
+: 1228439811:0;lsmod | grep i810
+: 1228439819:0;lsmod | grep 'i2c'
+: 1228439835:0;links www.google.com
+: 1228439845:0;w3m
+: 1228439853:0;w3m www.google.com
+: 1228440254:0;sudo xorgc
+: 1228440327:0;sudo vi /var/log/Xorg.0.log
+: 1228486612:0;``````
+: 1228487677:0;sudo rm xorg.conf
+: 1228488661:0;sudo cp xorg.conf.back xorg.conf
+: 1228488666:0;sudo vi xorg.conf
+: 1228488799:0;sudo shotdown 
+: 1228488803:0;sudo shotdown -h now
+: 1228626904:0;cd /var/cache/pacman/
+: 1228626904:0;cd pkg/
+: 1228626904:0;ls xf86-video-intel-2.4.3-1-i686.pkg.tar.gz 
+: 1228586940:0;sudo lsmod
+: 1228586946:0;sudo lsmod | grep intel
+: 1228682842:0;ffftgcgthghhfhh
+: 1228776764:0;cd ./zsh
+: 1228776767:0;cd .zsh
+: 1228776773:0;./update.sh
+: 1228776790:0;elinks
+: 1228778216:0;sudo hwd -u
+: 1228780160:0;mv Eleventh.Hour.S01E04.HDTV.XviD-NoTV.rar media/tv.show/eleventh.hour
+: 1228780166:0;rm Eleventh.Hour.S01E05.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1228780175:0;rm Eleventh.Hour.US.S01E07.HDTV.XviD-XOR.\[eztv\].torrent
+: 1228780189:0;mv Eleventh.Hour.S01E05.HDTV.XviD-NoTV.avi media/tv.show/eleventh.hour
+: 1228780221:0;mv Eleventh.Hour.US.S01E07.HDTV.XviD-XOR.avi media/tv.show/eleventh.hour
+: 1228780756:0;cd eleventh.hour
+: 1228780761:0;unrar e Eleventh.Hour.S01E04.HDTV.XviD-NoTV.rar
+: 1228780767:0;unrar e eleventh.hour.us.s01e07.hdtv.xvid-xor@YTET.rar
+: 1228780773:0;unrar e 11thhour105-notv.rar
+: 1228842110:0;startx
+: 1228842332:0;rm Brothers.and.Sisters.S03E10.HDTV.XViD-HiQT.\[eztv\].torrent
+: 1228842347:0;mv Brothers.and.Sisters.S03E10.HDTV.XViD-HiQT.avi media/tv.show/brothers.and.sisters
+: 1228842413:0;rm Californication.S02E07.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1228842431:0;sudo mv Californication.S02E07.720p.HDTV.X264-DIMENSION.mkv /media/wd2/tv.shows.series/californication
+: 1228843158:0;rm Eleventh.Hour.S01E08.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1228843190:0;mv Eleventh.Hour.S01E08.HDTV.XviD-NoTV.avi media/tv.show/eleventh.hour
+: 1228843197:0;rm Eleventh.Hour.US.S01E06.HDTV.XviD-XOR.\[eztv\].torrent
+: 1228843205:0;mv Eleventh.Hour.US.S01E06.HDTV.XviD-XOR.avi media/tv.show/eleventh.hour
+: 1228843333:0;ls *.torret
+: 1228844107:0;ls /media/wd1
+: 1228844165:0;sudo mv Smallville.S08E*.mkv /media/wd1/tv.shows
+: 1228863379:0;cd media/tv.show/eleventh.hour
+: 1228869475:0;cd ../brothers.and.sisters
+: 1228875453:0;sudo mv Terminator.The.Sarah.Connor.Chronicles.S02E10.720p.HDTV.x264-CTU.mkv /media/wd1/tv.shows
+: 1228917713:0;sudo dhcpcd eth0 start
+: 1228917719:0;sudo dhcpcd eth0 restart
+: 1228919504:0;ifconfig eth0
+: 1228919508:0;ifconfig eth0 restart
+: 1228919514:0;ifconfig eth0 dhcpcd
+: 1228919523:0;dhcpcd
+: 1228919525:0;dhcpcd eth0
+: 1229008393:0;rm Fringe.S01E10.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1229008401:0;rm House.S05E10.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1229008408:0;rm Merlin.2008.S01E12.WS.PDTV.XviD-BiA.\[eztv\].torrent
+: 1229008415:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E11.REPACK.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1229038542:0;mv Merlin.2008.S01E12.WS.PDTV.XviD-BiA.avi media/tv.show/merlin
+: 1229038547:0;cd media/tv.show/merlin
+: 1229038720:0;rm Heroes.S03E11.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1229038830:0;rm Prison.Break.S04E13.720p.HDTV.X264-DIMENSION.mkv
+: 1229038837:0;rm Prison.Break.S04E13.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1229038843:0;rm Heroes.S03E11.720p.HDTV.x264-CTU.mkv
+: 1229038857:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E11.REPACK.720p.HDTV.x264-CTU.mkv
+: 1229038865:0;rm Terminator.TSCC.Behind.The.Scenes.WS.PDTV.XviD-BiA.\[eztv\].torrent
+: 1229038876:0;rm Fringe.S01E10.720p.HDTV.x264-CTU.mkv
+: 1229039027:0;mv media/tv.show/merlin/*.torrent .
+: 1229124197:0;sudo mv ~/House.S05E10.720p.HDTV.X264-DIMENSION.mkv /media/wd1/tv.shows
+: 1229124354:0;mv ~/CSI.New.York.S05E10.HDTV.XviD-LOL.avi .
+: 1229130999:0;rm Prison.Break.S04E14.720p.HDTV.X264-DIMENSION.mkv
+: 1229131010:0;rm Heroes.S03E12.720p.HDTV.X264-DIMENSION.mkv
+: 1229131022:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E12.720p.HDTV.x264-CTU.mkv
+: 1229131031:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E12.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1229131035:0;rm Heroes.S03E12.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1229131041:0;rm Prison.Break.S04E14.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1229137851:0;screen
+: 1229137903:0;pkill transimission
+: 1229275751:0;cd /media/wd2
+: 1229275756:0;cd tv.shows.series
+: 1229275762:0;cd terminator
+: 1229276033:0;sudo rm -rf the.secret.life.of.the.american.teenager/
+: 1229276177:0;sudo rm -rf bonekickers
+: 1229276207:0;cd /
+: 1229276212:0;cd home/dingzi
+: 1229276222:0;ls Smallville.S08E*
+: 1229276239:0;ls Supernatural.S04E*
+: 1229277028:0;rm Californication.S02E09.720p.HDTV.X264-DIMENSION.mkv
+: 1229277035:0;rm Californication.S02E09.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1229277043:0;rm CSI.S09E09.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1229277048:0;rm CSI.S09E09.720p.HDTV.X264-DIMENSION.mkv
+: 1229277066:0;rm Smallville.S08E05.720p.HDTV.x264-CTU.mkv
+: 1229277073:0;rm Smallville.S08E05.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1229304609:0;cd /media/wd1/tv.shows/
+: 1229304609:0;rm Smallville.S08E*.mkv
+: 1229304609:0;rm House.S05E10.720p.HDTV.X264-DIMENSION.mkv 
+: 1229304609:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E10.720p.HDTV.x264-CTU.mkv 
+: 1229304609:0;rm CSI.S09E08.720p.HDTV.x264-CTU.*
+: 1229304609:0;rm CSI.New.York.S05E10.HDTV.XviD-LOL.\[eztv\].torrent 
+: 1229304609:0;rm Heroes.S03E12.720p.HDTV.X264-DIMENSION.mkv 
+: 1229288886:0;mkdir -p media/tv.show/mentalist
+: 1229288900:0;mv The.Mentalist.S01E01.HDTV.XviD-0TV.avi media/tv.show/mentalist
+: 1229288914:0;mv the.mentalist.101.hdtv-0tv..rar media/tv.show/mentalist
+: 1229288924:0;rm The.Mentalist.S01E01.HDTV.XviD-0TV.\[eztv\].torrent
+: 1229288961:0;du -sh * 
+: 1229288969:0;du -sh * | sort -n
+: 1229289000:0;sudo mv merlin /media/wd2/tv.shows.series
+: 1229301019:0;cd mentalist
+: 1229301021:0;unrar e 8.rar
+: 1229302781:0;pkill transmission
+: 1229302790:0;transmission&
+: 1229302800:0;transmission
+: 1229351597:0;rm Dexter.S03E09.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1229351604:0;rm Eleventh.Hour.S01E09.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1229351617:0;rm Merlin.2008.S01E13.WS.PDTV.XviD-ORGANiC.\[eztv\].torrent
+: 1229351854:0;mv Eleventh.Hour.S01E09.HDTV.XviD-NoTV.avi media/tv.show/eleventh.hour
+: 1229351867:0;mkdir -p media/tv.show/merlin
+: 1229351875:0;mv Merlin.2008.S01E13.WS.PDTV.XviD-ORGANiC.avi media/tv.show/merlin
+: 1229385200:0;cd merlin
+: 1229385373:0;unrar e %C3%B7%C1%D62008S01E13WSPDTVXviDORGANiCPLX%BE%AB%D3%A2%CD%C5%B6%D3.rar
+: 1229385377:0;unrar e 12.14.08.Merlin.2008.S01E13.WS.PDTV.XviD-ORGANiC@PLX.rar
+: 1229385383:0;unrar e merlin.2008.s01e13.ws.pdtv.xvid-organic.rar
+: 1229385401:0;ls *.zip
+: 1229385448:0;mv *.rar ../eleventh.hour
+: 1229439030:0;rm Dexter.S03E11.720p.HDTV.X264-DIMENSION.mkv
+: 1229439043:0;rm Dexter.S03E10.720p.HDTV.X264-DIMENSION.mkv
+: 1229439051:0;rm Dexter.S03E09.720p.HDTV.X264-DIMENSION.mkv
+: 1229559066:0;rm Smallville.S08E06.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1229559075:0;rm Smallville.S08E06.720p.HDTV.x264-CTU.mkv
+: 1229559497:0;rm Smallville.S08E07.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1229559503:0;rm Smallville.S08E07.720p.HDTV.x264-CTU.mkv
+: 1229559738:0;mv The.Mentalist.S01E02.HDTV.XviD-XOR.avi media/tv.show/mentalist
+: 1229559747:0;rm The.Mentalist.S01E02.HDTV.XviD-XOR.\[eztv\].torrent
+: 1229559761:0;rm Smallville.S08E08.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1229559780:0;rm Smallville.S08E09.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1229559936:0;rm Smallville.S08E08.720p.HDTV.x264-CTU.mkv
+: 1229560114:0;ls *.mikv
+: 1229561342:0;rm Smallville.S08E09.720p.HDTV.x264-CTU.mkv
+: 1230065598:0;sudo rebot
+: 1230067068:0;sudo vi /etc/X11/xorg.conf
+: 1230067686:0;cd /etc/pacman.d/
+: 1230067686:0;vi mirrorlist.pacorig 
+: 1230067686:0;vi mirrorlist
+: 1230067686:0;vi pacman.conf.pacnew 
+: 1230067686:0;cp pacman.conf.pacnew pacman.conf
+: 1230138594:0;cd /media/wd2/
+: 1230138594:0;cd tv.shows.series/
+: 1230138594:0;cd smallville/
+: 1230138594:0;cd supernatural/
+: 1230138594:0;rm *
+: 1230138553:0;sudo /etc/rc.d/moblock
+: 1230266434:0;rm Supernatural.S04E10.720p.HDTV.x264-CTU.mkv
+: 1230266440:0;rm Supernatural.S04E10.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1230266459:0;rm Smallville.S08E10.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1230266464:0;rm Smallville.S08E10.720p.HDTV.x264-CTU.mkv
+: 1230342058:0;s
+: 1230393584:0;mv The.Mentalist.S01E03.HDTV.XviD-XOR.avi media/tv.show/mentalist
+: 1230393592:0;rm The.Mentalist.S01E03.HDTV.XviD-XOR.\[eztv\].torrent
+: 1230393966:0;mv ~/tv.it.zip .
+: 1230393970:0;unzip tv.it.zip
+: 1230394279:0;cd ../eleventh.hour
+: 1230394316:0;ls /media/wd2/tv.shows.series/eleventh.hour/*.avi
+: 1230394682:0;rm Californication.S02E10.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1230394694:0;transmission 
+: 1230437729:0;mv M4.zip media/tv.show/mentalist
+: 1230437739:0;unzip M4.zip
+: 1230437749:0;rm *.zip
+: 1230437892:0;mv ~/The.Mentalist.S01E04.HDTV.XviD-XOR.avi  .
+: 1230437905:0;mv ~/The.Mentalist.S01E05.HDTV.XviD-0TV.avi .
+: 1230438104:0;unrar e thementalists01e05hdtvxvidfqm.rar
+: 1230488745:0;rm The.Mentalist.S01E04.HDTV.XviD-XOR.avi
+: 1230488770:0;mv ~/The.Mentalist.S01E06.HDTV.XviD-0TV.avi .
+: 1230488835:0;mv ~/The.Mentalist.1x07.Seeing.Red.HDTV.XviD-FoV.avi .
+: 1230488845:0;mv ~/The.Mentalist.1x08.The.Thin.Red.Line.HDTV.XviD-FoV.avi .
+: 1230488854:0;rm ~/The.Mentalist.1x08.The.Thin.Red.Line.HDTV.XviD-FoV.\[eztv\].torrent
+: 1230488860:0;rm ~/The.Mentalist.1x07.Seeing.Red.HDTV.XviD-FoV.\[eztv\].torrent
+: 1230488868:0;rm ~/The.Mentalist.S01E06.HDTV.XviD-0TV.\[eztv\].torrent
+: 1230488896:0;rm ~/The.Mentalist.S01E05.HDTV.XviD-0TV.\[eztv\].torrent
+: 1230488912:0;rm ~/The.Mentalist.S01E04.HDTV.XviD-XOR.\[eztv\].torrent
+: 1230488938:0;mkdir -p monk
+: 1230488967:0;mv ~/Monk.S07E01.HDTV.XviD-LOL.\[VTV\].avi .
+: 1230489010:0;mv ~/Monk.7x02.Mr_Monk_And_The_Genius.PROPER.HDTV_XviD-FoV.\[VTV\].avi .
+: 1230489022:0;cd ../mentalist
+: 1230489036:0;ls Monk.7x0*
+: 1230489041:0;rm Monk.7x01.\(HDTV-LOL\)\[VTV\].torrent
+: 1230489047:0;rm Monk.7x02.\(HDTV-PROPER-FoV\)\[VTV\].torrent
+: 1230489079:0;rm Smallville.S08E09.REPACK.720p.HDTV.x264-CTU.\[eztv\].torrent
+: 1230489095:0;rm Californication.S02E07.720p.HDTV.X264-DIMENSION.\[eztv\]\ \[mininova\].torrent
+: 1230489110:0;rm Californication.S02E08.720p.HDTV.X264-DIMENSION.\[eztv\].torrent
+: 1230489118:0;rm Californication.S02E11.720p.HDTV.x264-aAF.\[eztv\].torrent
+: 1230489133:0;rm Californication.S02E12.720p.HDTV.x264-aAF.\[eztv\].torrent
+: 1230490415:0;sudo mv ~/Californication.S02E*.mkv /media/wd2/tv.shows.series/californication
+: 1230491649:0;ls ~/*.mkv
+: 1230492006:0;rm The.Mentalist.S01E03.HDTV.XviD-XOR.avi
+: 1230492015:0;rm The.Mentalist.S01E05.HDTV.XviD-0TV.avi
+: 1230492522:0;unrar e thementalist1x07seeingredhdtvxvidfovYDY.rar
+: 1230492584:0;ls 
+: 1230492589:0;unrar e e07.rar
+: 1230516687:0;mv The.Mentalist.S01E09.HDTV.XviD-NoTV.avi  media/tv.show/mentalist
+: 1230516701:0;mv The.Mentalist.S01E10.HDTV.XviD-NoTV.avi media/tv.show/mentalist
+: 1230516708:0;rm The.Mentalist.S01E10.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1230516714:0;rm The.Mentalist.S01E09.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1230517267:0;cd media/tv.show/mentalist
+: 1230517275:0;unrar e thementalist0109notv.rar
+: 1230517282:0;unrar e thementalist109YDY.rar
+: 1230517440:0;cd ../monk
+: 1230586825:0;rm Chuck.S02E06.HDTV.XviD-LOL.\[eztv\].torrent
+: 1230586862:0;rm Monk.7x03.\(HDTV-FQM\)\[VTV\].torrent
+: 1230586869:0;rm Monk.7x04.\(HDTV-LOL\)\[VTV\].torrent
+: 1230586876:0;rm Monk.7x05.\(HDTV-NoTV\)\[VTV\].torrent
+: 1230586890:0;rm Supernatural.S04E09.720p.HDTV.x264-CTU.\[eztv\]\ \[mininova\].torrent
+: 1230586904:0;rm The.Mentalist.S01E04.REPACK.HDTV.XviD-XOR.\[eztv\].torrent
+: 1230587538:0;mv *.torrent torrent
+: 1230587546:0;rm WRT54GS-v5v6_1.52.5.002_fw.bin
+: 1230587591:0;cd Downloads
+: 1230587610:0;cd photo
+: 1230587617:0;mv media ~/
+: 1230587631:0;mv Monk.S07E0*.avi media/tv.show/monk
+: 1230587639:0;mv Chuck.S02E06.HDTV.XviD-LOL.avi media/tv.show/chunk
+: 1230587650:0;mv The.Mentalist.S01E04.REPACK.HDTV.XviD-XOR.avi media/tv.show/mentalist
+: 1230587659:0;du -sh (
+: 1230587678:0;cd New\ TTC\ Video\ -\ How\ the\ Earth\ Works\ Part\ 
+: 1230588325:0;unrar e 080408MonkS07E03MrMonkGetsLottoFeverHDTVXviDFQMPLX.rar
+: 1230588333:0;unrar e 081308MonkS07E04HDTVXviDLOLPLX.rar
+: 1230588341:0;unrar e monks07e03hdtvxvidfqmShowFa.rar
+: 1230588386:0;ls /media/wd2/tv.shows.series/true.blood
+: 1230588397:0;ls /media/wd2/tv.shows.series/true.blood/*.mkv
+: 1230588453:0;ls ~/torrent/True.Blood.S01E*
+: 1230612714:0;mv ~/CSI.New.York.S05E11.HDTV.XviD-LOL.avi .
+: 1230612722:0;rm ~/torrent/CSI.New.York.S05E11.HDTV.XviD-LOL.\[eztv\].torrent
+: 1230612785:0;pkill kazehakase
+: 1230612815:0;cd ../csi.newyork
+: 1230613605:0;unrar e CSI.New.York.S05E10.HDTV.XviD-LOL.rar
+: 1230613820:0;rm Supernatural.S04E09.720p.HDTV.x264-CTU.mkv
+: 1230613833:0;rm -rf Supernatural.S04E08.720p.HDTV.x264-CTU
+: 1230613846:0;ls -ls
+: 1230613851:0;ls | less
+: 1230682889:0;cd media/tv.show/csi.newyork
+: 1230753242:0;mv The.Mentalist.S01E0*.avi media/tv.show/mentalist
+: 1230753261:0;sudo mv media/tv.show/mentalist /media/wd2/tv.shows.series
+: 1230753499:0;rm Chuck.S02E07.HDTV.XviD-E7.\[eztv\].torrent
+: 1230753511:0;rm Chuck.S02E08.HDTV.XviD-LOL.\[eztv\].torrent
+: 1230753521:0;rm Chuck.S02E09.HDTV.XviD-LOL.\[eztv\].torrent
+: 1230753545:0;rm The.Mentalist.S01E03.Red.Tide.PROPER.HDTV.XviD-FQM.\[eztv\].torrent
+: 1230753553:0;rm The.Mentalist.S01E05.Redwood.PROPER.HDTV.XviD-FQM.\[eztv\].torrent
+: 1230753571:0;rm True.Blood.S01E12.720p.HDTV.x264-aAF.\[eztv\].torrent
+: 1230753577:0;cd ~/
+: 1230753602:0;mv Chuck.S02E*.avi media/tv.show/chunk
+: 1230753612:0;ls *.torrent
+: 1230753663:0;ls *.mkv
+: 1230754828:0;cd chunk
+: 1230754831:0;cd ..
+: 1230754835:0;mv chunk chuck
+: 1230754836:0;cd chuck
+: 1230754847:0;unrar e 102808ChuckS02E05HDTVXviDLOLPLX.rar
+: 1230754850:0;rm 102808ChuckS02E05HDTVXviDLOLPLX.rar
+: 1230754860:0;unrar e chuck.203.hdtv-lol@YDY.rar
+: 1230754869:0;rm chuck.203.hdtv-lol@YDY.rar
+: 1230754880:0;unrar e chuck206hdtvlolYDY.rar
+: 1230754891:0;unrar e chuck208hdtvlolYDY.rar
+: 1230754901:0;unrar e chuck209hdtvlolYDY.rar
+: 1230754906:0;unrar e e7chucks02e07xvidYDY.rar
+: 1230838862:0;mv ~/Chuck.S02E10.Chuck.Versus.the.DeLorean.HDTV.XviD-FQM.avi .
+: 1230839011:0;mv ~/Survivor.S17E03.HDTV.XviD-XOXO.avi .
+: 1230839507:0;unrar e chucks02e10hdtvxvidfqmYDY.rar
+: 1230842155:0;cd ../survivor
+: 1230845787:0;cd ../amazing.race
+: 1230845803:0;mv ~/The.Amazing.Race.S13E02.PDTV.XviD-XOR.avi .
+: 1230845806:0;unrar e *.rar
+: 1230845861:0;unrar e theamazingraces13e02pdtvxvidxorchs.rar
+: 1230845870:0;unrar e TheAmazingRaceS13E02pdtvxvidxor.rar
+: 1230855910:0;cd ../chuck
+: 1230855916:0;mv ~/Chuck.S02E11.HDTV.XviD-LOL.avi .
+: 1230918114:0;cd torrent
+: 1230918122:0;rm Survivor.S17E05.HDTV.XviD-GNARLY.\[eztv\].torrent
+: 1230918130:0;rm The.Amazing.Race.S13E03.PDTV.XVID-BAJSKORV.\[eztv\].torrent
+: 1230918135:0;rm The.Amazing.Race.S13E04.PDTV.XviD-XOR.\[eztv\].torrent
+: 1230918143:0;rm The.Amazing.Race.S13E02.PDTV.XviD-XOR.\[eztv\].torrent
+: 1230918151:0;rm The.Amazing.Race.S13E06.PDTV.XviD-2HD.\[eztv\].torrent
+: 1230918180:0;rm True.Blood.S01E01.720p.HDTV.x264-2HD.\[eztv\].torrent
+: 1230918199:0;rm Chuck.S02E11.HDTV.XviD-LOL.\[eztv\].torrent
+: 1230920430:0;ls /media/wd2
+: 1230920443:0;du -sh
+: 1230920501:0;rm -rf american.idol
+: 1230920519:0;rm -rf 90210
+: 1230920541:0;rm -rf crusoe
+: 1230920581:0;cd monk
+: 1230920595:0;rm Monk.S07E01.HDTV.XviD-LOL.\[VTV\].avi
+: 1230920603:0;rm Monk.7x02.Mr_Monk_And_The_Genius.PROPER.HDTV_XviD-FoV.\[VTV\].avi 
+: 1230920610:0;rm Monk.S07E03.Mr.Monk.Gets.Lotto.Fever.HDTV.XviD-FQM.\[VTV\].avi
+: 1230920697:0;cd amazing.race
+: 1230920704:0;unrar e 111608TheAmazingRaceS13E08pdtvxvid2hdPLX.rar
+: 1230920710:0;unrar e 120708TheAmazingRaceS13E11Finalepdtvxvid2hdPLX.rar
+: 1230920715:0;unrar e 112308TheAmazingRaceS13E09pdtvxvidgnarlyPLX.rar
+: 1230920720:0;unrar e 113008TheAmazingRaceS13E10pdtvxvid2hdPLX.rar
+: 1230920761:0;unrar e theamazingrace1307pdtvxvidxoxo.rar
+: 1230920832:0;unrar e TheAmazingRacepdtvxvid2nd.rar
+: 1230921096:0;unrar e TheAmazingRaceS13E03PDTVXVIDBAJSKORVchs.rar
+: 1230921104:0;unrar e TheAmazingRaceS13E03pdtvxvidbajskorv.rar
+: 1230921200:0;ls ~/*.avi
+: 1230921546:0;ls *.rar
+: 1230921550:0;unrar e 102008TheAmazingRaceS13E04PDTVXviDXORPLX.rar
+: 1230921555:0;unrar e TheAmazingRaceS13E05PDTVXviDPWE.rar
+: 1230921566:0;unrar e theamazingraces13e04pdtvxvidxor.rar
+: 1230921573:0;unrar e theamazingraces13e06pdtvxvid2hd.rar
+: 1230921578:0;rm *.rar
+: 1230921587:0;ls *.srt
+: 1230930561:0;mv media/tv.show/amazing.race/The.Amazing.Race.S13E07.REPACK.PDTV.XviD-XOXO.avi .
+: 1230930605:0;mv The.Amazing.Race.S13E03.PDTV.XVID-BAJSKORV.avi media/tv.show/amazing.race
+: 1230930616:0;mv The.Amazing.Race.S13E04.PDTV.XviD-XOR.avi media/tv.show/amazing.race
+: 1230930632:0;mv The.Amazing.Race.S13E06.PDTV.XviD-2HD.avi media/tv.show/amazing.race
+: 1230932615:0;cd media/tv.show
+: 1230932631:0;sudo mv chuck /media/wd2/tv.shows.series
+: 1230932642:0;sudo mv chuck /media/wd2/tv.shows.series/chuck
+: 1230954640:0;pkill gmplayer
+: 1230954644:0;pkill mplayer
+: 1230995433:0;cd The.Amazing.Race.S13E05.PDTV.XviD-PWE
+: 1230995444:0;mv amazing.race.s13e05.pdtv-xvid.pwe.avi ~/media/tv.show/amazing.race
+: 1231016518:0;pkill dhcpcd
+: 1231016524:0;sudo pkill dhcpcd
+: 1231016528:0;sudo dhcpcd
+: 1231016532:0;sudo dhcpcd eth0
+: 1231017167:0;sudo rm /var/lib/pacman/db.lck
+: 1231017169:0;pacman -Syu
+: 1231017316:0;sudo vi /etc/rc.conf
+: 1231017426:0;sudo /etc/rc.d/ip6tables stop
+: 1231017430:0;sudo /etc/rc.d/iptables stop
+: 1231017443:0;sudo iptables stop
+: 1231041310:0;sudo shutdown 
+: 1231098285:0;ping 192.168.1.1
+: 1231098302:0;ping flyvoo.com
+: 1231098314:0;sudo vi /etc/hosts
+: 1231098388:0;*.avi
+: 1231098390:0;ls *.avi
+: 1231098401:0;mv The.Amazing.Race.S13E07.REPACK.PDTV.XviD-XOXO.avi media/tv.show/amazing.race
+: 1231098410:0;mv The.Amazing.Race.S13E08.PDTV.XviD-2HD.avi media/tv.show/amazing.race
+: 1231098417:0;mv The.Amazing.Race.S13E09.PDTV.XviD-GNARLY.avi media/tv.show/amazing.race
+: 1231202590:0;ls *.pacnew
+: 1231202590:0;vi dhcpcd.conf.pacnew 
+: 1231202590:0;vi dhcpcd.conf
+: 1231202590:0;cp dhcpcd.conf.pacnew dhcpcd.conf
+: 1231202590:0;vi profile
+: 1231202590:0;iptables
+: 1231202590:0;iptables -h
+: 1231202590:0;vi hosts.allow 
+: 1231202590:0;vi hosts.deny 
+: 1231202590:0;vi host
+: 1231202590:0;ls hos*
+: 1231202590:0;rm hosts
+: 1231202590:0;vi host.conf 
+: 1231202590:0;cd ../
+: 1231202590:0;df 
+: 1231103923:0;du -sh *
+: 1231103932:0;sudo df -h 
+: 1231103934:0;sudo df
+: 1231117893:0;sudo reboot
+: 1231202590:0;vi pacman.conf
+: 1231202590:0;vi fstab.pacnew 
+: 1231136231:0;sudo ping www.google.com
+: 1231202590:0;vi fstab
+: 1231136267:0;hfgytdhtu88rr8t8t888ytttttcityuiiiyty9uy99i
+: 1231136300:0;juhihiyikiyuydgikgu9cuijy9899u896tgft5btii  y996700996pi ihyyyu9y0uuuuuuuu0u977777788iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii9y99iuojj
+: 1231136344:0;kbuijhu98yu9i98iu8i90ippi[pop8i-800i9898798ukplolulkjkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkuiyhmui9tik,7uokuijkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk3.
+: 1231136714:0;8u97;p uikkiupoujh0ytr9d9ruuhhifugiutktjtyr76rgeuufr78rrg,hgklkyhtoyokiu0o870y8i97y879o b76o8u97you8ip0oi9[p oooiklp i--po0piyp0'ip;pjulukilo00ohyll-[uji0;luoooiu;ui[v0ujolyiolu;l;;;/.;[]'=-0987654321`p-kloklkk9io9iop-[v[,,'l'l,/l,..;.;;.,m]\
+'\
+/'.,m,k njnkkm olmopuihjnuiyutiy6u76h0000raxskuhj6u5rf jjyjuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu0000000000000ga\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+tgrf6yr56rfi7ijkk89909jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+ksrrt7tfzzz]
+: 1231136732:0;sudo rm /etc/fstab.pacnew
+: 1231136740:0;ping www.google.com
+: 1231136751:0;ping ping.com
+: 1231136761:0;ping 145.158.1.76
+: 1231202590:0;ping 192.168.1.100
+: 1231202590:0;ping localhost
+: 1231202590:0;vi hosts
+: 1231202590:0;top
+: 1231202590:0;vi host.conf
+: 1231145934:0;shutdown -h now
+: 1231145937:0;shutdown -n now
+: 1231145944:0;sudo shutdown -h now
+: 1231194861:0;vvvharry
+: 1231194957:0; zxfdazx/lrkomttfkvikkmoigkjmdfjmjkkjxjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjhuuj, mjkk
+: 1231194982:0;htyhujkiiyohip9po[=okkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+: 1231195032:0;fdggfjuuuuuuuuuuuuuuuuuu
+: 1231195049:0;ew8364y4u4444444444re6gttt
+: 1231195062:0;dsfvgrg
+: 1231195082:0;azFWFQFT2EGEYTARFTFEGTFRGBVGREGTGBBYFJHYURFVHBNRDFSVWFGB4UFRYGHTRGRGGRUYHGRUTH5R4
+: 1231195093:0;GYTDSGTR TG
+: 1231195106:0;LPOOOOOOOOOR
+: 1231195108:0;G
+: 1231195146:0;.;;'
+: 1231195545:0;ifconfig
+: 1231195548:0;ping www.flyvoo.com
+: 1231195555:0;sudo /etc/rc.d/moblock stop
+: 1231201967:0;sudo nano /etc/resolv.conf
+: 1231201995:0;vi .xinitrc
+: 1231202002:0;su
+: 1231202590:0;cd /etc/
+: 1231202590:0;cp resolv.conf /home/dingzi/
+: 1231202590:0;cd /home/dingzi/
+: 1231202590:0;ls
+: 1231202590:0;vi resolv.conf 
+: 1231202590:0;vi /etc/resolv.conf 
+: 1231202590:0;df -h
+: 1231202590:0;reboot
+: 1231202559:0;sudo vi /etc/resolv.conf
+: 1231202567:0;sudo df -h
+: 1231202590:0;exit
+: 1231202657:0;sudo shutdown -h now

@@ -1,0 +1,3 @@
+snippy_plugin.vba: call delete('/home/wed3/.vim/plugin/snippetsEmu.vim')|call delete('/home/wed3/.vim/doc/snippets_emu.txt')
+snippy_plugin.vba: call delete('/home/wed3/.vim/plugin/snippetsEmu.vim')|call delete('/home/wed3/.vim/doc/snippets_emu.txt')
+LargeFile.vba: call delete('/home/dingzi/.vim/plugin/LargeFile.vim')|call delete('/home/dingzi/.vim/doc/LargeFile.txt')

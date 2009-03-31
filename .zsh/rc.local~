@@ -1,0 +1,48 @@
+# -*- shell-script -*-x 
+# vim: set syntax=zsh:
+# $Id: alias.rc 44 2005-08-09 14:50:41Z asyd $
+
+# I prefer interactive mode
+#alias mv="mv -iv"
+#alias rm="rm -iv"
+#del() {mv -vi -- $* ~/.Trash}
+#alias cp="cp -iv"
+alias ll="ls -FC --color=auto"
+alias la="ls -A"
+alias lh="ls -Alh"
+alias lsd='ls -ld *(-/DN)'
+alias df="df -h"
+alias dh="dh -h"
+alias del="mv -ft $HOME/.trash" 
+alias dirs="dirs -v"
+alias hist="history | grep"
+alias grep='grep --color=always'
+alias less='less -R'
+
+alias vi="vim"
+alias canto="canto -u"
+alias top="htop"
+
+# start mutt without list mailboxes
+alias mutt="mutt"
+
+alias pacman="sudo pacman"
+alias yaourt="sudo yaourt"
+alias abs="sudo abs"
+
+alias sshflyvoog="ssh -l guojingzhan www.flyvoo.com"
+alias sshflyvoow="ssh -l wei www.flyvoo.com"
+
+  
+alias pscpu='ps -eo pcpu,nice,stat,time,pid,cmd --sort=-pcpu,-time \
+             | sed "/^ 0.0 /d"'
+alias psmem='ps -eo rss,vsz,pid,cmd --sort=-rss,-vsz \
+             | awk "{ if (\$1 > 10000) print }"'
+# facts of the day
+alias today='grep -h -d skip `date +%m/%d` /usr/share/calendar/*'
+
+# Commands frequency counts
+alias cmdfreq='cut -d " " -f 1 < $HISTFILE | sort | uniq -c | sort -nr | head -n 10'
+
+#never ever beep ever
+setopt no_beep

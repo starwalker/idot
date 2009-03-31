@@ -1,0 +1,165 @@
+term screen-256color
+attrcolor b ".I"
+# modify the termcap/terminfo when I'm using URxvt.
+# 開啟 256 色模式
+termcapinfo xterm|rxvt 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm' 
+termcapinfo xterm|rxvt 'ti@:te@'
+terminfo rxvt* 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+# xterm scrollbar should work with screen
+# also for scroll wheel
+#termcapinfo xterm 'hs:ts=\E]2;:fs=\007:ds=\E]2;screen\007'
+#termcapinfo rxvt 'hs:ts=\E]2;:fs=\007:ds=\E]2;screen\007'
+
+# encoding
+encoding UTF-8
+
+defflow auto
+deflogin
+
+
+# Scrollback buffer size in lines
+defscrollback 25000
+backtick 1 1200 1200 whoami 
+
+bufferfile $HOME/.screen_exchange
+hardcopydir $HOME/.screen
+
+# exit screen when all process ended
+# tab bar
+caption always "%{= wk} %{= KY} [%n]%t @ %H %{-} %= %{= KR} %l %{-} | %{= KG} %Y-%m-%d %{-} "
+#caption always "%3n %t%? @%u%?%? [%h]%?%=%c:%s"
+#caption always "%{=b wk} %D %d.%m %c  | %-w%{=br}%n %t%{-}%+w "
+#caption always "%{=b}%?%F%:%45=%n*%f %t%?%?%F%{r}%:%{s kk}%?%H%?%F%{-}%? %L=%-Lw%45L>%?%F%{g}%?%n*%f %t%?%F%{-}%?%+Lw%-17= %?%F%{y}%?%c %d.%m.%Y%?"
+hardstatus alwayslastline " %-Lw%{= Bw}%n%f %t%{-}%+Lw %=| %0c:%s "
+# hardstatus alwayslastline "%{= dR} %-Lw%50>%{= dG}%n* %{= dW}%t%{= dR}%+Lw%<"
+
+defbce on
+defwrap on
+# detach on hangup - if my dial-up session fails, screen will simply
+# detach and let me re re-attach later.
+autodetach on	# default:on
+
+# refresh screen when vim exit
+# Support alternate screens so that, for example, when you 
+# quit out of vi, the display is redrawn as it was before vi
+# redrew the full screen.
+altscreen on
+
+# show up version
+msgwait 2
+version
+# don't display the copyright page
+startup_message off	#default: on
+
+# Beep
+vbell off
+
+
+## Keybindings 	##
+
+# F10 Change title
+bindkey -k k; title
+# F11 left tab
+bindkey -k F1 prev
+# F12 right side tab
+bindkey -k F2 next
+
+# Enter copy mode (PgUp/PgDn to move)
+# INSERT alternativly ALT+PgUp
+bindkey -k kI copy
+bindkey ^[[5;3~ copy 
+
+# Paste copy buffer
+# ALT-INSERT
+bindkey "^[^[[2~" paste . 
+
+# select an open window direct with ALT+ 0-9
+bindkey "^[1" select 0
+bindkey "^[2" select 1
+bindkey "^[3" select 2
+bindkey "^[4" select 3
+bindkey "^[5" select 4
+bindkey "^[6" select 5
+bindkey "^[7" select 6
+bindkey "^[8" select 7
+bindkey "^[9" select 8
+bindkey "^[0" select 9 
+
+# automatically started Programs
+screen -t root        0 su -
+screen 1
+screen 2 
+
+
+# bind for mutt
+bind 'm' screen -t email mutt
+
+# 默认的shell，不设置的话就是bash
+shell $SHELL
+
+# Prepend/append register [/] to the paste if ^a^] is pressed.
+# This lets me have autoindent modes in vi(m).
+register [ "\033:se paste\015a"
+register ] "\033:se nopaste\015a"
+bind ^] paste [.]
+
+# Drei Sessions starten und im geteilten Fenster anzeigen
+#screen -t foo 1 top
+#screen -t bar 2 watch -n1 date
+#screen -t baz 3 tail -f /var/log/httpd/access_log
+
+# Erste Session anzeigen
+#select foo
+# Splitten in zwei Regionen
+#split
+# In zweite Region wechseln
+#focus down
+# Zweite Session anzeigen
+#select bar
+# Diese Region wieder splitten
+#split
+# In dritte Region wechseln
+#focus down
+# Dritte Session anzeigen
+#select baz
+
+#############################################################
+# EXPLANATION OF ABOVE STATUS LINE
+###
+
+# cat > /dev/null
+
+# Funktion keys F1-F9   k0-k9
+# Funktion key  F10     k
+# Funktion keys F11-F12 F1-F2
+# Funktion keys F13-F63 F3-F9,FA-FZ,Fa-Fr
+
+# caption -- Provides a status line for each split.
+# always -- "always" gives a status line in non split mode.
+# %{=b} -- make it bright so that I have a clear list of items
+# %?%F%:%45=%n*%f %t%? -- If current window does not have focus
+# -- (this is a split) so we move to 45% of the screen and put,
+# -- this split's selected window's title and flags.
+
+# From here on is a hack until a "%-F" for no focus is provided.
+# essentially, you can only select non-focused windows with "%?%F%:non-focused code%?"
+# What is being added in the future will allow windows with "%?%-F%:focused code%?"
+# If this doesn't make sense, don't worry, but it has to be done that way with variable
+# expansion rules as they are.
+# %?%F%{r}%:%{s kk}%? -- If current window has focus, make text red, else (%:)
+# -- make the text standout (normal colors) and black on black.
+# -- net effect by this is that the focused window shows my status bar
+# -- unfocused windows show only their selected window's title.
+# %H -- Provide the hostname,
+# %?%F%{-}%? -- If this window has focus, pop off the last color on the color stack (i.e. red)
+# %L= -- Set truncation marker to this location, permits the spiffy elipses
+# %-Lw -- Provide the window list before the current window
+# %45> -- Not really sure, but I think it sets the current window to the 45% mark
+# %?%F%{g} -- If current window has focus, set color green, unfocused windows have standout with black on black (color stack)
+# %?%n*%f %t -- Window number * flags title
+# %?%F%{-}%? -- If this window has focus, pop off the last color on the color stack (i.e. green)
+# %+Lw -- Provide the window list following the current window
+# %-17= -- Go 17 characters from the right of screen towards left
+# %?%F%{y} -- If current window has focus, set color yellow, unfocused windows have standout with black on black (color stack)
+# %?%c %Y-%m-%d%? -- Provide time and date in HH:MM YYYY-MM-DD, which is 16 characters, plus one so that truncation from the
+# window list will be truncated with a space between the date and window list

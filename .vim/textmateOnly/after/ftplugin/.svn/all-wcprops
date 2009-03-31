@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/105/branches/textmateOnly/after/ftplugin
+END
+tex_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/tex_snippets.vim
+END
+propel_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/propel_snippets.vim
+END
+actionscript_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/actionscript_snippets.vim
+END
+perl_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/92/branches/textmateOnly/after/ftplugin/perl_snippets.vim
+END
+symfony_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/symfony_snippets.vim
+END
+sh_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/sh_snippets.vim
+END
+rails_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/rails_snippets.vim
+END
+latex_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/latex_snippets.vim
+END
+phpdoc_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/phpdoc_snippets.vim
+END
+smarty_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/smarty_snippets.vim
+END
+template_toolkit_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/template_toolkit_snippets.vim
+END
+java_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/java_snippets.vim
+END
+django_model_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/92/branches/textmateOnly/after/ftplugin/django_model_snippets.vim
+END
+asp_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/asp_snippets.vim
+END
+haskell_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/haskell_snippets.vim
+END
+xhtml_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/xhtml_snippets.vim
+END
+django_template_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/django_template_snippets.vim
+END
+logo_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/logo_snippets.vim
+END
+html_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/html_snippets.vim
+END
+javascript_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/javascript_snippets.vim
+END
+slate_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/slate_snippets.vim
+END
+objc_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/objc_snippets.vim
+END
+python_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/105/branches/textmateOnly/after/ftplugin/python_snippets.vim
+END
+ruby_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/ruby_snippets.vim
+END
+markdown_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/markdown_snippets.vim
+END
+c_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/c_snippets.vim
+END
+tcl_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/tcl_snippets.vim
+END
+f-script_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/f-script_snippets.vim
+END
+php_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/php_snippets.vim
+END
+movable type_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/movable%20type_snippets.vim
+END
+css_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/css_snippets.vim
+END
+ocaml_snippets.vim
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/90/branches/textmateOnly/after/ftplugin/ocaml_snippets.vim
+END

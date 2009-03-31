@@ -1,0 +1,98 @@
+10
+
+dir
+195
+http://svn.asyd.net/svn/zsh/trunk
+http://svn.asyd.net/svn/zsh
+
+
+
+2009-03-30T04:54:05.667632Z
+195
+asyd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+23741f44-0f0c-0410-a510-d35362b1c17f
+
+rc.host
+dir
+
+cache
+dir
+
+rc
+dir
+
+rc.os
+dir
+
+bin
+dir
+
+functions
+dir
+
+histories
+dir
+
+zshrc
+file
+
+
+
+
+2009-03-30T16:53:33.000000Z
+3ce704f4696d8eff0e7966a2c6de90f9
+2009-03-30T04:54:05.667632Z
+195
+asyd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1008
+
+misc
+dir
+
+README
+file
+
+
+
+
+2008-09-02T19:05:28.000000Z
+5a10490b26c9706a12db2924222a7935
+2008-06-26T07:03:04.453700Z
+75
+asyd
+
