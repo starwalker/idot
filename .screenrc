@@ -14,7 +14,7 @@ terminfo rxvt* 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
 encoding UTF-8
 
 defflow auto
-deflogin
+#deflogin
 
 
 # Scrollback buffer size in lines
@@ -86,13 +86,14 @@ bindkey "^[9" select 8
 bindkey "^[0" select 9 
 
 # automatically started Programs
-screen -t root        0 su -
-screen 1
-screen 2 
+#screen -t root        0 su -
+#screen 1
+#screen 2 
 
 
 # bind for mutt
 bind 'm' screen -t email mutt
+bind 'r' screen -t bt rtorrent
 
 # 默认的shell，不设置的话就是bash
 shell $SHELL
