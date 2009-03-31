@@ -441,7 +441,6 @@ khhhik'/i
 : 1233377773:0;cd ../postgresql
 : 1233377782:0;rm -rf postgresql
 : 1233377800:0;sudo vi /etc/services
-: 1233377841:0;sudo vi /etc/hosts
 : 1233377851:0;sudo vi /etc/hosts.allow
 : 1233377898:0;sudo tail /var/log/postgresql.log
 : 1233450558:0;rm Smallville.S08E13.720p.HDTV.x264-CTU.\[eztv\].torrent
@@ -1446,7 +1445,6 @@ khhhik'/i
 : 1238222386:0;links -g
 : 1238222571:0;xrdb .Xresources
 : 1238222808:0;source .zsh/rc.local
-: 1238222816:0;vi /etc/rc.conf
 : 1238222843:0;sudo vi /etc/rc.conf
 : 1238222922:0;yaourt -Ss mess
 : 1238223043:0;sudo rm /var/lib/pacman/db.lck
@@ -1484,7 +1482,6 @@ khhhik'/i
 : 1238286538:0;pacman -S mutt_vc_query
 : 1238286559:0;yaourt -S muttprints
 : 1238286566:0;yaourt -S muttprint
-: 1238286930:0;vi .ssh/id_rsa.pub
 : 1238287124:0;yaourt -Ss git
 : 1238287266:0;git config --global user.name "starwalk"
 : 1238287279:0;git config --global user.email "dingwei2u@gmail.com"
@@ -1530,7 +1527,6 @@ khhhik'/i
 : 1238288474:0;vi .mutt
 : 1238291795:0;cd media/tv.shows/flight.of.the.conchords
 : 1238291798:0;rm *.avi
-: 1238297868:0;s
 : 1238297974:0;vi .dir_colors
 : 1238297990:0;source .dir_colors
 : 1238298005:0;man dircolor
@@ -1858,7 +1854,6 @@ khhhik'/i
 : 1238429143:0;df -h
 : 1238429903:0;vi .mutt/more/sourced/macros
 : 1238430015:0;vi .mutt/more/sourced/folder-hooks
-: 1238430459:0;vi .mutt/more/sourced/identity
 : 1238430852:0;vi .mailcap
 : 1238431195:0;vi .mutt/more/sourced/send-hooks
 : 1238431224:0;vi .mutt/more/muttrc
@@ -1883,7 +1878,6 @@ khhhik'/i
 : 1238432200:0;vi alias.rc
 : 1238432328:0;c
 : 1238432332:0;qmutt
-: 1238432862:0;vi .mutt/more/sourced/mailboxes
 : 1238432970:0;cd .mutt/more
 : 1238432972:0;cd cached
 : 1238432974:0;cd headers
@@ -1903,9 +1897,7 @@ khhhik'/i
 : 1238434186:0;rm Smallville.S08E17.720p.HDTV.x264-CTU.\[eztv\].torrent
 : 1238434190:0;rm Terminator.The.Sarah.Connor.Chronicles.S02E20.720p.HDTV.x264-CTU.\[eztv\].torrent
 : 1238434200:0;mv United.States.of.Tara.S01E11.HDTV.XviD-SYS.\[eztv\].torrent torrent
-: 1238434203:0;ls *.torrent
 : 1238434208:0;mv 30.Rock.S03E15.HDTV.XviD-LOL.\[eztv\].torrent torrent
-: 1238434266:0;screen -R
 : 1238435246:0;sudo reboot
 : 1238435425:0;vi .canto/conf
 : 1238435502:0;htop
@@ -1939,49 +1931,33 @@ khhhik'/i
 : 1238473703:0;vi configtotar
 : 1238473707:0;vi configtotar.sh
 : 1238473791:0;git
-: 1238473795:0;git init
 : 1238474294:0;lsvi config
 : 1238474305:0;ssh-keygen config
 : 1238474367:0;ssh-keygen -F
 : 1238474504:0;ssh-keygen -F github.com
 : 1238474568:0;vi id_rsa.pub
-: 1238474635:0;git config --global github.user starwalk
-: 1238474645:0;git config --global github.token a696007fcd9a211e4494b8baa27d8a93
-: 1238474649:0;ssh github.com
-: 1238474689:0;git config --global user.name "Wei Ding"
-: 1238474697:0;  git config --global user.email dingwei2u@gmail.com
-: 1238474750:0;git add .vimrc
 : 1238474755:0;  git commit -m 'first commit'
 : 1238474766:0;  git remote add origin git@github.com:starwalk/.config.git
 : 1238474802:0;git remote add origin git@github.com:starwalk/config.git
-: 1238474814:0;  git push origin master
 : 1238474870:0;git clone git@github.com:starwalk/config.git  
 : 1238474982:0;cp -rf ~/.zsh 
 : 1238475019:0;vi ~/.zsh/rc.local
 : 1238475056:0;source ~/.zsh/rc.local
-: 1238475081:0;cd config
 : 1238475085:0;cp ~/.zsh .
 : 1238475089:0;cp -rf ~/.zsh .
 : 1238475198:0;git commit -a
 : 1238475242:0;git commit
 : 1238475288:0;vi .git/HEAD
-: 1238475459:0;git add .zsh
 : 1238475462:0;git commit -m 'hp533'
-: 1238475507:0;git push
 : 1238475659:0;man ssh-keygen
 : 1238475857:0;ssh-add github.com
 : 1238508611:0;yaourt -Ss openssh
-: 1238508751:0;vi .ssh/config
 : 1238508970:0;vi known_hosts
-: 1238509034:0;cd .ssh
 : 1238510042:0;vi agent
 : 1238510525:0;ssh flyvoo
 : 1238510529:0;ssh flyvoo.com
-: 1238510594:0;vi config
 : 1238510662:0;vi ~/.Xdefaults
-: 1238510703:0;vi id_rsa
 : 1238510718:0;ssh-keygen
-: 1238510751:0;cd ~/
 : 1238510771:0;find . -name '*' | xargs grep '256color-bce'
 : 1238510838:0;find . -name '.*' | xargs grep '256color-bce'
 : 1238510850:0;find .* -name '*' | xargs grep '256color-bce'
@@ -1993,7 +1969,6 @@ khhhik'/i
 : 1238511640:0;echo $ter
 : 1238511642:0;echo $term
 : 1238511714:0;cat $TERM
-: 1238512653:0;ssh flyvooguo
 : 1238512684:0;echo $TERM
 : 1238513322:0;vi .inputrc
 : 1238513547:0;xrdb .Xdefaults
@@ -2001,8 +1976,6 @@ khhhik'/i
 : 1238513630:0;yaourt -Ss rxvt-unicode
 : 1238513687:0;yaourt -Syu
 : 1238513771:0;echo $SHELL
-: 1238513777:0;vi .screenrc
-: 1238514485:0;screen
 : 1238514849:0;shopt
 : 1238514864:0;man zsh
 : 1238514931:0;export PS1="\u@\h:\W`if [ $? = 0 ]; then echo -e '\[\e[01;32m\] #'; else echo -e '\[\e[01;31m\] #'; fi` \[\e[0m\]"
@@ -2038,7 +2011,6 @@ khhhik'/i
 : 1238518134:0;cd splaice-mydotfile-01935fd1a13ead5711aebd4b766199685501934d
 : 1238518137:0;cd work
 : 1238518159:0;cp desert256-transparent.vim ~/.vim/colors
-: 1238518558:0;cd ../
 : 1238518569:0;vi .profile
 : 1238518884:0;rm .vimrc.swp
 : 1238518994:0;vi .vim/colors/splaice-mydotfile-01935fd1a13ead5711aebd4b766199685501934d/.vimrc
@@ -2046,7 +2018,6 @@ khhhik'/i
 : 1238519312:0;cd .vim/colors
 : 1238519318:0;rm -rf splaice-mydotfile-01935fd1a13ead5711aebd4b766199685501934d
 : 1238519322:0;rm splaice-mydotfile-01935fd1a13ead5711aebd4b766199685501934d.tar.gz
-: 1238519336:0;vi .vimrc
 : 1238519760:0;cd .vim
 : 1238519764:0;cd colors
 : 1238519769:0;vi cpalette.pl
@@ -2057,42 +2028,25 @@ khhhik'/i
 : 1238519831:0;rm xterm16.schema
 : 1238519837:0;vi xterm16.vim
 : 1238519947:0;cd ../plugin
-: 1238519948:0;ls
 : 1238519984:0;find . -name '*.vim' xargs grep 'colors'
 : 1238519997:0;find . -name '*' xargs grep 'colors'
 : 1238520003:0;find . -name '*' | xargs grep 'colors'
 : 1238520019:0;vi leo.vim
 : 1238520033:0;mv leo.vim ../colors
 : 1238520039:0;vi ~/.vimrc
-: 1238520059:0;exit
 : 1238520218:0;cd ~/
-: 1238520225:0;git add .vimrc
-: 1238520229:0;git push
-: 1238520248:0;vi .ssh/id_rsa.pub
 : 1238520386:0;hostname
 : 1238520394:0;vi /etc/hosts
 : 1238520407:0;vi /etc/rc.conf
 : 1238520445:0;vi .ssh/id_rsa.pub
-: 1238520508:0;cat .ssh/id_rsa.pub
-: 1238520548:0;git push
-: 1238520565:0;vi .ssh/config
-: 1238520607:0;ssh github.com
 : 1238520618:0;s
 : 1238520620:0;cd .ssh
-: 1238520621:0;ls
 : 1238520647:0;cp id_rsa.pub id_rsa.git.idot
-: 1238520652:0;vi config
-: 1238520662:0;ssh github.com
 : 1238520675:0;vi id_rsa
-: 1238520687:0;vi config
-: 1238520698:0;ssh github.com
-: 1238520724:0;cat .ssh/id_rsa.pub
 : 1238520731:0;cat id_rsa.pub
-: 1238520753:0;ssh github.com
 : 1238520788:0;rm id_rsa.git.idot
 : 1238520817:0;ssh-keygen -t rsa
 : 1238520842:0;ssh-agent
-: 1238520876:0;cat id_rsa.pub | xclip
 : 1238520880:0;cat id_rsa.pub | xclipboard
 : 1238520901:0;yaourt -S xclip
 : 1238520907:0;yaourt -Ss xclip
@@ -2100,31 +2054,107 @@ khhhik'/i
 : 1238520957:0;cat id_rsa.pub | xclip
 : 1238521038:0;cat id_rsa.pub 
 : 1238521060:0;ssh github
-: 1238521064:0;ssh github.com
 : 1238521078:0;sudo vi /etc/hosts
-: 1238521145:0;cd ../
 : 1238521149:0;vi .gitconfig
 : 1238521170:0;vi .git/config
-: 1238521196:0;ssh github.com
 : 1238521206:0;git push
 : 1238521236:0;vi .vimrc
-: 1238521299:0;cat .ssh/id_rsa.pub
 : 1238521313:0;vi .ssh/id_rsa
 : 1238521326:0;ssh flyvooguo
 : 1238521347:0;ssh github.com
-: 1238521368:0;vi .git
 : 1238521399:0;rm -rf .git
-: 1238521404:0;ls
 : 1238521543:0;cd config
-: 1238521543:0;ls
 : 1238521551:0;ls -ls .*
 : 1238522165:0;  git config --global user.name "Wei Ding"
 : 1238522172:0;  git config --global user.email dingwei2u@gmail.com
 : 1238522226:0;git config --global github.user starwalk
 : 1238522231:0;git config --global github.token a696007fcd9a211e4494b8baa27d8a93
-: 1238522246:0;git init
 : 1238522256:0;vi .git
-: 1238522267:0;cd ../
 : 1238522276:0;git init
 : 1238522285:0;rm -rf config
 : 1238522295:0;git add .zsh
+: 1238522300:0;git add .vim
+: 1238522321:0;git add .vimrc
+: 1238522325:0;git add .zshrc
+: 1238522365:0;cd .git
+: 1238522368:0;vi config
+: 1238522377:0;vi HEAD
+: 1238522381:0;ls
+: 1238522385:0;vi index
+: 1238522398:0;vi description
+: 1238522405:0;cd ../
+: 1238522419:0;git add .mailcap
+: 1238522464:0;git add .screenrc
+: 1238522470:0;git add .Xdefaults
+: 1238522503:0;git add .ssh
+: 1238522521:0;git commit -m "First commit"
+: 1238522779:0;vi .ssh/known_hosts
+: 1238522985:0;cat .ssh/id_rsa.pub
+: 1238523019:0;vi .ssh/config
+: 1238523030:0;ssh -v github.com
+: 1238523046:0;ssh -v flyvooguo
+: 1238523061:0;  git remote add origin git@github.com:starwalk/idot.git
+: 1238523366:0;git add .xinitrc
+: 1238523389:0;git commit -m "xinitrc"
+: 1238523394:0;  git push origin master
+: 1238523443:0;pacman -S flashplugin
+: 1238523609:0;screen
+: 1238523795:0;vi .mutt/more/sourced/identity
+: 1238523812:0;vi .mutt/more/sourced/mailboxes
+: 1238523945:0;rm 24.S07E16.HDTV.XviD-LOL.\[eztv\].torrent
+: 1238523950:0;rm Heroes.S03E21.HDTV.XviD-LOL.\[eztv\].torrent
+: 1238523955:0;rm House.S05E19.HDTV.XviD-LOL.\[eztv\].torrent
+: 1238523960:0;rm The.Amazing.Race.S14E07.PDTV.XviD-XOXO.\[eztv\].torrent
+: 1238523966:0;rm Chuck.S02E18.HDTV.XviD-NoTV.\[eztv\].torrent
+: 1238523968:0;ls *.torrent
+: 1238523985:0;screen -R
+: 1238524008:0;vi .screenrc
+: 1238524044:0;exit
+: 1238524046:0;screen -R
+: 1238524240:0;  git push origin master
+: 1238524267:0;git add .screenrc
+: 1238524279:0;git -m 'Changed'
+: 1238524285:0;git -m commit 'Changed'
+: 1238524294:0;git commit -m 'Changed'
+: 1238524307:0;  git push origin master
+: 1238524420:0;  git push 
+: 1238524459:0;git push .vimrc
+: 1238524464:0;git push 
+: 1238524471:0;ssh-agent
+: 1238524483:0;ssh-agent 
+: 1238524493:0;ssh-agent -h
+: 1238524514:0;ssh-agent -t
+: 1238524525:0;ssh-agent -t ssh flyvooguo
+: 1238524538:0;ssh-agent -a flyvooguo
+: 1238524549:0;ssh flyvooguo
+: 1238524570:0;ssh-agent
+: 1238524699:0;git update-index
+: 1238524733:0;git update-ref
+: 1238524747:0;git update-ref -m .vimrc
+: 1238524771:0;git merge
+: 1238524774:0;git merge idot
+: 1238524780:0;git merge github.com
+: 1238524789:0;git merge master
+: 1238524817:0;git status
+: 1238524829:0;git status | less
+: 1238524858:0;git commit -a .screenrc
+: 1238524882:0;git commit -a ".screenrc"
+: 1238524886:0;git commit -a .screenrc
+: 1238524890:0;git commit -a.screenrc
+: 1238524894:0;git commit -a .screenrc
+: 1238524916:0;cd .git
+: 1238524916:0;ls
+: 1238524925:0;vi COMMIT_EDITMSG
+: 1238524937:0;cd ~/
+: 1238524939:0;git push
+: 1238524953:0;  git push origin master
+: 1238524965:0;git commit -h
+: 1238524969:0;git commit -a
+: 1238525009:0;git commit -h
+: 1238525018:0;git commit -i
+: 1238525021:0;git commit -o
+: 1238525025:0;git commit -h
+: 1238525143:0;cp .screenrc .git/branches
+: 1238525155:0;cp .screenrc .git/objects
+: 1238525160:0;cp .screenrc .git/refs
+: 1238525165:0;git commit -a
