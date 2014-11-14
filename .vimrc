@@ -30,6 +30,43 @@
 " Begin....
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+
+" put this line first in ~/.vimrc
+set nocompatible | filetype indent plugin on | syn on
+
+fun! SetupVAM()
+  let c = get(g:, 'vim_addon_manager', {})
+  let g:vim_addon_manager = c
+  let c.plugin_root_dir = expand('$HOME', 1) . '/.vim/vim-addons'
+  " most used options you may want to use:
+  " let c.log_to_buf = 1
+  " let c.auto_install = 0
+  let &rtp.=(empty(&rtp)?'':',').c.plugin_root_dir.'/vim-addon-manager'
+  if !isdirectory(c.plugin_root_dir.'/vim-addon-manager/autoload')
+    execute '!git clone --depth=1 git://github.com/MarcWeber/vim-addon-manager '
+        \       shellescape(c.plugin_root_dir.'/vim-addon-manager', 1)
+  endif
+
+  " This provides the VAMActivate command, you could be passing plugin names, too
+  call vam#ActivateAddons(['vim-pi','Command-T','tComment','surround','Pydiction','closetag','OmniCppComplete','Source_Explorer_SrcExpl','dbext','grep','guicolorscheme','LargeFile','minibufexplorer','multvals','snipmate','Supertab','taglist','valgrind'], {})
+endfun
+
+call SetupVAM()
+
+" ACTIVATING PLUGINS
+
+" OPTION 1, use VAMActivate
+" VAMActivate
+
+" OPTION 2: use call vam#ActivateAddons
+call vam#ActivateAddons([], {})
+" use <c-x><c-p> to complete plugin names
+
+" OPTION 3: Create a file ~/.vim-srcipts putting a PLUGIN_NAME into each line
+" See lazy loading plugins section in README.md for details
+" call vam#Scripts('~/.vim-scripts', {'tag_regex': '.*'})
+
+
 " The screen's title can automatically be updated to the name of
 " the currently opend file, or whatever you like.
 if &term =~ '^screen'
@@ -48,9 +85,11 @@ set showcmd
 set showmode
 
 set completeopt=longest,menu
-set runtimepath+=~/.vim/textmateOnly
-set runtimepath+=~/.vim/after
-so ~/.vim/plugin/supertab.vim
+" set runtimepath+=~/.vim/textmateOnly
+" set runtimepath+=~/.vim/after
+
+so /home/wed3/.vim/vim-addons/Supertab/plugin/supertab.vim
+
 let g:SuperTabRetainCompletionType = 2
 let g:SuperTabDefaultCompletionType = ""
 
@@ -533,7 +572,7 @@ if !exists("g:vimrc_loaded")
           autocmd FileType text,xml,html,perl,shell,bash,python,vim,php,ruby color blackboard
           autocmd FileType xml,html vmap <C-o> <ESC>'<i<!--<ESC>o<ESC>'>o-->
           autocmd FileType java,c,cpp,cs color desertEx
-          autocmd FileType html,text,php,vim,c,java,xml,bash,shell,perl,python setlocal textwidth=400
+          autocmd FileType html,text,php,vim,c,java,xml,bash,shell,perl,python,json setlocal textwidth=400
           autocmd Filetype html,xml,xsl source ~/.vim/plugin/closetag.vim
       endif " has("autocmd")
     else "has("gui_running")
@@ -1577,7 +1616,7 @@ endif
 noremap <leader>m :%s/\r//g<CR>
 
 "Paste toggle - when pasting something in, don't indent.
-"set pastetoggle=<F3>
+set pastetoggle=<F3>
 
 "Remove indenting on empty line
 map <F2> :%s/s*$//g<cr>:noh<cr>''

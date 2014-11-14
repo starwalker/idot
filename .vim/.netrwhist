@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/wed3/.config/awesome'
+let g:netrw_dirhist_2='/home/wed3/gitcode/EventDrops/test'
+let g:netrw_dirhist_3='/home/wed3/gitcode/EventDrops/test/karma'
+let g:netrw_dirhist_4='/home/wed3/gitcode/nvd3/src'
+let g:netrw_dirhist_5='/home/wed3/.vim/textmateOnly'
+let g:netrw_dirhist_6='/home/wed3/.vim/textmateOnly/.svn'

@@ -1,0 +1,1 @@
+LargeFile.vba: call delete('/home/wed3/.vim/vim-addons/LargeFile/plugin/LargeFile.vim')|call delete('/home/wed3/.vim/vim-addons/LargeFile/doc/LargeFile.txt')
